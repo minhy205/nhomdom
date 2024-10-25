@@ -1,0 +1,16 @@
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/bin/Debug/net8.0/Koi.Services.deps.json
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/bin/Debug/net8.0/Koi.Services.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/bin/Debug/net8.0/Koi.Services.pdb
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/bin/Debug/net8.0/Koi.Repositories.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/bin/Debug/net8.0/Koi.Repositories.pdb
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.csproj.AssemblyReference.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.AssemblyInfoInputs.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.AssemblyInfo.cs
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.csproj.CoreCompileInputs.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.sourcelink.json
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Serv.4BBFE82F.Up2Date
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/refint/Koi.Services.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/Koi.Services.pdb
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/Debug/net8.0/ref/Koi.Services.dll

@@ -1,0 +1,15 @@
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/bin/Debug/net8.0/Koi.Repositories.deps.json
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/bin/Debug/net8.0/Koi.Repositories.runtimeconfig.json
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/bin/Debug/net8.0/Koi.Repositories.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/bin/Debug/net8.0/Koi.Repositories.pdb
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.csproj.AssemblyReference.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.AssemblyInfoInputs.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.AssemblyInfo.cs
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.csproj.CoreCompileInputs.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.sourcelink.json
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/refint/Koi.Repositories.dll
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.pdb
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/Koi.Repositories.genruntimeconfig.cache
+/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/Debug/net8.0/ref/Koi.Repositories.dll
