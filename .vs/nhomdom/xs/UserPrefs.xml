@@ -1,21 +1,40 @@
-﻿<Properties StartupConfiguration="{F5BF683E-2127-4285-A1CC-E774C922254B}|http">
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Views/_ViewStart.cshtml">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Controllers/HomeController.cs">
     <Files>
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" />
+      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" Line="13" Column="10" />
+      <File FileName="Koi.WebApplication/Views/Home/gioithieu.cshtml" Line="7" Column="18" />
+      <File FileName="Koi.WebApplication/Views/Home/sanpham.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/cakoi.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/tintuc.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/giohang.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/login.cshtml" />
+      <File FileName="Koi.WebApplication/Properties/launchSettings.json" />
       <File FileName="Koi.WebApplication/Views/Home/Index.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/Privacy.cshtml" />
-      <File FileName="Koi.WebApplication/Views/_ViewImports.cshtml" />
-      <File FileName="Koi.WebApplication/Views/_ViewStart.cshtml" Line="5" Column="1" />
+      <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" />
+      <File FileName="Koi.WebApplication/Program.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
-        <State name="__root__" />
+        <State name="__root__">
+          <Node name="nhomdom" expanded="True">
+            <Node name="Koi.WebApp" expanded="True" />
+            <Node name="Koi.WebApplication">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

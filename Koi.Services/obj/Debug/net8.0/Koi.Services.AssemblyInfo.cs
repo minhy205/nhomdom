@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Koi.Services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9c030fac1fed1bede932f9e3ba3283f085e0ee66")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f0bec16844457c3132a823aa259bcd719df2c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Koi.Services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Koi.Services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Koi.WebApplication
 build_property.RootNamespace = Koi.WebApplication
@@ -18,30 +26,34 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/cakoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9jYWtvaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/giohang.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9naW9oYW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/gioithieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9naW9pdGhpZXUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9pbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9sb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/sanpham.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9zYW5waGFtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Home/tintuc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS90aW50dWMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-yh50qyo08v
+build_metadata.AdditionalFiles.CssScope = 

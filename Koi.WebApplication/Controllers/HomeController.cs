@@ -1,32 +1,36 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNetCore.Mvc;
-using Koi.WebApplication.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Koi.WebApplication.Controllers;
-
-public class HomeController : Controller
+namespace Koi.WebApplication.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
-
-    public IActionResult Index()
-    {
-        return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        public IActionResult index()
+        {
+            return View();
+        }
+        public IActionResult gioithieu()
+        {
+            return View();
+        }
+        public IActionResult cakoi()
+        {
+            return View();
+        }
+        public IActionResult sanpham()
+        {
+            return View();
+        }
+        public IActionResult tintuc()
+        {
+            return View();
+        }
+        public IActionResult giohang()
+        {
+            return View();
+        }
+        public IActionResult login()
+        {
+            return View();
+        }
     }
 }
-

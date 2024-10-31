@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Koi.WebApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+35776b6f73afddf7309bdbbb39431d2c59834969")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+57f0bec16844457c3132a823aa259bcd719df2c5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Koi.WebApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Koi.WebApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

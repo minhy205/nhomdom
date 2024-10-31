@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/obj/Debug/net8.0/scopedcss/projectbundle/Koi.WebApplication.bundle.scp.css",
-      "PackagePath": "staticwebassets/Koi.WebApplication.bundle.scp.css"
-    },
-    {
       "Id": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },

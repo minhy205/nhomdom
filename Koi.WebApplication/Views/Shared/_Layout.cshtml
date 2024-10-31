@@ -1,50 +1,232 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+
+<html>
 <head>
-    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Koi.WebApplication</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Koi.WebApplication.styles.css" asp-append-version="true" />
 </head>
+<style>
+    body {
+        margin: 0;
+        font-family: Inter, sans-serif;
+        background-color: rgb(231, 219, 219);
+    }
+
+    /* Header Styling */
+    .header {
+        position: relative;
+        height: 50px;
+        background: #fbcbcb;
+    }
+
+    .hotline {
+        position: absolute;
+        left: 79px;
+        top: 3px;
+        color: black;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .login {
+        position: absolute;
+        right: 79px;
+        top: 11px;
+        color: black;
+        font-size: 24px;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    #logo {
+        padding: 5px 0px;
+    }
+
+        #logo img {
+            max-width: 50px;
+            height: auto;
+            justify-content: center;
+        }
+
+    /* Slidebar Styling */
+    .slidebar {
+        max-width: auto;
+        background: #3a0404;
+        padding: 10px 0;
+    }
+
+    /* .slidebar {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      background: #3a0404;
+      padding: 10px 0;
+    } */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        justify-content: center;
+    }
+
+    #main-menu {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #main-menu li {
+            position: relative;
+        }
+
+            #main-menu li:hover {
+                border-bottom: 1px solid #ffffff;
+            }
+
+            #main-menu li a {
+                display: block;
+                margin: 0 20px;
+                color: rgb(206, 198, 198);
+                font-size: 20px;
+                text-decoration: none;
+                font-weight: 400;
+            }
+
+        #main-menu ul.sub-menu {
+            position: absolute;
+            background-color: #3a0404;
+            padding: 15px 0px;
+            list-style: none;
+            width: 200px;
+            display: none;
+        }
+
+        #main-menu li:hover ul.sub-menu {
+            display: block;
+        }
+
+        #main-menu ul.sub-menu a {
+            padding: 8px 5px;
+            border-bottom: 1px solid #545151;
+        }
+
+        /* #main-menu ul.sub-menu li:hover a {
+      border-bottom: 1px solid #b3acac;
+    } */
+
+        #main-menu ul.sub-menu li:last-child a {
+            border: none;
+        }
+
+    /* .slidebar a:hover {
+      text-decoration: underline;
+    } */
+
+    /* Main Content Styling */
+    .main-content {
+        padding: 40px;
+        background: #d9d9d9;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section {
+        width: 80%;
+        margin-bottom: 40px;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section-title {
+        font-size: 32px;
+        color: #b85c5c;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-content {
+        font-size: 18px;
+        color: #130b0b;
+    }
+
+    /* Footer Styling */
+    .footer {
+        position: relative;
+        height: 50px;
+        background: #c55252;
+        text-align: center;
+        color: rgb(15, 6, 6);
+        padding: 20px;
+    }
+
+    /* .line {
+      border: 11px solid rgb(216, 187, 187);
+      width: 231px;
+      height: 0;
+      margin: 20px auto;
+    } */
+</style>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Koi.WebApplication</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="hotline">KOI FARM - Hotline 0935080444</div>
+        <a href="../Home/login" class="login">ĐĂNG NHẬP / ĐĂNG KÝ</a>
     </div>
 
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2024 - Koi.WebApplication - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
-    </footer>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+    <div>
+        <nav class="slidebar">
+            q
+            <!-- logo -->
+            <a href="" id="logo"><img src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/455424988_1636490840473387_8981668080492370933_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=blSf-0q77N4Q7kNvgHE_16R&_nc_zt=23&_nc_ht=scontent.fsgn5-14.fna&_nc_gid=A9C8onxaCpSS38Sdx-lB_U5&oh=00_AYAYLEgJO2s5XWT-gcEjJ24GKGyyUHXyPAiRAMMlejansw&oe=6726DD3C" alt="Koi"></a>
+            <ul id="main-menu">
+                <!-- trang chủ -->
+                <li>
+                    <a href="/" class="index">Trang chủ</a>
+                </li>
+                <!-- giới thiệu -->
+                <li>
+                    <a href="/Home/gioithieu">Giới thiệu</a>
+                </li>
+                <!-- Cá Koi -->
+                <li>
+                    <a href="/Home/cakoi">Cá Koi</a>
+                </li>
+                <!-- Sản phẩm -->
+                <li>
+                    <a href="/Home/sanpham">Sản phẩm</a>
+                </li>
+                <!-- Tin tức -->
+                <li>
+                    <a href="/Home/tintuc">Tin tức</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/Home/khuyenmai">Khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/khuyenmai">Khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/khuyenmai">Khuyến mãi</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Giỏ hàng -->
+                <li>
+                    <a href="/Home/giohang">Giỏ hàng</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
 </body>
 </html>
-
