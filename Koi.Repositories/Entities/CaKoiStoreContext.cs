@@ -31,7 +31,11 @@ public partial class CaKoiStoreContext : DbContext
 
     public virtual DbSet<Order> Orders { get; set; }
 
+    public virtual DbSet<OrderComment> OrderComments { get; set; }
+
     public virtual DbSet<OrderDetail> OrderDetails { get; set; }
+
+    public virtual DbSet<PaymentHistory> PaymentHistories { get; set; }
 
     public virtual DbSet<Promotion> Promotions { get; set; }
 
@@ -39,13 +43,13 @@ public partial class CaKoiStoreContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=CaKoi_Store;Persist Security Info=True;User ID=sa;Password=123456aA@$;MultipleActiveResultSets=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=CaKoi_Store;Persist Security Info=True;User ID=sa;Password=123456;MultipleActiveResultSets=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Consignment>(entity =>
         {
-            entity.HasKey(e => e.ConsignmentId).HasName("PK__Consignm__EAEBA9A377D6F9C1");
+            entity.HasKey(e => e.ConsignmentId).HasName("PK__Consignm__EAEBA9A354E5754C");
 
             entity.ToTable("Consignment");
 
@@ -70,9 +74,9 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Customer>(entity =>
         {
-            entity.HasKey(e => e.CustomerId).HasName("PK__Customer__8CB382B102A8EFAA");
+            entity.HasKey(e => e.CustomerId).HasName("PK__Customer__8CB382B1C99A895C");
 
-            entity.HasIndex(e => e.Email, "UQ__Customer__A9D10534624A0D32").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Customer__A9D1053434BDE341").IsUnique();
 
             entity.Property(e => e.CustomerId).HasColumnName("Customer_id");
             entity.Property(e => e.Address).HasColumnType("text");
@@ -89,7 +93,7 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<DashboardReport>(entity =>
         {
-            entity.HasKey(e => e.ReportId).HasName("PK__Dashboar__30F9919916929CD8");
+            entity.HasKey(e => e.ReportId).HasName("PK__Dashboar__30F99199DACF2CEB");
 
             entity.ToTable("Dashboard_Reports");
 
@@ -106,7 +110,7 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Faq>(entity =>
         {
-            entity.HasKey(e => e.FaqId).HasName("PK__FAQs__838050BC6F6E83C8");
+            entity.HasKey(e => e.FaqId).HasName("PK__FAQs__838050BCD016DE6E");
 
             entity.ToTable("FAQs");
 
@@ -117,7 +121,7 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Feedback>(entity =>
         {
-            entity.HasKey(e => e.FeedbackId).HasName("PK__Feedback__CDC95E704180E36B");
+            entity.HasKey(e => e.FeedbackId).HasName("PK__Feedback__CDC95E7053658622");
 
             entity.ToTable("Feedback");
 
@@ -140,7 +144,7 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Koi>(entity =>
         {
-            entity.HasKey(e => e.KoiId).HasName("PK__Koi__008892D9DF13E045");
+            entity.HasKey(e => e.KoiId).HasName("PK__Koi__008892D94D800B33");
 
             entity.ToTable("Koi");
 
@@ -170,9 +174,9 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Manager>(entity =>
         {
-            entity.HasKey(e => e.ManagerId).HasName("PK__Managers__ADA093659759896B");
+            entity.HasKey(e => e.ManagerId).HasName("PK__Managers__ADA0936507F76AB0");
 
-            entity.HasIndex(e => e.Email, "UQ__Managers__A9D10534243D30E2").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Managers__A9D1053465A5F11C").IsUnique();
 
             entity.Property(e => e.ManagerId).HasColumnName("Manager_id");
             entity.Property(e => e.Email)
@@ -194,7 +198,7 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Order>(entity =>
         {
-            entity.HasKey(e => e.OrderId).HasName("PK__Orders__F1FF845392295DCA");
+            entity.HasKey(e => e.OrderId).HasName("PK__Orders__F1FF8453F2BF672A");
 
             entity.Property(e => e.OrderId).HasColumnName("Order_id");
             entity.Property(e => e.CustomerId).HasColumnName("Customer_id");
@@ -213,9 +217,37 @@ public partial class CaKoiStoreContext : DbContext
                 .HasConstraintName("FK__Orders__Customer__3E52440B");
         });
 
+        modelBuilder.Entity<OrderComment>(entity =>
+        {
+            entity.HasKey(e => e.CommentId).HasName("PK__Order_Co__99D3E6C36B8BD45F");
+
+            entity.ToTable("Order_Comments");
+
+            entity.Property(e => e.CommentId).HasColumnName("Comment_id");
+            entity.Property(e => e.CommentDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("Comment_date");
+            entity.Property(e => e.CommentText)
+                .HasColumnType("text")
+                .HasColumnName("Comment_text");
+            entity.Property(e => e.CustomerId).HasColumnName("Customer_id");
+            entity.Property(e => e.OrderId).HasColumnName("Order_id");
+
+            entity.HasOne(d => d.Customer).WithMany(p => p.OrderComments)
+                .HasForeignKey(d => d.CustomerId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Order_Com__Custo__656C112C");
+
+            entity.HasOne(d => d.Order).WithMany(p => p.OrderComments)
+                .HasForeignKey(d => d.OrderId)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__Order_Com__Order__6477ECF3");
+        });
+
         modelBuilder.Entity<OrderDetail>(entity =>
         {
-            entity.HasKey(e => e.OrderDetailId).HasName("PK__Order_De__92B53CC733E188F2");
+            entity.HasKey(e => e.OrderDetailId).HasName("PK__Order_De__92B53CC7A14D0BEA");
 
             entity.ToTable("Order_Details");
 
@@ -233,9 +265,35 @@ public partial class CaKoiStoreContext : DbContext
                 .HasConstraintName("FK__Order_Det__Order__412EB0B6");
         });
 
+        modelBuilder.Entity<PaymentHistory>(entity =>
+        {
+            entity.HasKey(e => e.PaymentId).HasName("PK__Payment___DA638B191D52F59D");
+
+            entity.ToTable("Payment_History");
+
+            entity.Property(e => e.PaymentId).HasColumnName("Payment_id");
+            entity.Property(e => e.Amount).HasColumnType("decimal(10, 2)");
+            entity.Property(e => e.CustomerId).HasColumnName("Customer_id");
+            entity.Property(e => e.PaymentDate)
+                .HasDefaultValueSql("(getdate())")
+                .HasColumnType("datetime")
+                .HasColumnName("Payment_date");
+            entity.Property(e => e.PaymentMethod)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("Payment_method");
+            entity.Property(e => e.Status)
+                .HasMaxLength(20)
+                .IsUnicode(false);
+
+            entity.HasOne(d => d.Customer).WithMany(p => p.PaymentHistories)
+                .HasForeignKey(d => d.CustomerId)
+                .HasConstraintName("FK__Payment_H__Custo__5EBF139D");
+        });
+
         modelBuilder.Entity<Promotion>(entity =>
         {
-            entity.HasKey(e => e.PromotionId).HasName("PK__Promotio__DAF28E93D963B456");
+            entity.HasKey(e => e.PromotionId).HasName("PK__Promotio__DAF28E93A0FC82F1");
 
             entity.Property(e => e.PromotionId).HasColumnName("Promotion_id");
             entity.Property(e => e.DiscountPercentage)
@@ -254,9 +312,9 @@ public partial class CaKoiStoreContext : DbContext
 
         modelBuilder.Entity<Staff>(entity =>
         {
-            entity.HasKey(e => e.StaffId).HasName("PK__Staff__32D2E85B1E5CD0DB");
+            entity.HasKey(e => e.StaffId).HasName("PK__Staff__32D2E85B2E0E57D5");
 
-            entity.HasIndex(e => e.Email, "UQ__Staff__A9D10534FDB0A0B6").IsUnique();
+            entity.HasIndex(e => e.Email, "UQ__Staff__A9D10534E73CE7C6").IsUnique();
 
             entity.Property(e => e.StaffId).HasColumnName("Staff_id");
             entity.Property(e => e.Email)
