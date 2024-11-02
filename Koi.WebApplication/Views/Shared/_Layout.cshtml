@@ -174,7 +174,7 @@
     } */
 </style>
 
-<body>
+@* <body>
     <!-- Header Section -->
     <div class="header">
         <div class="hotline">KOI FARM - Hotline 0935080444</div>
@@ -221,6 +221,115 @@
                 <!-- Giỏ hàng -->
                 <li>
                     <a href="/Home/giohang">Giỏ hàng</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body> *@
+<body>
+    <!-- Header Section -->
+    <div class="header">
+        <div class="hotline">KOI FARM - Hotline 0935080444</div>
+        <a href="../Home/login" class="login">ĐĂNG NHẬP / ĐĂNG KÝ</a>
+    </div>
+
+    <div>
+        <nav class="slidebar">
+            <!-- logo -->
+            <a href="" id="logo">
+                <img src="https://scontent.fsgn5-14.fna.fbcdn.net/v/t39.30808-6/455424988_1636490840473387_8981668080492370933_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=blSf-0q77N4Q7kNvgHE_16R&_nc_zt=23&_nc_ht=scontent.fsgn5-14.fna&_nc_gid=A9C8onxaCpSS38Sdx-lB_U5&oh=00_AYAYLEgJO2s5XWT-gcEjJ24GKGyyUHXyPAiRAMMlejansw&oe=6726DD3C" alt="Koi">
+            </a>
+            <ul id="main-menu">
+                <!-- trang chủ -->
+                <li>
+                    <a href="/" class="index">Trang chủ</a>
+                </li>
+                <!-- giới thiệu -->
+                <li>
+                    <a href="/Home/gioithieu">Giới thiệu</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/Home/gioithieu">Giới thiệu</a>
+                        </li>
+                        <li>
+                            <a href="/Home/gioithieu-san-ki-gui">Giới thiệu sàn kí gửi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/huong-dan-dang-ki-dang-nhap">Hướng dẫn đăng kí đăng nhập</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Cá Koi -->
+                <li>
+                    <a href="/Home/cakoi">Cá Koi</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/Home/koi-kohaku">Koi Kohaku</a>
+                        </li>
+                        <li>
+                            <a href="/Home/koi-ogon">Koi Ogon</a>
+                        </li>
+                        <li>
+                            <a href="/Home/koi-tancho">Koi Tancho</a>
+                        </li>
+                        <li>
+                            <a href="/Home/koi-asagi">Koi Asagi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/koi-showa">Koi Showa</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Sản phẩm -->
+                <li>
+                    <a href="/Home/sanpham">Sản phẩm</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/Home/cac-loai-ca-koi">Cá cá koi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/koi-dang-ban">Koi đang bán</a>
+                        </li>
+                        <li>
+                            <a href="/Home/koi-ki-gui">Koi kí gửi</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Tin tức -->
+                <li>
+                    <a href="/Home/tintuc">Tin tức</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/Home/khuyenmai">Khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/khuyenmai">Khuyến mãi</a>
+                        </li>
+                        <li>
+                            <a href="/Home/khuyenmai">Khuyến mãi</a>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Giỏ hàng -->
+                
+                <li>
+                    <a href="/Home/giohang">Giỏ hàng</a>
+                    <ul class="sub-menu">
+                        <li>
+                            <a href="/Home/gio-hang-cua-toi">Giỏ hàng của tôi</a>
+                            @* <ul class="sub-menu">
+                                <li>
+                                    <a href="/Home/lich-su-mua-hang">Lịch sử mua hàng</a>
+                                </li>
+                            </ul> *@
+                        </li>
+                        <li>
+                            <a href="/Home/ki-gui-cua-toi">Kí gửi của tôi</a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
