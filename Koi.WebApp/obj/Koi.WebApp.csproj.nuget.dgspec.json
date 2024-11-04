@@ -1,28 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.WebApp\\Koi.WebApp.csproj": {}
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApp/Koi.WebApp.csproj": {}
   },
   "projects": {
-    "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
         "projectName": "Koi.Repositories",
-        "projectPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
-        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
-        "outputPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Repositories\\obj\\",
+        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
+        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -35,11 +32,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -83,37 +75,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj",
         "projectName": "Koi.Services",
-        "projectPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Services\\Koi.Services.csproj",
-        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
-        "outputPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Services\\obj\\",
+        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj",
+        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
-                "projectPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj"
+              "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
+                "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj"
               }
             }
           }
@@ -122,11 +111,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -148,37 +132,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.WebApp\\Koi.WebApp.csproj": {
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApp/Koi.WebApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.WebApp\\Koi.WebApp.csproj",
+        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApp/Koi.WebApp.csproj",
         "projectName": "Koi.WebApp",
-        "projectPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.WebApp\\Koi.WebApp.csproj",
-        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
-        "outputPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.WebApp\\obj\\",
+        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApp/Koi.WebApp.csproj",
+        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
-                "projectPath": "D:\\hetchochuaroi\\hihi\\nhomdom\\Koi.Services\\Koi.Services.csproj"
+              "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj": {
+                "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj"
               }
             }
           }
@@ -187,11 +168,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -244,7 +220,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
