@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\.github",
+    "\\Koi.Repositories",
+    "\\Koi.Repositories\\Entities",
+    "\\Koi.Services",
+    "\\Koi.WebApp",
+    "\\Koi.WebApp\\Pages",
+    "\\Koi.WebApp\\Properties"
   ],
   "SelectedNode": "\\nhomdom.sln",
   "PreviewInSolutionExplorer": false
