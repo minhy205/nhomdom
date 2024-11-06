@@ -7,7 +7,10 @@
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="../wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/path/to/styles.css">
 </head>
+
+
 <style>
     body {
         margin: 0;
@@ -172,7 +175,66 @@
       height: 0;
       margin: 20px auto;
     } */
+    .cart-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+        .cart-table th, .cart-table td {
+            padding: 10px;
+            border: 1px solid #d4d4d4;
+            text-align: center;
+            vertical-align: top;
+        }
+
+    .product-info {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    .buy-button {
+        display: block;
+        margin-top: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .remove-button {
+        background-color: #ff4d4d;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        cursor: pointer;
+    }
+
+    .cart-summary {
+        margin-top: 20px;
+        border: 1px solid #d4d4d4;
+        padding: 15px;
+        background-color: #f9f9f9;
+        width: 300px;
+    }
+
+    .summary-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .summary-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 5px 0;
+    }
+
 </style>
+
+
 
 @* <body>
     <!-- Header Section -->
@@ -229,6 +291,7 @@
         @RenderBody()
     </div>
 </body> *@
+
 <body>
     <!-- Header Section -->
     <div class="header">
@@ -294,7 +357,7 @@
                             <a href="/Home/koi-dang-ban">Koi đang bán</a>
                         </li>
                         <li>
-                            <a href="/Home/koi-ki-gui">Koi kí gửi</a>
+                            <a href="/Home/sanpham">Koi kí gửi</a>
                         </li>
                     </ul>
                 </li>
@@ -303,7 +366,7 @@
                     <a href="/Home/tintuc">Tin tức</a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="/Home/khuyenmai">Khuyến mại</a>
+                            <a href="/Home/tintuc">Khuyến mại</a>
                         </li>
                         <li>
                             <a href="/Home/khuyenmai">Tin tức công ty </a>
@@ -316,7 +379,7 @@
                     <a href="/Home/giohang">Giỏ hàng</a>
                     <ul class="sub-menu">
                         <li>
-                            <a href="/Home/gio-hang-cua-toi">Giỏ hàng của tôi</a>                                              
+                            <a href="/Home/giohang">Giỏ hàng của tôi</a>                                              
                         </li>
                         <li>
                             <a href="/Home/lich-su-mua-hang">Lịch sử mua hàng</a>

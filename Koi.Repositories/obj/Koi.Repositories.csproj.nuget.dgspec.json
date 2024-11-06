@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {}
   },
   "projects": {
@@ -13,40 +12,20 @@
         "projectPath": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Repositories\\obj\\",
-=======
-    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {}
-  },
-  "projects": {
-    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
-        "projectName": "Koi.Repositories",
-        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
-        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
-        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/",
->>>>>>> 9633acd688177814fccc78898b5716299aaa544d
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
->>>>>>> 9633acd688177814fccc78898b5716299aaa544d
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-=======
->>>>>>> 9633acd688177814fccc78898b5716299aaa544d
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +38,6 @@
           "warnAsError": [
             "NU1605"
           ]
-<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -67,9 +45,6 @@
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.100"
-=======
-        }
->>>>>>> 9633acd688177814fccc78898b5716299aaa544d
       },
       "frameworks": {
         "net8.0": {
@@ -112,11 +87,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
->>>>>>> 9633acd688177814fccc78898b5716299aaa544d
         }
       }
     }
