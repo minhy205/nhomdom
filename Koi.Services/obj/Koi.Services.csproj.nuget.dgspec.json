@@ -2,17 +2,22 @@
   "format": 1,
   "restore": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Services\\Koi.Services.csproj": {}
 =======
     "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {}
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj": {}
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
   },
   "projects": {
-    "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
         "projectName": "Koi.Repositories",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "projectPath": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
@@ -22,28 +27,53 @@
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\obj\\",
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
+        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/",
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
+=======
+    "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj": {}
+  },
+  "projects": {
+    "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj",
+        "projectName": "Koi.Repositories",
+        "projectPath": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj",
+        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+        "outputPath": "D:\\nhomdomcuoi\\Koi.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
 <<<<<<< HEAD
 =======
           "C:\\Program Files\\dotnet\\library-packs": {},
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -56,6 +86,7 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -66,6 +97,8 @@
         "SdkAnalysisLevel": "9.0.100"
 =======
           "auditMode": "direct"
+=======
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         }
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
       },
@@ -111,18 +144,23 @@
             }
           },
 <<<<<<< HEAD
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
+    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj",
         "projectName": "Koi.Services",
+<<<<<<< HEAD
 <<<<<<< HEAD
         "projectPath": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Services\\Koi.Services.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
@@ -132,28 +170,54 @@
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\obj\\",
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj",
+        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/obj/",
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
           "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+        "projectName": "Koi.Services",
+        "projectPath": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+        "outputPath": "D:\\nhomdomcuoi\\Koi.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+<<<<<<< HEAD
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
 <<<<<<< HEAD
 =======
           "C:\\Program Files\\dotnet\\library-packs": {},
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -161,12 +225,21 @@
             "targetAlias": "net8.0",
             "projectReferences": {
 <<<<<<< HEAD
+<<<<<<< HEAD
               "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
                 "projectPath": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj"
 =======
               "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
                 "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj"
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+              "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
+                "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj"
+=======
+              "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj": {
+                "projectPath": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
               }
             }
           }
@@ -175,6 +248,7 @@
           "warnAsError": [
             "NU1605"
           ]
+<<<<<<< HEAD
         },
         "restoreAuditProperties": {
           "enableAudit": "true",
@@ -185,6 +259,8 @@
         "SdkAnalysisLevel": "9.0.100"
 =======
           "auditMode": "direct"
+=======
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         }
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
       },
@@ -208,10 +284,17 @@
             }
           },
 <<<<<<< HEAD
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
 =======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         }
       }
     }

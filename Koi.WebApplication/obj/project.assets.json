@@ -8400,15 +8400,23 @@
   },
   "packageFolders": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "C:\\Users\\hoang\\.nuget\\packages\\": {},
 =======
     "C:\\Users\\PC\\.nuget\\packages\\": {},
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+=======
+    "/Users/leminhhuy/.nuget/packages/": {}
+=======
+    "C:\\Users\\myrah\\.nuget\\packages\\": {}
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
 <<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
       "projectName": "Koi.WebApplication",
@@ -8422,28 +8430,49 @@
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\obj\\",
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+      "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Koi.WebApplication.csproj",
+      "projectName": "Koi.WebApplication",
+      "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Koi.WebApplication.csproj",
+      "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+      "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/obj/",
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
+<<<<<<< HEAD
 <<<<<<< HEAD
         "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
 =======
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+=======
+        "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "D:\\nhomdomcuoi\\Koi.WebApplication\\Koi.WebApplication.csproj",
+      "projectName": "Koi.WebApplication",
+      "projectPath": "D:\\nhomdomcuoi\\Koi.WebApplication\\Koi.WebApplication.csproj",
+      "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+      "outputPath": "D:\\nhomdomcuoi\\Koi.WebApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+<<<<<<< HEAD
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
 <<<<<<< HEAD
 =======
         "C:\\Program Files\\dotnet\\library-packs": {},
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -8451,12 +8480,21 @@
           "targetAlias": "net8.0",
           "projectReferences": {
 <<<<<<< HEAD
+<<<<<<< HEAD
             "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
               "projectPath": "C:\\Users\\hoang\\source\\repos\\minhy205\\nhomdom\\Koi.Services\\Koi.Services.csproj"
 =======
             "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
               "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj"
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+            "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj": {
+              "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj"
+=======
+            "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj": {
+              "projectPath": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
             }
           }
         }
@@ -8465,6 +8503,7 @@
         "warnAsError": [
           "NU1605"
         ]
+<<<<<<< HEAD
       },
       "restoreAuditProperties": {
         "enableAudit": "true",
@@ -8475,6 +8514,8 @@
       "SdkAnalysisLevel": "9.0.100"
 =======
         "auditMode": "direct"
+=======
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
       }
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
     },
@@ -8529,19 +8570,18 @@
           }
         },
 <<<<<<< HEAD
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
 =======
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
 >>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
+=======
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
+>>>>>>> 11fbde15c470015a1449c043c3fa7511e4c51100
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Access to the path 'C:\\Users\\PC\\AppData\\Local\\NuGet\\v3-cache\\670c1461c29885f9aa22c281d8b7da90845b38e4$ps_api.nuget.org_v3_index.json' is denied."
-    }
-  ]
+  }
 }
