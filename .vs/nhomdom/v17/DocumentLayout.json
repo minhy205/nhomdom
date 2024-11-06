@@ -59,10 +59,6 @@
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\c\u00E1c lo\u1EA1i c\u00E1 koicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5BF683E-2127-4285-A1CC-E774C922254B}|Koi.WebApp\\Koi.WebApp.csproj|d:\\nhomdomcuoi\\koi.webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BF683E-2127-4285-A1CC-E774C922254B}|Koi.WebApp\\Koi.WebApp.csproj|solutionrelative:koi.webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|d:\\nhomdomcuoi\\koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -90,8 +86,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -276,19 +292,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:53:09.938Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
@@ -296,11 +300,12 @@
               "RelativeToolTip": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:44:07.419Z"
+              "WhenOpened": "2024-11-06T07:44:07.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "Koi.Services.csproj",
               "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
               "RelativeDocumentMoniker": "Koi.Services\\Koi.Services.csproj",
@@ -312,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "Koi \u0111ang b\u00E1n Model.cs",
               "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
@@ -320,11 +325,12 @@
               "RelativeToolTip": "Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:44:47.013Z"
+              "WhenOpened": "2024-11-06T07:44:47.013Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "Koi k\u00ED g\u1EEDi Controller.cs",
               "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
@@ -332,11 +338,12 @@
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:42:32.993Z"
+              "WhenOpened": "2024-11-06T07:42:32.993Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
               "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
@@ -344,7 +351,18 @@
               "RelativeToolTip": "Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:03:10.575Z"
+              "WhenOpened": "2024-11-06T07:03:10.575Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 371,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
             }
           ]
         }
