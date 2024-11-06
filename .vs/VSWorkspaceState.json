@@ -1,5 +1,6 @@
 {
   "ExpandedNodes": [
+<<<<<<< HEAD
     "",
     "\\Koi.Repositories",
     "\\Koi.Repositories\\Entities",
@@ -11,6 +12,9 @@
     "\\Koi.WebApplication\\Views\\Shared",
     "\\Koi.WebApp\\Pages",
     "\\Koi.WebApp\\Properties"
+=======
+    ""
+>>>>>>> 58cf9362a442d8cde5d852c0cce138f15ff03201
   ],
   "SelectedNode": "\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false

@@ -20,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Views\Shared\" />
     <Folder Include="Views\Home\" />
-    <Folder Include="Controllers\" />
     <Folder Include="wwwroot\images\" />
   </ItemGroup>
   <ItemGroup>
