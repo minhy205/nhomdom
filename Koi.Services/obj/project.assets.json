@@ -2679,11 +2679,16 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "/Users/leminhhuy/.nuget/packages/": {}
+=======
+    "C:\\Users\\myrah\\.nuget\\packages\\": {}
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj",
       "projectName": "Koi.Services",
       "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj",
@@ -2692,6 +2697,17 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
+=======
+      "projectUniqueName": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+      "projectName": "Koi.Services",
+      "projectPath": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+      "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+      "outputPath": "D:\\nhomdomcuoi\\Koi.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2703,8 +2719,13 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+<<<<<<< HEAD
             "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
               "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj"
+=======
+            "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj": {
+              "projectPath": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
             }
           }
         }
@@ -2734,7 +2755,11 @@
             "privateAssets": "all"
           }
         },
+<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+=======
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 93abc61c0e2a4f3cb62d684612f62b122e1e97f8
       }
     }
   }
