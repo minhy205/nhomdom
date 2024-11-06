@@ -8,11 +8,12 @@ body {
 .TrangCh {
     width: 100%;
     height: 100%;
+    padding-top: 150px;
     position: relative;
     background: white;
 }
 
-/* .header {
+ .header {
           width: 100%;
           height: 50px;
           background: #fbcbcb;
@@ -20,13 +21,13 @@ body {
           align-items: center;
           justify-content: space-between;
           padding: 0 20px;
-        } */
+        } 
 
-/* .KoiFarmHotline0935080444 {
+ .KoiFarmHotline0935080444 {
           color: black;
           font-size: 32px;
           font-weight: 400;
-        } */
+        } 
 
 .NgNhPNgK {
     color: black;
@@ -83,8 +84,6 @@ body {
     border-radius: 5px;
 }
 
-    .buy-button:hover {
-        background: #d9d9d9;
-    }
-
-
+.buy-button:hover {
+    background: #d9d9d9;
+}

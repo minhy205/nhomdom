@@ -32,5 +32,21 @@ namespace Koi.WebApplication.Controllers
         {
             return View();
         }
+        public IActionResult gioithieusankigui()
+        {
+            return View();
+        }
+        public IActionResult huongdandangkidangnhap()
+        {
+            return View();
+        }
+        public IActionResult khuyenmai()
+        {
+            return View();
+        }
+        public IActionResult register ()
+        {
+            return View();
+        }
     }
 }

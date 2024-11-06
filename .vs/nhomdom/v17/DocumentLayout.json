@@ -1,50 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\nhomdom\\",
+  "WorkspaceRootPath": "D:\\nhomdomcuoi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\huongdandangkidangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\huongdandangkidangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\gioithieusankigui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\gioithieusankigui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\wwwroot\\css\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\css\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\wwwroot\\css\\stylelayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\css\\stylelayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\c\u00E1c lo\u1EA1i c\u00E1 koi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\c\u00E1c lo\u1EA1i c\u00E1 koi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5BF683E-2127-4285-A1CC-E774C922254B}|Koi.WebApp\\Koi.WebApp.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5BF683E-2127-4285-A1CC-E774C922254B}|Koi.WebApp\\Koi.WebApp.csproj|solutionrelative:koi.webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\c\u00E1c lo\u1EA1i c\u00E1 koicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\c\u00E1c lo\u1EA1i c\u00E1 koicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\models\\koi \u0111ang b\u00E1n model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\gioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\controllers\\koi \u0111ang b\u00E1n controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\koi \u0111ang b\u00E1n controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\views\\c\u00E1c lo\u1EA1i c\u00E1 koi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\c\u00E1c lo\u1EA1i c\u00E1 koi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\controllers\\c\u00E1c lo\u1EA1i c\u00E1 koicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\c\u00E1c lo\u1EA1i c\u00E1 koicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5BF683E-2127-4285-A1CC-E774C922254B}|Koi.WebApp\\Koi.WebApp.csproj|d:\\nhomdomcuoi\\koi.webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5BF683E-2127-4285-A1CC-E774C922254B}|Koi.WebApp\\Koi.WebApp.csproj|solutionrelative:koi.webapp\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|d:\\nhomdomcuoi\\koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\models\\koi \u0111ang b\u00E1n model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\koi \u0111ang b\u00E1n model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\models\\c\u00E1c lo\u1EA1i c\u00E1 koi model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\models\\c\u00E1c lo\u1EA1i c\u00E1 koi model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\c\u00E1c lo\u1EA1i c\u00E1 koi model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\koi k\u00ED g\u1EEDi controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|d:\\nhomdomcuoi\\koi.webapplication\\controllers\\koi k\u00ED g\u1EEDi controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\koi k\u00ED g\u1EEDi controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\koi \u0111ang b\u00E1n controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\koi \u0111ang b\u00E1n controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,144 +90,184 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Stylelayout.css",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
+              "RelativeToolTip": "Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-06T15:09:17.327Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Index.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "RelativeDocumentMoniker": "Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "RelativeToolTip": "Koi.WebApp\\Pages\\Index.cshtml.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:53:09.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Koi.Services",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
-              "RelativeDocumentMoniker": "Koi.Services\\Koi.Services.csproj",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
-              "RelativeToolTip": "Koi.Services\\Koi.Services.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-06T07:52:59.878Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Koi \u0111ang b\u00E1n Model.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:44:47.013Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:44:07.419Z",
+              "Title": "register.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAAAE4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T14:54:20.128Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:06:23.877Z",
+              "Title": "login.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\login.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\login.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\login.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\login.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwD4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T13:59:50.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "gioithieusankigui.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\gioithieusankigui.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\gioithieusankigui.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\gioithieusankigui.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\gioithieusankigui.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T13:41:45.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "huongdandangkidangnhap.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\huongdandangkidangnhap.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\huongdandangkidangnhap.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\huongdandangkidangnhap.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\huongdandangkidangnhap.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T13:48:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "styleindex.css",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\css\\styleindex.css",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
+              "RelativeToolTip": "Koi.WebApplication\\wwwroot\\css\\styleindex.css",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-06T15:09:58.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml*",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml*",
-              "ViewState": "AgIAABQBAAAAAAAAAAAAAB8BAABTAAAAAAAAAA==",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAOIAAAAAAAAAAAAYwBIBAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-06T06:51:04.422Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "gioithieu.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-06T07:08:51.023Z",
+              "WhenOpened": "2024-11-06T13:43:52.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAA1wC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:06:23.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Koi k\u00ED g\u1EEDi Controller.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:42:32.993Z",
+              "Title": "tintuc.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAC0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T14:33:14.005Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T13:42:00.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\C\u00E1c lo\u1EA1i c\u00E1 koiController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwAkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T07:40:30.085Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\C\u00E1c lo\u1EA1i c\u00E1 koi\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-06T07:08:51.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Koi \u0111ang b\u00E1n Controller.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\Koi \u0111ang b\u00E1n Controller.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\Koi \u0111ang b\u00E1n Controller.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\Koi \u0111ang b\u00E1n Controller.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\Koi \u0111ang b\u00E1n Controller.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\Koi \u0111ang b\u00E1n Controller.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\Koi \u0111ang b\u00E1n Controller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -200,26 +276,75 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApp\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "Koi.WebApp\\Pages\\Index.cshtml.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApp\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "Koi.WebApp\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:53:09.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:44:07.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Koi.Services.csproj",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+              "RelativeDocumentMoniker": "Koi.Services\\Koi.Services.csproj",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+              "RelativeToolTip": "Koi.Services\\Koi.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-06T07:52:59.878Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Koi \u0111ang b\u00E1n Model.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Models\\Koi \u0111ang b\u00E1n Model.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:44:47.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Koi k\u00ED g\u1EEDi Controller.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\Koi k\u00ED g\u1EEDi Controller.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-06T07:42:32.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
+              "DocumentMoniker": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
+              "ToolTip": "D:\\nhomdomcuoi\\Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
               "RelativeToolTip": "Koi.WebApplication\\Models\\C\u00E1c lo\u1EA1i c\u00E1 koi Model.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-06T07:03:10.575Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 371,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{131369f2-062d-44a2-8671-91ff31efb4f4}"
+              "WhenOpened": "2024-11-06T07:03:10.575Z"
             }
           ]
         }

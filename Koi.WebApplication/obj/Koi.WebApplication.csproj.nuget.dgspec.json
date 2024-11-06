@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj": {}
+    "D:\\nhomdomcuoi\\Koi.WebApplication\\Koi.WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
+    "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+        "projectUniqueName": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj",
         "projectName": "Koi.Repositories",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\obj\\",
+        "projectPath": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj",
+        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+        "outputPath": "D:\\nhomdomcuoi\\Koi.Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,25 +83,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
+    "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+        "projectUniqueName": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
         "projectName": "Koi.Services",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\obj\\",
+        "projectPath": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj",
+        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+        "outputPath": "D:\\nhomdomcuoi\\Koi.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -120,8 +112,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj"
+              "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj": {
+                "projectPath": "D:\\nhomdomcuoi\\Koi.Repositories\\Koi.Repositories.csproj"
               }
             }
           }
@@ -156,25 +148,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj": {
+    "D:\\nhomdomcuoi\\Koi.WebApplication\\Koi.WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
+        "projectUniqueName": "D:\\nhomdomcuoi\\Koi.WebApplication\\Koi.WebApplication.csproj",
         "projectName": "Koi.WebApplication",
-        "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.WebApplication\\obj\\",
+        "projectPath": "D:\\nhomdomcuoi\\Koi.WebApplication\\Koi.WebApplication.csproj",
+        "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
+        "outputPath": "D:\\nhomdomcuoi\\Koi.WebApplication\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -189,8 +177,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
-                "projectPath": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj"
+              "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj": {
+                "projectPath": "D:\\nhomdomcuoi\\Koi.Services\\Koi.Services.csproj"
               }
             }
           }
@@ -256,7 +244,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
