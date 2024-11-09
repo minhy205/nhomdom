@@ -1,12 +1,10 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="232" Column="7" />
-      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" Line="31" Column="37" />
-      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" Line="7" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="233" Column="6" />
+      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
+      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/login.cshtml" />
       <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" />
       <File FileName="Koi.WebApplication/Views/Home/gioithieu.cshtml" />
@@ -14,22 +12,19 @@
       <File FileName="Koi.WebApplication/Views/Home/cakoi.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/giohang.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/tintuc.cshtml" />
-      <File FileName="Koi.WebApplication/Controllers/Các loại cá koiController.cs" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Controllers/Các loại cá koiController.cs" />
       <File FileName="Koi.WebApplication/Controllers/Koi đang bán Controller.cs" />
       <File FileName="Koi.WebApplication/Controllers/Koi kí gửi Controller.cs" />
       <File FileName="Koi.WebApplication/Models/Các loại cá koi Model.cs" />
       <File FileName="Koi.WebApplication/Models/Koi đang bán Model.cs" />
-      <File FileName="Koi.WebApplication/Views/Các loại cá koi/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Các loại cá koi/Index.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="nhomdom" expanded="True">
             <Node name="Koi.WebApplication" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True" />
                 <Node name="Shared" expanded="True">
                   <Node name="_Layout.cshtml" selected="True" />
                 </Node>
@@ -40,9 +35,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.ItemProperties.Koi.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>

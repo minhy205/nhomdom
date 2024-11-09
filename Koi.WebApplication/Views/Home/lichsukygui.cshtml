@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "lịch sử ký gửi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // <link rel="stylesheet" href="~/css/styleindex.css" />
+}
+
+<div class="breadcrumb">
+    <a href="/"> Giỏ hàng </a>> Lịch sử ký gửi
+</div>
+
+<table class="cart-table">
+    <thead>
+        <tr>
+            <th>Xoá</th>
+            <th>Sản phẩm</th>
+            <th>Kiểu</th>
+            <th>Số lượng</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><button class="remove-button">Xoá</button></td>
+            <td>
+                <img src="~/images/onkoi-karashi-101-cm-5-tuoi-600x600.jpg" alt="Cá Koi Karashi 5 năm tuổi 101 cm" style="width: 50px; height: 50px;">
+                <div class="product-info">
+                    <div class="product-title">Cá Koi Karashi 5 năm tuổi 101 cm</div>
+                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
+                </div>
+            </td>
+            <td>online</td>
+            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
+            <td>thành công</td>
+        </tr>
+        <tr>
+            <td><button class="remove-button">Xoá</button></td>
+            <td>
+                <img src="~/images/onkoi-kohaku-94-cm-6-tuoi-057-600x600.jpg" alt="Cá Koi Kohaku 94 cm 6 năm tuổi" style="width: 50px; height: 50px;">
+                <div class="product-info">
+                    <div class="product-title">Cá Koi Kohaku 94 cm 6 năm tuổi</div>
+                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
+                </div>
+            </td>
+            <td>online</td>
+            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
+            <td>đã huỷ</td>
+        </tr>
+        <!-- New Product: Cá Koi Showa -->
+        <tr>
+            <td><button class="remove-button">Xoá</button></td>
+            <td>
+                <img src="~/images/KOI-SHOWA3.jpg" alt="Cá Koi Showa 3" style="width: 50px; height: 50px;">
+                <div class="product-info">
+                    <div class="product-title">Cá Koi Showa 3</div>
+                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
+                </div>
+            </td>
+            <td>offline</td>
+            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
+            <td>thành công</td>
+        </tr>
+    </tbody>
+</table>
+

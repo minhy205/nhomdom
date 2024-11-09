@@ -4017,27 +4017,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\myrah\\.nuget\\packages\\": {}
+    "/Users/leminhhuy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\hoho\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+      "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
       "projectName": "Koi.Repositories",
-      "projectPath": "D:\\hoho\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
-      "packagesPath": "C:\\Users\\myrah\\.nuget\\packages\\",
-      "outputPath": "D:\\hoho\\nhomdom\\Koi.Repositories\\obj\\",
+      "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
+      "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+      "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\myrah\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4050,11 +4047,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -4098,16 +4090,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\hoho\\nhomdom\\Koi.Repositories\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }
