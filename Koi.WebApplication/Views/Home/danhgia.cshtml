@@ -1,0 +1,41 @@
+﻿
+@{
+    ViewData["Title"] = "danhgia";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    // <link rel="stylesheet" href="~/css/Stylelayout.css" />
+    <link rel="stylesheet" href="~/css/styledanhgia.css" />
+
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <link rel="stylesheet" href="~/css/Stylelayout.css" />
+    <link rel="stylesheet" href="~/css/styledanhgia.css" />
+
+
+</head>
+<body>
+
+    
+        <h1>Đánh Giá Sản Phẩm</h1>
+    </div>
+
+    <div class="container">
+        <div class="rating-section">
+            <h2>Nhập Số Sao</h2>
+            <input type="number" min="1" max="5" class="input-field" placeholder="Chọn số sao (1-5)">
+        </div>
+
+        <div class="comment-section">
+            <h2>Nhập Bình Luận</h2>
+            <textarea class="input-field" rows="4" placeholder="Nhập bình luận của bạn"></textarea>
+        </div>
+
+        <button class="submit-button">Đồng Ý</button>
+    </div>
+
+</body>
+
