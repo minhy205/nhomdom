@@ -71,6 +71,10 @@ namespace Koi.WebApplication.Controllers
         {
             return View();
         }
+        public IActionResult kyguicuatoi()
+        {
+            return View();
+        }
 
         [HttpPost]
         public async Task<IActionResult> Register(User user, string confirmPassword)
