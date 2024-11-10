@@ -1,17 +1,51 @@
-﻿@{
+﻿@model IEnumerable<Koi.WebApplication.Models.licsumuahang>
+
+@{
     ViewBag.Title = "Lịch sử mua hàng";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    // <link rel="stylesheet" href="~/css/styleindex.css" />
 }
 
-<div class="breadcrumb">
-    <a href="/"> Giỏ hàng </a>> Lịch sử mua hàng
-</div>
+<!-- Form để thêm sản phẩm vào giỏ hàng -->
+<h3>Thêm sản phẩm mới</h3>
+<form id="addProductForm">
+    <label for="productName">Tên sản phẩm:</label>
+    <input type="text" id="productName" name="productName" required /><br />
 
-<table class="cart-table">
+    <label for="price">Giá:</label>
+    <input type="number" id="price" name="price" required /><br />
+
+    <label for="quantity">Số lượng:</label>
+    <input type="number" id="quantity" name="quantity" required /><br />
+
+    <label for="status">Trạng thái:</label>
+    <input type="text" id="status" name="status" required /><br />
+
+    <label for="imageUrl">URL hình ảnh:</label>
+    <input type="text" id="imageUrl" name="imageUrl" required /><br />
+
+    <button type="submit">Thêm sản phẩm</button>
+</form>
+
+<!-- Giỏ hàng -->
+<h3>Giỏ hàng của tôi</h3>
+<table id="cartTable">
     <thead>
         <tr>
-            <th>Xoá</th>
+            <th>Sản phẩm</th>   
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Sản phẩm sẽ được hiển thị ở đây -->
+    </tbody>
+</table>
+<!-- Lịch sử mua hàng -->
+<h3>Lịch sử mua hàng</h3>
+<table id="cartTable">
+    <thead>
+        <tr>
             <th>Sản phẩm</th>
             <th>Giá</th>
             <th>Số lượng</th>
@@ -19,57 +53,113 @@
         </tr>
     </thead>
     <tbody>
+        <!-- Sản phẩm đã mua -->
         <tr>
-            <td><button class="remove-button">Xoá</button></td>
             <td>
-                <img src="~/images/onkoi-karashi-101-cm-5-tuoi-600x600.jpg" alt="Cá Koi Karashi 5 năm tuổi 101 cm" style="width: 50px; height: 50px;">
-                <div class="product-info">
-                    <div class="product-title">Cá Koi Karashi 5 năm tuổi 101 cm</div>
-                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
-                </div>
+                <div>Cá Koi Kohaku</div>
             </td>
-            <td>450,000 đ</td>
-            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
-            <td>đã giao hàng</td>
+            <td>550,000 đ</td>
+            <td>1</td>
+            <td>Đã bán</td>
         </tr>
         <tr>
-            <td><button class="remove-button">Xoá</button></td>
             <td>
-                <img src="~/images/onkoi-kohaku-94-cm-6-tuoi-057-600x600.jpg" alt="Cá Koi Kohaku 94 cm 6 năm tuổi" style="width: 50px; height: 50px;">
-                <div class="product-info">
-                    <div class="product-title">Cá Koi Kohaku 94 cm 6 năm tuổi</div>
-                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
-                </div>
+                <div>Cá Koi Ogon</div>
             </td>
-            <td>350,000 đ</td>
-            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
-            <td>đã huỷ</td>
-        </tr>
-        <!-- New Product: Cá Koi Showa -->
-        <tr>
-            <td><button class="remove-button">Xoá</button></td>
-            <td>
-                <img src="~/images/KOI-SHOWA3.jpg" alt="Cá Koi Showa 3" style="width: 50px; height: 50px;">
-                <div class="product-info">
-                    <div class="product-title">Cá Koi Showa 3</div>
-                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
-                </div>
-            </td>
-            <td>400,000 đ</td>
-            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
-            <td>thành công</td>
+            <td>500,000 đ</td>
+            <td>1</td>
+            <td>Đã bán</td>
         </tr>
     </tbody>
 </table>
 
+
+<!-- Tổng tiền -->
 <div class="cart-summary">
     <div class="summary-title">Tóm tắt giỏ hàng</div>
     <div class="summary-item">
         <span>Tạm tính:</span>
-        <span>1,200,000 đ</span>
+        <span id="totalPrice">0 đ</span>
     </div>
     <div class="summary-item">
         <span>Tổng:</span>
-        <span>1,200,000 đ</span>
+        <span id="finalTotal">0 đ</span>
     </div>
 </div>
+
+<script>
+    // Lấy giỏ hàng từ localStorage
+    function getCart() {
+        const cart = localStorage.getItem('cart');
+        return cart ? JSON.parse(cart) : [];
+    }
+
+    // Lưu giỏ hàng vào localStorage
+    function saveCart(cart) {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
+    // Cập nhật bảng giỏ hàng
+    function updateCartTable() {
+        const cart = getCart();  // Lấy giỏ hàng từ localStorage
+        const cartTable = document.getElementById('cartTable').getElementsByTagName('tbody')[0];
+        const totalPriceElement = document.getElementById('totalPrice');
+        const finalTotalElement = document.getElementById('finalTotal');
+
+        // Làm sạch bảng giỏ hàng hiện tại
+        cartTable.innerHTML = '';
+
+        let totalPrice = 0;
+
+        cart.forEach(item => {
+            const row = cartTable.insertRow();
+            row.innerHTML = `
+                <td>
+                    <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
+                    <div>${item.productName}</div>
+                </td>
+                <td>${item.price.toLocaleString()} đ</td>
+                <td>${item.quantity}</td>
+                <td>${item.status}</td>
+            `;
+            totalPrice += item.price * item.quantity;
+        });
+
+        totalPriceElement.textContent = totalPrice.toLocaleString() + ' đ';
+        finalTotalElement.textContent = totalPrice.toLocaleString() + ' đ';
+    }
+
+    // Xử lý form thêm sản phẩm
+    document.getElementById('addProductForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+
+        const productName = document.getElementById('productName').value;
+        const price = parseFloat(document.getElementById('price').value);
+        const quantity = parseInt(document.getElementById('quantity').value);
+        const status = document.getElementById('status').value;
+        const imageUrl = document.getElementById('imageUrl').value;
+
+        const newProduct = {
+            productName,
+            price,
+            quantity,
+            status,
+            imageUrl
+        };
+
+        const cart = getCart();  // Lấy giỏ hàng hiện tại từ localStorage
+        cart.push(newProduct);  // Thêm sản phẩm vào giỏ hàng
+        saveCart(cart);  // Lưu giỏ hàng đã được cập nhật vào localStorage
+
+        // Cập nhật lại giỏ hàng hiển thị trên trang
+        updateCartTable();
+
+        // Reset form
+        document.getElementById('addProductForm').reset();
+    });
+
+    // Cập nhật giỏ hàng khi tải trang
+    window.onload = function() {
+        updateCartTable();
+    };
+</script>
