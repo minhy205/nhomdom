@@ -1,32 +1,31 @@
 ﻿@{
     ViewBag.Title = "Ký gửi của tôi ";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    // <link rel="stylesheet" href="~/css/styleindex.css" />
 }
 
-<!-- Form để thêm sản phẩm vào giỏ hàng -->
+<!-- Form để thêm sản phẩm vào lịch sử ký gửi -->
 <h3>Thêm sản phẩm Ký gửi</h3>
 <form id="addProductForm">
     <label for="productName">Tên sản phẩm:</label>
     <input type="text" id="productName" name="productName" required /><br />
 
-    <label for="productName">Tuổi:</label>
-    <input type="text" id="productName" name="productName" required /><br />
+    <label for="age">Tuổi:</label>
+    <input type="text" id="age" name="age" required /><br />
 
-    <label for="productName">Giới tính:</label>
-    <input type="text" id="productName" name="productName" required /><br />
+    <label for="gender">Giới tính:</label>
+    <input type="text" id="gender" name="gender" required /><br />
 
-    <label for="productName">Nguồn gốc:</label>
-    <input type="text" id="productName" name="productName" required /><br />
+    <label for="origin">Nguồn gốc:</label>
+    <input type="text" id="origin" name="origin" required /><br />
 
-    <label for="productName">Chuẩn loại:</label>
-    <input type="text" id="productName" name="productName" required /><br />
+    <label for="type">Chuẩn loại:</label>
+    <input type="text" id="type" name="type" required /><br />
 
-    <label for="productName">Tính cách:</label>
-    <input type="text" id="productName" name="productName" required /><br />
+    <label for="characteristics">Tính cách:</label>
+    <input type="text" id="characteristics" name="characteristics" required /><br />
 
-    <label for="productName">Lượng thức ăn/ngày:</label>
-    <input type="text" id="productName" name="productName" required /><br />
+    <label for="feeding">Lượng thức ăn/ngày:</label>
+    <input type="text" id="feeding" name="feeding" required /><br />
 
     <label for="quantity">Số lượng:</label>
     <input type="number" id="quantity" name="quantity" required /><br />
@@ -37,139 +36,99 @@
     <button type="submit">Thêm sản phẩm</button>
 </form>
 
- Giỏ hàng 
-<h3>Giỏ hàng của tôi</h3>
-<table id="cartTable">
+<!-- Lịch sử Ký gửi -->
+<h3>Lịch sử Ký gửi</h3>
+<table id="historyTable">
     <thead>
         <tr>
             <th>Sản phẩm</th>
+            <th>Tuổi</th>
+            <th>Giới tính</th>
             <th>Giá</th>
             <th>Số lượng</th>
             <th>Trạng thái</th>
         </tr>
     </thead>
-    <!--<tbody>-->
+    <tbody>
         <!-- Sản phẩm sẽ được hiển thị ở đây -->
-    <!--</tbody>
-</table>-->
-<!-- Lịch sử mua hàng -->
-<!--<h3>Lịch sử mua hàng</h3>
-<table id="cartTable">
-    <thead>
-        <tr>
-            <th>Sản phẩm</th>
-            <th>Giá</th>
-            <th>Số lượng</th>
-            <th>Trạng thái</th>
-        </tr>
-    </thead>
-    <tbody>-->
-        <!-- Sản phẩm đã mua -->
-        <!--<tr>
-            <td>
-                <div>Cá Koi Kohaku</div>
-            </td>
-            <td>550,000 đ</td>
-            <td>1</td>
-            <td>Đã bán</td>
-        </tr>
-        <tr>
-            <td>
-                <div>Cá Koi Ogon</div>
-            </td>
-            <td>500,000 đ</td>
-            <td>1</td>
-            <td>Đã bán</td>
-        </tr>
     </tbody>
-</table>-->
+</table>
 
-
-<!-- Tổng tiền -->
-<!--<div class="cart-summary">
-    <div class="summary-title">Tóm tắt giỏ hàng</div>
-    <div class="summary-item">
-        <span>Tạm tính:</span>
-        <span id="totalPrice">0 đ</span>
-    </div>
-    <div class="summary-item">
-        <span>Tổng:</span>
-        <span id="finalTotal">0 đ</span>
-    </div>
-</div>-->
-
-<script>// Lấy giỏ hàng từ localStorage
-    function getCart() {
-        const cart = localStorage.getItem('cart');
-        return cart ? JSON.parse(cart) : [];
+<script>
+    // Lấy dữ liệu từ localStorage
+    function getData(key) {
+        const data = localStorage.getItem(key);
+        return data ? JSON.parse(data) : [];
     }
 
-    // Lưu giỏ hàng vào localStorage
-    function saveCart(cart) {
-        localStorage.setItem('cart', JSON.stringify(cart));
+    // Lưu dữ liệu vào localStorage
+    function saveData(key, data) {
+        localStorage.setItem(key, JSON.stringify(data));
     }
 
-    // Cập nhật bảng giỏ hàng
-    function updateCartTable() {
-        const cart = getCart();  // Lấy giỏ hàng từ localStorage
-        const cartTable = document.getElementById('cartTable').getElementsByTagName('tbody')[0];
-        const totalPriceElement = document.getElementById('totalPrice');
-        const finalTotalElement = document.getElementById('finalTotal');
+    // Cập nhật bảng hiển thị sản phẩm
+    function updateTable(data, tableId) {
+        const tableBody = document.getElementById(tableId).getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = '';
 
-        // Làm sạch bảng giỏ hàng hiện tại
-        cartTable.innerHTML = '';
-
-        let totalPrice = 0;
-
-        cart.forEach(item => {
-            const row = cartTable.insertRow();
+        data.forEach(item => {
+            const row = tableBody.insertRow();
             row.innerHTML = `
                 <td>
                     <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
                     <div>${item.productName}</div>
                 </td>
-                <td>${item.price.toLocaleString()} đ</td>
+                <td>${item.age}</td>
+                <td>${item.gender}</td>
+                <td>${item.price ? item.price.toLocaleString() + ' đ' : 'N/A'}</td>
                 <td>${item.quantity}</td>
                 <td>${item.status}</td>
             `;
-            totalPrice += item.price * item.quantity;
         });
-
-        totalPriceElement.textContent = totalPrice.toLocaleString() + ' đ';
-        finalTotalElement.textContent = totalPrice.toLocaleString() + ' đ';
     }
 
-    // Xử lý form thêm sản phẩm
+    // Xử lý khi thêm sản phẩm
     document.getElementById('addProductForm').addEventListener('submit', function(e) {
         e.preventDefault();
 
         const productName = document.getElementById('productName').value;
-        const price = parseFloat(document.getElementById('price').value);
+        const age = document.getElementById('age').value;
+        const gender = document.getElementById('gender').value;
+        const origin = document.getElementById('origin').value;
+        const type = document.getElementById('type').value;
+        const characteristics = document.getElementById('characteristics').value;
+        const feeding = document.getElementById('feeding').value;
         const quantity = parseInt(document.getElementById('quantity').value);
-        const status = document.getElementById('status').value;
         const imageUrl = document.getElementById('imageUrl').value;
 
         const newProduct = {
             productName,
-            price,
+            age,
+            gender,
+            origin,
+            type,
+            characteristics,
+            feeding,
             quantity,
-            status,
-            imageUrl
+            imageUrl,
+            price: 0, // Có thể thêm giá trị giá ở đây nếu có
+            status: "Chờ xác nhận"
         };
 
-        const cart = getCart();  // Lấy giỏ hàng hiện tại từ localStorage
-        cart.push(newProduct);  // Thêm sản phẩm vào giỏ hàng
-        saveCart(cart);  // Lưu giỏ hàng đã được cập nhật vào localStorage
+        // Chỉ thêm sản phẩm vào lịch sử ký gửi
+        const history = getData('history');
+        history.push(newProduct);
+        saveData('history', history);
 
-        // Cập nhật lại giỏ hàng hiển thị trên trang
-        updateCartTable();
+        // Cập nhật hiển thị lịch sử ký gửi trên trang
+        updateTable(history, 'historyTable');
 
         // Reset form
         document.getElementById('addProductForm').reset();
     });
 
-    // Cập nhật giỏ hàng khi tải trang
+    // Cập nhật lịch sử ký gửi khi tải trang
     window.onload = function() {
-        updateCartTable();
+        updateTable(getData('history'), 'historyTable');
     };
-    </script>
+</script>

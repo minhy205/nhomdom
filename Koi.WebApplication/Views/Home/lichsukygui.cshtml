@@ -1,143 +1,61 @@
-﻿@{
-    ViewBag.Title = "lịch sử ký gửi";
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    // <link rel="stylesheet" href="~/css/styleindex.css" />
-}
-
-<!--<div class="breadcrumb">
-    <a href="/"> Giỏ hàng </a>> Lịch sử ký gửi
-</div>
-
+﻿<h3>Lịch sử Ký gửi</h3>
 <table class="cart-table">
     <thead>
         <tr>
             <th>Xoá</th>
             <th>Sản phẩm</th>
-            <th>Kiểu</th>
+            <th>Tuổi</th>
+            <th>Giới tính</th>
+            <th>Nguồn gốc</th>
+            <th>Chuẩn loại</th>
+            <th>Tính cách</th>
+            <th>Lượng thức ăn/ngày</th>
             <th>Số lượng</th>
             <th>Trạng thái</th>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td><button class="remove-button">Xoá</button></td>
-            <td>
-                <img src="~/images/onkoi-karashi-101-cm-5-tuoi-600x600.jpg" alt="Cá Koi Karashi 5 năm tuổi 101 cm" style="width: 50px; height: 50px;">
-                <div class="product-info">
-                    <div class="product-title">Cá Koi Karashi 5 năm tuổi 101 cm</div>
-                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
-                </div>
-            </td>
-            <td>online</td>
-            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
-            <td>thành công</td>
-        </tr>
-        <tr>
-            <td><button class="remove-button">Xoá</button></td>
-            <td>
-                <img src="~/images/onkoi-kohaku-94-cm-6-tuoi-057-600x600.jpg" alt="Cá Koi Kohaku 94 cm 6 năm tuổi" style="width: 50px; height: 50px;">
-                <div class="product-info">
-                    <div class="product-title">Cá Koi Kohaku 94 cm 6 năm tuổi</div>
-                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
-                </div>
-            </td>
-            <td>online</td>
-            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
-            <td>đã huỷ</td>
-        </tr>-->
-<!-- New Product: Cá Koi Showa -->
-<!--<tr>
-            <td><button class="remove-button">Xoá</button></td>
-            <td>
-                <img src="~/images/KOI-SHOWA3.jpg" alt="Cá Koi Showa 3" style="width: 50px; height: 50px;">
-                <div class="product-info">
-                    <div class="product-title">Cá Koi Showa 3</div>
-                    <div class="product-vendor">Vendor: OnKoi - Quang Minh</div>
-                </div>
-            </td>
-            <td>offline</td>
-            <td><input type="number" value="1" min="1" style="width: 40px;"></td>
-            <td>thành công</td>
-        </tr>
-    </tbody>
-</table>-->
-
-<div class="breadcrumb">
-    <a href="/"> Giỏ hàng </a>> Giỏ hàng của tôi
-</div>
-
-<table class="cart-table">
-    <thead>
-        <tr>
-            <th>Xoá</th>
-            <th>Sản phẩm</th>
-            <th>Giá</th>
-            <th>Số lượng</th>
-            <th>Tạm tính</th>
-        </tr>
-    </thead>
-    <tbody id="cartTableBody">
-        <!-- Các sản phẩm trong giỏ hàng sẽ được hiển thị ở đây -->
+    <tbody id="historyTableBody">
+        <!-- Sản phẩm từ lịch sử ký gửi sẽ được hiển thị ở đây -->
     </tbody>
 </table>
 
-<div class="cart-summary">
-    <div class="summary-title">Tóm tắt giỏ hàng</div>
-    <div class="summary-item">
-        <span>Tạm tính:</span>
-        <span id="totalPrice">0 đ</span>
-    </div>
-    <div class="summary-item">
-        <span>Tổng:</span>
-        <span id="finalTotal">0 đ</span>
-    </div>
-</div>
-
-<script>// Lấy giỏ hàng từ localStorage
-    function getCart() {
-        const cart = localStorage.getItem('cart');
-        return cart ? JSON.parse(cart) : [];
+<script>
+    function getHistory() {
+        const history = localStorage.getItem('history');
+        return history ? JSON.parse(history) : [];
     }
 
-    // Hiển thị giỏ hàng lên trang
-    function updateCartTable() {
-        const cart = getCart();
-        const cartTableBody = document.getElementById('cartTableBody');
-        const totalPriceElement = document.getElementById('totalPrice');
-        const finalTotalElement = document.getElementById('finalTotal');
+    function updateHistoryTable() {
+        const history = getHistory();
+        const historyTableBody = document.getElementById('historyTableBody');
 
-        cartTableBody.innerHTML = '';
+        historyTableBody.innerHTML = '';
 
-        let totalPrice = 0;
-
-        cart.forEach(item => {
-            const row = cartTableBody.insertRow();
+        history.forEach(item => {
+            const row = historyTableBody.insertRow();
             row.innerHTML = `
-                <td><button class="remove-button" onclick="removeItem('${item.productName}')">Xoá</button></td>
-                <td>
-                    <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
-                    <div>${item.productName}</div>
-                </td>
-                <td>${item.price.toLocaleString()} đ</td>
-                <td><input type="number" value="${item.quantity}" min="1" style="width: 40px;"></td>
-                <td>${(item.price * item.quantity).toLocaleString()} đ</td>
+                <td><button class="remove-button" onclick="removeFromHistory('${item.productName}')">Xoá</button></td>
+                <td><img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;"><div>${item.productName}</div></td>
+                <td>${item.age}</td>
+                <td>${item.gender}</td>
+                <td>${item.origin}</td>
+                <td>${item.type}</td>
+                <td>${item.personality}</td>
+                <td>${item.foodAmount}</td>
+                <td>${item.quantity}</td>
+                <td>${item.status}</td>
             `;
-            totalPrice += item.price * item.quantity;
         });
-
-        totalPriceElement.textContent = totalPrice.toLocaleString() + ' đ';
-        finalTotalElement.textContent = totalPrice.toLocaleString() + ' đ';
     }
 
-    // Hàm xóa sản phẩm khỏi giỏ hàng
-    function removeItem(productName) {
-        const cart = getCart();
-        const updatedCart = cart.filter(item => item.productName !== productName);
-        localStorage.setItem('cart', JSON.stringify(updatedCart));
-        updateCartTable();
+    function removeFromHistory(productName) {
+        const history = getHistory();
+        const updatedHistory = history.filter(item => item.productName !== productName);
+        localStorage.setItem('history', JSON.stringify(updatedHistory));
+        updateHistoryTable();
     }
 
-    // Cập nhật giỏ hàng khi tải trang
     window.onload = function() {
-        updateCartTable();
-    };</script>
+        updateHistoryTable();
+    };
+</script>
