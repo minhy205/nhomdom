@@ -296,7 +296,15 @@
     <!-- Header Section -->
     <div class="header">
         <div class="hotline">KOI FARM - Hotline 0935080444</div>
-        <a href="../Home/login" class="login">ĐĂNG NHẬP / ĐĂNG KÝ</a>
+        @if (Context.Session.GetString("Username") != null)
+        {
+            <span style="margin-top: 25px;">Welcome, @Context.Session.GetString("Username")!</span>
+            <a href="/Home/Logout" class="login">Logout</a>
+        }
+        else
+        {
+            <a href="../Home/login" class="login">ĐĂNG NHẬP / ĐĂNG KÝ</a>
+        }
     </div>
 
     <div>
@@ -385,7 +393,7 @@
                             <a href="/Home/lichsumuahang">Lịch sử mua hàng</a>
                         </li>
                         <li>
-                            <a href="/Home/ki-gui-cua-toi">Kí gửi của tôi</a>
+                            <a href="/Home/ki-gui-cua-toi">K�� gửi của tôi</a>
                         </li>
                         <li>
                             <a href="/Home/lichsukygui">Lịch sử ký gửi</a>
@@ -402,5 +410,7 @@
         <div class="line"></div>
         <p>Copyright © 2024 Koi Farm</p>
     </div>
+
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

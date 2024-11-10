@@ -41,6 +41,8 @@ public partial class CaKoiStoreContext : DbContext
 
     public virtual DbSet<Staff> Staff { get; set; }
 
+    public virtual DbSet<User> Users { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
         => optionsBuilder.UseSqlServer("Data Source=localhost;Initial Catalog=CaKoi_Store;Persist Security Info=True;User ID=sa;Password=123456;MultipleActiveResultSets=True;TrustServerCertificate=True");
@@ -337,6 +339,35 @@ public partial class CaKoiStoreContext : DbContext
             entity.HasOne(d => d.Manager).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.ManagerId)
                 .HasConstraintName("FK__Staff__Manager_i__5629CD9C");
+        });
+
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Users__3213E83F");
+
+            entity.ToTable("Users");
+
+            entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.Username)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("username");
+            entity.Property(e => e.Password)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("password");
+            entity.Property(e => e.Role)
+                .HasMaxLength(50)
+                .IsUnicode(false)
+                .HasColumnName("role");
+            entity.Property(e => e.PhoneNumber)
+                .HasMaxLength(20)
+                .IsUnicode(false)
+                .HasColumnName("phone_number");
+            entity.Property(e => e.Email)
+                .HasMaxLength(255)
+                .IsUnicode(false)
+                .HasColumnName("email");
         });
 
         OnModelCreatingPartial(modelBuilder);
