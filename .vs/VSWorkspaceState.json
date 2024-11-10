@@ -1,21 +1,7 @@
 {
   "ExpandedNodes": [
-<<<<<<< HEAD
-    "",
-    "\\Koi.Repositories",
-    "\\Koi.Repositories\\Entities",
-    "\\Koi.Services",
-    "\\Koi.WebApp",
-    "\\Koi.WebApplication",
-    "\\Koi.WebApplication\\Views",
-    "\\Koi.WebApplication\\Views\\Home",
-    "\\Koi.WebApplication\\Views\\Shared"
-  ],
-  "SelectedNode": "\\Koi.WebApplication\\Views\\Home\\sanpham.cshtml",
-=======
     ""
   ],
   "SelectedNode": "\\nhomdom.sln",
->>>>>>> 41df57f7668748fdddc0fec481ce7b4d581bce07
   "PreviewInSolutionExplorer": false
 }
