@@ -8,7 +8,7 @@ builder.Services.AddControllersWithViews();
 
 // Register the DbContext with the DI container
 builder.Services.AddDbContext<CaKoiStoreContext>(options =>
-    options.UseSqlServer("Data Source=localhost;Initial Catalog=CaKoi_Store;Persist Security Info=True;User ID=sa;Password=123456;MultipleActiveResultSets=True;TrustServerCertificate=True")); // Replace with your actual connection string
+    options.UseSqlServer("Data Source=localhost;Initial Catalog=CaKoi_Store;Persist Security Info=True;User ID=sa;Password=123456aA@$;MultipleActiveResultSets=True;TrustServerCertificate=True")); // Replace with your actual connection string
 
 builder.Services.AddSession();
 

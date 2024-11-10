@@ -8399,40 +8399,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PC\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/leminhhuy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\nhomdom\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
+      "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Koi.WebApplication.csproj",
       "projectName": "Koi.WebApplication",
-      "projectPath": "C:\\Users\\PC\\Desktop\\nhomdom\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
-      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\nhomdom\\nhomdom\\Koi.WebApplication\\obj\\",
+      "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/Koi.WebApplication.csproj",
+      "packagesPath": "/Users/leminhhuy/.nuget/packages/",
+      "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.WebApplication/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\nhomdom\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\nhomdom\\nhomdom\\Koi.Services\\Koi.Services.csproj"
+            "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj": {
+              "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Services/Koi.Services.csproj"
             }
           }
         }
@@ -8441,11 +8433,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -8498,16 +8485,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1900",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Error occurred while getting package vulnerability data: Access to the path 'C:\\Users\\PC\\AppData\\Local\\NuGet\\v3-cache\\670c1461c29885f9aa22c281d8b7da90845b38e4$ps_api.nuget.org_v3_index.json' is denied."
-    }
-  ]
+  }
 }
