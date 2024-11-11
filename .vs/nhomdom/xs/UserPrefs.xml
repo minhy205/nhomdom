@@ -1,54 +1,49 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Views/Home/lichsumuahang.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Controllers/HomeController.cs">
     <Files>
-      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="399" Column="75" />
-      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
-      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" />
+      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" Line="7" Column="8" />
+      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" Line="1" Column="1" />
       <File FileName="Koi.WebApplication/Views/Home/login.cshtml" />
       <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" Line="1" Column="1" />
       <File FileName="Koi.WebApplication/Views/Home/gioithieu.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/sanpham.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/cakoi.cshtml" Line="1" Column="1" />
-      <File FileName="Koi.WebApplication/Views/Home/giohang.cshtml" Line="57" Column="26" />
+      <File FileName="Koi.WebApplication/Views/Home/cakoi.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/giohang.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/tintuc.cshtml" />
-      <File FileName="Koi.WebApplication/Controllers/Koi đang bán Controller.cs" />
-      <File FileName="Koi.WebApplication/Controllers/Koi kí gửi Controller.cs" />
-      <File FileName="Koi.WebApplication/Models/Các loại cá koi Model.cs" />
-      <File FileName="Koi.WebApplication/Models/Koi đang bán Model.cs" />
-      <File FileName="Koi.WebApplication/Views/Các loại cá koi/Index.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/lichsumuahang.cshtml" Line="19" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Home/lichsumuahang.cshtml" Line="27" Column="8" />
       <File FileName="Koi.WebApplication/Views/Home/register.cshtml" />
       <File FileName="Koi.WebApplication/Models/licsumuahang.cs" Line="1" Column="1" />
       <File FileName="Koi.Repositories/Entities/User.cs" Line="1" Column="1" />
-      <File FileName="Koi.Services/AccountServices.cs" Line="1" Column="1" />
-      <File FileName="Koi.WebApplication/Program.cs" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/CaKoiStoreContext.cs" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/Consignment.cs" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/Customer.cs" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/DashboardReport.cs" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/Faq.cs" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/Feedback.cs" Line="1" Column="1" />
-      <File FileName="Koi.WebApplication/Views/Home/danhgia.cshtml" Line="1" Column="1" />
+      <File FileName="Koi.Services/AccountServices.cs" />
+      <File FileName="Koi.WebApplication/Program.cs" />
+      <File FileName="Koi.Repositories/Entities/CaKoiStoreContext.cs" />
+      <File FileName="Koi.Repositories/Entities/Consignment.cs" />
+      <File FileName="Koi.Repositories/Entities/Customer.cs" />
+      <File FileName="Koi.Repositories/Entities/DashboardReport.cs" />
+      <File FileName="Koi.Repositories/Entities/Faq.cs" />
+      <File FileName="Koi.Repositories/Entities/Feedback.cs" />
+      <File FileName="Koi.WebApplication/Views/Home/danhgia.cshtml" />
+      <File FileName="Koi.Repositories/Entities/Staff.cs" Line="1" Column="1" />
+      <File FileName="Koi.Repositories/Entities/Promotion.cs" Line="1" Column="1" />
+      <File FileName="Koi.Repositories/Entities/Order.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="nhomdom">
-            <Node name="Koi.Repositories" expanded="True" />
-            <Node name="Koi.WebApplication" expanded="True">
+            <Node name="Koi.Repositories" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
+            <Node name="Koi.WebApplication">
+              <Node name="Controllers" expanded="True">
+                <Node name="HomeController.cs" selected="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="lichsumuahang.cshtml" selected="True" />
-                </Node>
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -56,4 +51,11 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApp PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
 </Properties>

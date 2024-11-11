@@ -1,4 +1,8 @@
-﻿<h3>Lịch sử Ký gửi</h3>
+﻿@{
+    ViewBag.Title = "Lịch sử ký gửi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h3>Lịch sử Ký gửi</h3>
 <table class="cart-table">
     <thead>
         <tr>
@@ -19,8 +23,7 @@
     </tbody>
 </table>
 
-<script>
-    function getHistory() {
+<script>function getHistory() {
         const history = localStorage.getItem('history');
         return history ? JSON.parse(history) : [];
     }
@@ -55,7 +58,6 @@
         updateHistoryTable();
     }
 
-    window.onload = function() {
+    window.onload = function () {
         updateHistoryTable();
-    };
-</script>
+    };</script>
