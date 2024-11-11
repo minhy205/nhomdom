@@ -32,9 +32,11 @@
         <button class="submit-button" onclick="submitReview()">Đồng ý</button>
     </div>
 
-    <!-- Phần hiển thị thông báo cảm ơn -->
+    <!-- Phần hiển thị thông báo cảm ơn và đánh giá của người dùng -->
     <div id="thankYouMessage" class="thank-you-section" style="display: none;">
         <h2>Cảm ơn bạn đã đánh giá!</h2>
+        <p><strong>Số sao:</strong> <span id="displayStarRating"></span></p>
+        <p><strong>Bình luận:</strong> <span id="displayCommentText"></span></p>
     </div>
 
     <script>
@@ -45,9 +47,14 @@
 
             // Kiểm tra xem các giá trị nhập vào có hợp lệ không
             if (starRating >= 1 && starRating <= 5 && commentText.trim() !== "") {
+                // Hiển thị thông tin đánh giá
+                document.getElementById("displayStarRating").textContent = starRating;
+                document.getElementById("displayCommentText").textContent = commentText;
+
                 // Ẩn phần form nhập liệu
                 document.querySelector(".container").style.display = "none";
-                // Hiển thị thông báo cảm ơn
+
+                // Hiển thị phần thông báo cảm ơn và thông tin đánh giá
                 document.getElementById("thankYouMessage").style.display = "block";
             } else {
                 alert("Vui lòng nhập số sao và bình luận hợp lệ!");
