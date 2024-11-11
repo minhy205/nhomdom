@@ -6,7 +6,7 @@
 
 <body>
     <div class="breadcrumb">
-        <a href="/"> Trang chủ </a>> Đăng nhập
+        <a href="/"> Trang chủ </a>> Đăng ký
     </div>
     <div class="TrangChu">
         <div class="login-container">
@@ -15,19 +15,19 @@
                 <form asp-action="Register" method="post">
                     <div class="user-role">
                         <label>
-                            <input type="radio" name="Role" value="customer" required />
+                            <input type="radio" name="Role" value="customer" disabled />
                             I am Customer
                         </label>
                         <label>
-                            <input type="radio" name="Role" value="staff" required />
+                            <input type="radio" name="Role" value="staff" disabled />
                             I am Staff
                         </label>
                         <label>
-                            <input type="radio" name="Role" value="guest" required />
+                            <input type="radio" name="Role" value="guest" required checked />
                             I am Guest
                         </label>
                         <label>
-                            <input type="radio" name="Role" value="manager" required />
+                            <input type="radio" name="Role" value="manager" disabled />
                             I am Manager
                         </label>
                     </div>
