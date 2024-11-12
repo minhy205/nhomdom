@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace Koi.Repositories.Entities;
+
+public partial class DanhGium
+{
+    public int DanhGiaId { get; set; }
+
+    public int? CaKoiId { get; set; }
+
+    public int? Diem { get; set; }
+
+    public string? NoiDung { get; set; }
+
+    public DateOnly? NgayDanhGia { get; set; }
+
+    public virtual CaKoi? CaKoi { get; set; }
+}

@@ -16,10 +16,20 @@
     <None Remove="Views\Shared\" />
     <None Remove="Views\Home\" />
     <None Remove="Controllers\" />
+    <None Remove="Views\cakoi\" />
+    <None Remove="Views\giohang\" />
+    <None Remove="Views\gioithieu\" />
+    <None Remove="Views\sanpham\" />
+    <None Remove="Views\tintuc\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\cakoi\" />
+    <Folder Include="Views\giohang\" />
+    <Folder Include="Views\gioithieu\" />
+    <Folder Include="Views\sanpham\" />
+    <Folder Include="Views\tintuc\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />

@@ -7,7 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 // Register the DbContext with the DI container
-builder.Services.AddDbContext<CaKoiStoreContext>(options =>
+builder.Services.AddDbContext<KoifarmContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Replace with your actual connection string
 
 builder.Services.AddSession();
