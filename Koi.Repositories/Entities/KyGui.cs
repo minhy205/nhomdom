@@ -26,6 +26,7 @@ public partial class KyGui
     public string? UrlhinhAnh { get; set; }
 
     public DateOnly? NgayKyGui { get; set; }
+    public int LichSuKyGuiId { get; set; }
 
     public virtual LichSuKyGui KyGuiNavigation { get; set; } = null!;
 }
