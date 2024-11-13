@@ -3,6 +3,7 @@ using Koi.Repositories.Entities;
 using System.Threading.Tasks;
 using System.Linq;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 
 namespace Koi.WebApplication.Controllers
 {
@@ -15,62 +16,20 @@ namespace Koi.WebApplication.Controllers
             _context = context;
         }
 
-        public IActionResult index()
+        public IActionResult Index()
         {
             return View();
         }
-        //public IActionResult gioithieu()
-        //{
-        //    return View();
-        //}
-        //public IActionResult cakoi()
-        //{
-        //    return View();
-        //}
-        //public IActionResult thongtinkygui()
-        //{
-        //    return View();
-        //}
-        //public IActionResult tintuctrang()
-        //{
-        //    return View();
-        //}
-        //public IActionResult giohang()
-        //{
-        //    return View();
-        //}
-        public IActionResult login()
+
+        public IActionResult Login()
         {
             return View();
         }
-        //public IActionResult gioithieusankigui()
-        //{
-        //    return View();
-        //}
-        //public IActionResult huongdandangkidangnhap()
-        //{
-        //    return View();
-        //}
-        public IActionResult register ()
+
+        public IActionResult Register()
         {
             return View();
         }
-        //public IActionResult danhgia()
-        //{
-        //    return View();
-        //}
-        //public IActionResult lichsumuahang()
-        //{
-        //    return View();
-        //}
-        //public IActionResult lichsukygui()
-        //{
-        //    return View();
-        //}
-        //public IActionResult kyguicuatoi()
-        //{
-        //    return View();
-        //}
 
         [HttpPost]
         public async Task<IActionResult> Register(User user, string confirmPassword)
@@ -79,12 +38,13 @@ namespace Koi.WebApplication.Controllers
             {
                 if (user.Password != confirmPassword)
                 {
-                    ModelState.AddModelError(string.Empty, "Passwords do not match.");
+                    ModelState.AddModelError(string.Empty, "Mật khẩu không khớp.");
                     return View(user);
                 }
 
                 _context.Users.Add(user);
                 await _context.SaveChangesAsync();
+                TempData["Message"] = "Đăng ký thành công!";
                 return RedirectToAction("Index");
             }
 
@@ -96,23 +56,26 @@ namespace Koi.WebApplication.Controllers
         {
             if (ModelState.IsValid)
             {
-                var user = _context.Users.FirstOrDefault(u => u.Username == username && u.Password == password);
+                var user = await _context.Users
+                    .FirstOrDefaultAsync(u => u.Username == username && u.Password == password);
+
                 if (user != null)
                 {
-                    // Store user information in session
                     HttpContext.Session.SetString("Username", user.Username);
                     HttpContext.Session.SetString("Role", user.Role);
+
+                    TempData["Message"] = "Đăng nhập thành công!";
                     return RedirectToAction("Index");
                 }
-                ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                ModelState.AddModelError(string.Empty, "Sai tài khoản hoặc mật khẩu.");
             }
             return View();
         }
 
         public IActionResult Logout()
         {
-            // Clear the session
             HttpContext.Session.Clear();
+            TempData["Message"] = "Bạn đã đăng xuất thành công!";
             return RedirectToAction("Index");
         }
     }

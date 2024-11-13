@@ -1,17 +1,33 @@
 ﻿@{
     ViewBag.Title = "login";
     Layout = "~/Views/Shared/_Layout.cshtml";
-    <link rel="stylesheet" href="~/css/Stylelayout.css" />
 }
+
+<link rel="stylesheet" href="~/css/Stylelayout.css" />
 
 <body>
     <div class="breadcrumb">
-        <a href="/"> Trang chủ </a>> Đăng nhập
+        <a href="/"> Trang chủ </a> &gt; Đăng nhập
     </div>
     <div class="TrangChu">
         <div class="login-container">
             <div class="login-box">
                 <div class="login-title">ĐĂNG NHẬP</div>
+
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["Message"]
+                    </div>
+                }
+
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger">
+                        @ViewData.ModelState[""].Errors.FirstOrDefault()?.ErrorMessage
+                    </div>
+                }
+
                 <form asp-action="Login" method="post">
                     <div class="form-group">
                         <label for="username">Tên đăng nhập</label>
