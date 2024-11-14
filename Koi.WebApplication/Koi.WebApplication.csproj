@@ -25,7 +25,6 @@
   <ItemGroup>
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="Views\cakoi\" />
     <Folder Include="Views\giohang\" />
     <Folder Include="Views\gioithieu\" />
     <Folder Include="Views\sanpham\" />
