@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {}
+    "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
+    "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
         "projectName": "Koi.Repositories",
-        "projectPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
-        "packagesPath": "C:\\Users\\VHL-L\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Repositories\\obj\\",
+        "projectPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VHL-L\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -87,24 +87,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
+    "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+        "projectUniqueName": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
         "projectName": "Koi.Services",
-        "projectPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
-        "packagesPath": "C:\\Users\\VHL-L\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Services\\obj\\",
+        "projectPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+        "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\VHL-L\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hoang\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,15 +113,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
-                "projectPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj"
+              "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
+                "projectPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj"
               }
             }
           }
@@ -134,8 +133,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -156,7 +156,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.1.24452.12/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
