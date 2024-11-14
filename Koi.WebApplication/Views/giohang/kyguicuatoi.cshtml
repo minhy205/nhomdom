@@ -1,9 +1,9 @@
 ﻿@{
-    ViewBag.Title = "Ký gửi của tôi ";
+    ViewBag.Title = "Ký gửi của tôi";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!-- Form để thêm sản phẩm vào lịch sử ký gửi -->
+<!-- Form to add products to consignment history -->
 <h3>Thêm sản phẩm Ký gửi</h3>
 <form id="addProductForm">
     <label for="productName">Tên sản phẩm:</label>
@@ -36,58 +36,80 @@
     <button type="submit">Thêm sản phẩm</button>
 </form>
 
-<!-- Lịch sử Ký gửi -->
-<h3>Lịch sử Ký gửi</h3>
-<table id="historyTable">
+<h3>Danh sách Ký gửi</h3>
+<table class="cart-table" id="historyTable">
     <thead>
         <tr>
+            <th>Xoá</th>
             <th>Sản phẩm</th>
             <th>Tuổi</th>
             <th>Giới tính</th>
-            <th>Giá</th>
+            <th>Nguồn gốc</th>
+            <th>Chuẩn loại</th>
+            <th>Tính cách</th>
+            <th>Lượng thức ăn/ngày</th>
             <th>Số lượng</th>
             <th>Trạng thái</th>
         </tr>
     </thead>
-    <tbody>
-        <!-- Sản phẩm sẽ được hiển thị ở đây -->
+    <tbody id="historyTableBody">
+        <!-- Sản phẩm từ lịch sử ký gửi sẽ được hiển thị ở đây -->
     </tbody>
 </table>
 
+<!-- Cart Summary -->
+<div class="cart-summary">
+    <div class="summary-title">Tóm tắt ký gửi</div>
+    <div class="summary-item">
+        <span>Số lượng cá ký gửi offline: </span>
+        <span>0</span> <!-- Offline quantity is always 0 -->
+    </div>
+    <div class="summary-item">
+        <span>Số lượng cá ký gửi online:</span>
+        <span id="onlineQuantity">0</span> <!-- Online quantity dynamically updated -->
+    </div>
+</div>
+
 <script>
-    // Lấy dữ liệu từ localStorage
+    // Retrieve data from localStorage
     function getData(key) {
         const data = localStorage.getItem(key);
         return data ? JSON.parse(data) : [];
     }
 
-    // Lưu dữ liệu vào localStorage
+    // Save data to localStorage
     function saveData(key, data) {
         localStorage.setItem(key, JSON.stringify(data));
     }
 
-    // Cập nhật bảng hiển thị sản phẩm
-    function updateTable(data, tableId) {
-        const tableBody = document.getElementById(tableId).getElementsByTagName('tbody')[0];
+    // Update table display for consignment history
+    function updateTable(data) {
+        const tableBody = document.getElementById('historyTableBody');
         tableBody.innerHTML = '';
 
         data.forEach(item => {
             const row = tableBody.insertRow();
             row.innerHTML = `
                 <td>
+                    <button class="remove-button" onclick="removeFromHistory('${item.productName}')">Xoá</button>
+                </td>
+                <td>
                     <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
                     <div>${item.productName}</div>
                 </td>
                 <td>${item.age}</td>
                 <td>${item.gender}</td>
-                <td>${item.price ? item.price.toLocaleString() + ' đ' : 'N/A'}</td>
+                <td>${item.origin}</td>
+                <td>${item.type}</td>
+                <td>${item.characteristics}</td>
+                <td>${item.feeding}</td>
                 <td>${item.quantity}</td>
                 <td>${item.status}</td>
             `;
         });
     }
 
-    // Xử lý khi thêm sản phẩm
+    // Function to handle adding a product
     document.getElementById('addProductForm').addEventListener('submit', function(e) {
         e.preventDefault();
 
@@ -111,24 +133,45 @@
             feeding,
             quantity,
             imageUrl,
-            price: 0, // Có thể thêm giá trị giá ở đây nếu có
+            price: 0, // Optional: Add price if needed
             status: "Chờ xác nhận"
         };
 
-        // Chỉ thêm sản phẩm vào lịch sử ký gửi
+        // Add product to consignment history
         const history = getData('history');
         history.push(newProduct);
         saveData('history', history);
 
-        // Cập nhật hiển thị lịch sử ký gửi trên trang
-        updateTable(history, 'historyTable');
+        // Update consignment history display
+        updateTable(history);
+
+        // Update online quantity summary
+        updateOnlineQuantity();
 
         // Reset form
         document.getElementById('addProductForm').reset();
     });
 
-    // Cập nhật lịch sử ký gửi khi tải trang
+    // Update the online quantity in the summary
+    function updateOnlineQuantity() {
+        const history = getData('history');
+        const totalQuantity = history.reduce((sum, item) => sum + item.quantity, 0);
+        document.getElementById('onlineQuantity').textContent = totalQuantity;
+    }
+
+    // Remove product from consignment history
+    function removeFromHistory(productName) {
+        const history = getData('history');
+        const updatedHistory = history.filter(item => item.productName !== productName);
+        saveData('history', updatedHistory);
+        updateTable(updatedHistory); // Update table after removal
+        updateOnlineQuantity(); // Update the quantity summary
+    }
+
+    // Initialize page with consignment history and summary
     window.onload = function() {
-        updateTable(getData('history'), 'historyTable');
+        const history = getData('history');
+        updateTable(history);
+        updateOnlineQuantity();
     };
 </script>

@@ -11,6 +11,10 @@ namespace Koi.Controllers
     [ApiController]
     public class SanPhamController : ControllerBase
     {
+        public IActionResult Index()
+        {
+            return View();
+        }
         private readonly ISanPhamServices _sanPhamServices;
 
         public SanPhamController(ISanPhamServices sanPhamServices)

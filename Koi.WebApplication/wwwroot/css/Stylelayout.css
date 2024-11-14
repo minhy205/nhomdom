@@ -91,3 +91,29 @@
 .title {
     font-weight: bold;
 }*/
+.error-message {
+    background-color: #A94B4B; /* Màu nền như yêu cầu */
+    color: white; /* Màu chữ */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.alert-danger {
+    background-color: #A94B4B; /* Màu nền như yêu cầu */
+    color: white; /* Màu chữ */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.alert-success {
+    background-color: #4CAF50; /* Màu nền cho thông báo thành công */
+    color: white; /* Màu chữ */
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+}

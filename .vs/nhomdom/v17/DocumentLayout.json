@@ -3,6 +3,29 @@
   "WorkspaceRootPath": "C:\\Users\\AD\\source\\repos\\nhomdom\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Microsoft.Common.props||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,16 +38,8 @@
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +50,8 @@
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\lichsukyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\giohangcuatoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\giohangcuatoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\ad\\source\\repos\\nhomdom\\koi.services\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -313,7 +316,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -329,59 +332,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LichSuKyGuiController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
-              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAvwC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:03:29.684Z",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Common.props",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Microsoft.Common.props",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Microsoft.Common.props",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Microsoft.Common.props",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Preview\\MSBuild\\Current\\Microsoft.Common.props",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAswEkAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-14T10:38:18.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LichSuMuaHangController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "ToolTip": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:04:28.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "NguoiDungController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\NguoiDungController.cs",
-              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\NguoiDungController.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAcwC0AAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:05:33.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "SanPhamController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\SanPhamController.cs",
-              "ToolTip": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\SanPhamController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAvwC4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwDgAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T10:06:19.262Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\UserController.cs",
@@ -389,59 +366,59 @@
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\UserController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAvwC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:07:59.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:07:59.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\appsettings.json",
               "RelativeDocumentMoniker": "Koi.WebApplication\\appsettings.json",
               "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\appsettings.json",
               "RelativeToolTip": "Koi.WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T03:46:05.516Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:46:05.516Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Program.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Program.cs",
               "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Program.cs",
               "RelativeToolTip": "Koi.WebApplication\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T03:46:06.926Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:46:06.926Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cakoiController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\cakoiController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\cakoiController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T15:22:31.449Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "danhgiaController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:04:16.073Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T04:10:44.671Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "KyGuiController.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\KyGuiController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\KyGuiController.cs",
@@ -449,51 +426,71 @@
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\KyGuiController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAvwC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:01:53.441Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:01:53.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "giohangcuatoiController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
-              "ToolTip": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAcwC4AAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:05:52.334Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T04:10:44.671Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "danhgiaController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "ToolTip": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAvwCkAAAAHAAAAAAAAAA==",
+              "Title": "NguoiDungController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\NguoiDungController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:04:16.073Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:05:33.093Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LichSuMuaHangController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwC0AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:04:28.237Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "cakoiController.cs",
-              "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\cakoiController.cs",
-              "ToolTip": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\cakoiController.cs",
-              "ViewState": "AgIAADcAAAAAAAAAAAAuwEkAAAAAAAAAAAAAAA==",
+              "Title": "LichSuKyGuiController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAvwC0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:22:31.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:03:29.684Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "giohangcuatoiController.cs",
+              "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
+              "ToolTip": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAcwC4AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:05:52.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "UserServices.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\UserServices.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\UserServices.cs",
@@ -501,12 +498,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\UserServices.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAmwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:07:21.83Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:07:21.83Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Services.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\Services.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\Services.cs",
@@ -514,12 +510,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\Services.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:51:52.215Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:51:52.215Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "SanPhamServices.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\SanPhamServices.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\SanPhamServices.cs",
@@ -527,12 +522,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\SanPhamServices.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAqwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:51:51.704Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:51:51.704Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "NguoiDungService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\NguoiDungService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\NguoiDungService.cs",
@@ -540,12 +534,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\NguoiDungService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:51:50.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:51:50.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "LichSuMuaHangService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuMuaHangService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\LichSuMuaHangService.cs",
@@ -553,12 +546,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\LichSuMuaHangService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:03:53.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T10:03:53.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "LichSuKyGuiService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuKyGuiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\LichSuKyGuiService.cs",
@@ -566,12 +558,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\LichSuKyGuiService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:51:50.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:51:50.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "KyGuiService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\KyGuiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\KyGuiService.cs",
@@ -579,12 +570,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\KyGuiService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:51:49.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:51:49.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "GioHangCuaToiService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\GioHangCuaToiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\GioHangCuaToiService.cs",
@@ -592,12 +582,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\GioHangCuaToiService.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAUwBcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:51:36.044Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:51:36.044Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DanhGiaService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\DanhGiaService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\DanhGiaService.cs",
@@ -605,12 +594,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\DanhGiaService.cs",
               "ViewState": "AgIAACIAAAAAAAAAAAAqwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:13:38.407Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:13:38.407Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CaKoiService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Service\\CaKoiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\CaKoiService.cs",
@@ -618,12 +606,11 @@
               "RelativeToolTip": "Koi.Services\\Service\\CaKoiService.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAuwBEAAABdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:52:40.656Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:52:40.656Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "DanhGia.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\DanhGia.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\DanhGia.cs",
@@ -631,12 +618,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\DanhGia.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:03.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:03.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "ICaKoiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
@@ -644,12 +630,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:19:46.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:19:46.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "KoifarmContext.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KoifarmContext.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\KoifarmContext.cs",
@@ -657,12 +642,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\KoifarmContext.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAAAD8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:47:17.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:47:17.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IDanhGiaRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
@@ -670,12 +654,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:08.629Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:08.629Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "GioHangCuaToi.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\GioHangCuaToi.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\GioHangCuaToi.cs",
@@ -683,12 +666,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\GioHangCuaToi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:45.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:45.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CaKoi.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoi.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\CaKoi.cs",
@@ -696,12 +678,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\CaKoi.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwBUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:19:48.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:19:48.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ICaKoiService.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ICaKoiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Interfaces\\ICaKoiService.cs",
@@ -709,12 +690,11 @@
               "RelativeToolTip": "Koi.Services\\Interfaces\\ICaKoiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:27:41.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:27:41.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CaKoiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\CaKoiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\CaKoiRepository.cs",
@@ -722,12 +702,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\CaKoiRepository.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:27:26.228Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T09:27:26.228Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Koi.Repositories.csproj",
               "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
               "RelativeDocumentMoniker": "Koi.Repositories\\Koi.Repositories.csproj",
@@ -735,11 +714,12 @@
               "RelativeToolTip": "Koi.Repositories\\Koi.Repositories.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T03:45:35.167Z"
+              "WhenOpened": "2024-11-10T03:45:35.167Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "NguoiDung.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\NguoiDung.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\NguoiDung.cs",
@@ -747,12 +727,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\NguoiDung.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:39.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:39.17Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\Repository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\Repository.cs",
@@ -760,12 +739,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:18:19.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:18:19.648Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "IUsersRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IUsersRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IUsersRepository.cs",
@@ -773,12 +751,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IUsersRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:08:19.66Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:08:19.66Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "IRepositor.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IRepositor.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IRepositor.cs",
@@ -786,12 +763,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IRepositor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:14:34.308Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:14:34.308Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\UserRepository.cs",
@@ -799,12 +775,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\UserRepository.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:08:42.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:08:42.996Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "SanPhamRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\SanPhamRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\SanPhamRepository.cs",
@@ -812,12 +787,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\SanPhamRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:10:08.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:10:08.454Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\Repository.cs",
@@ -825,12 +799,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:15:41.838Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:15:41.838Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "NguoiDungRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\NguoiDungRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\NguoiDungRepository.cs",
@@ -838,12 +811,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\NguoiDungRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:49:22.282Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:49:22.282Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "LichSuMuaHangRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
@@ -851,12 +823,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:49:21.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:49:21.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "DanhGiaRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\DanhGiaRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\DanhGiaRepository.cs",
@@ -864,12 +835,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\DanhGiaRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAcwBsAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:58.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:58.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Koi.Services.csproj",
               "DocumentMoniker": "C:\\Users\\AD\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
               "RelativeDocumentMoniker": "Koi.Services\\Koi.Services.csproj",
@@ -877,11 +847,12 @@
               "RelativeToolTip": "Koi.Services\\Koi.Services.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-14T01:10:11.414Z"
+              "WhenOpened": "2024-11-14T01:10:11.414Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "KyGui.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KyGui.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\KyGui.cs",
@@ -889,12 +860,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\KyGui.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:05:08.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:05:08.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "LichSuKyGui.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuKyGui.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\LichSuKyGui.cs",
@@ -902,12 +872,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\LichSuKyGui.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:42.132Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:42.132Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "KyGuiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\KyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\KyGuiRepository.cs",
@@ -915,12 +884,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\KyGuiRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAWwBoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T14:55:11.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T14:55:11.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "LichSuKyGuiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
@@ -928,12 +896,11 @@
               "RelativeToolTip": "Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:03:24.353Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:03:24.353Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\User.cs",
@@ -941,12 +908,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:09:34.573Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:09:34.573Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "KoiAccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\KoiAccountRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\KoiAccountRepository.cs",
@@ -954,12 +920,11 @@
               "RelativeToolTip": "Koi.Repositories\\KoiAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T03:46:17.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:46:17.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "ISanPhamRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
@@ -967,12 +932,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:10:09.913Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:10:09.913Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "LichSuMuaHang.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuMuaHang.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\LichSuMuaHang.cs",
@@ -980,12 +944,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\LichSuMuaHang.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:19:44.517Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:19:44.517Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "INguoiDungRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
@@ -993,12 +956,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:25.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:25.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "IKyGuiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
@@ -1006,12 +968,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:21.38Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:21.38Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "SanPham.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\SanPham.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\SanPham.cs",
@@ -1019,12 +980,11 @@
               "RelativeToolTip": "Koi.Repositories\\Entities\\SanPham.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:12:55.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:12:55.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "IGioHangCuaToiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
@@ -1032,12 +992,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:48:18.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T08:48:18.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Koifarm\\Index.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Koifarm\\Index.cshtml",
@@ -1045,12 +1004,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Views\\Koifarm\\Index.cshtml",
               "ViewState": "AgIAADwAAAAAAAAAAAAAAEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T05:18:27.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T05:18:27.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "ILichSuKyGuiRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
@@ -1058,12 +1016,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T15:19:43.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T15:19:43.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "IKoiAccountRepository.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
@@ -1071,12 +1028,11 @@
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T04:13:19.385Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T04:13:19.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
@@ -1084,12 +1040,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAIQBAAAAAAAAAAAqwJMBAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T03:45:34.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:45:34.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "KoiTancho.cshtml",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Koifarm\\KoiTancho.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Koifarm\\KoiTancho.cshtml",
@@ -1097,12 +1052,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Views\\Koifarm\\KoiTancho.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-14T04:35:34.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T04:35:34.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
+              "DocumentIndex": 67,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\Index.cshtml",
@@ -1110,12 +1064,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAIEAAAAAAAAAAAAqwJkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T03:45:35.004Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:45:35.004Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "CaKoi.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\CaKoi.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\CaKoi.cs",
@@ -1123,12 +1076,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Models\\CaKoi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T00:47:08.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T00:47:08.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "lichsukygui.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\lichsukygui.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\lichsukygui.cshtml",
@@ -1139,7 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "CaKoiStoreContext.cs",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoiStoreContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoiStoreContext.cs",
@@ -1150,7 +1102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "kyguicuatoi.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\kyguicuatoi.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\kyguicuatoi.cshtml",
@@ -1161,7 +1113,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "register.cshtml",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\register.cshtml",
@@ -1169,12 +1121,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\register.cshtml",
               "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T04:10:33.069Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T04:10:33.069Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Properties\\launchSettings.json",
@@ -1182,12 +1133,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T03:46:24.408Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:46:24.408Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
@@ -1195,12 +1145,11 @@
               "RelativeToolTip": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T03:46:01.021Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:46:01.021Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "giohang.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\giohang.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\giohang.cshtml",
@@ -1211,7 +1160,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 62,
               "Title": "sanpham.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\sanpham.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\sanpham.cshtml",
@@ -1222,7 +1171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 63,
               "Title": "gioithieu.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
@@ -1233,7 +1182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 64,
               "Title": "cakoi.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\cakoi.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\cakoi.cshtml",
@@ -1244,7 +1193,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 65,
               "Title": "tintuc.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
@@ -1255,7 +1204,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Stylelayout.css",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
@@ -1263,12 +1212,11 @@
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
               "ViewState": "AgIAAEUAAAAAAAAAAAAkwFMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-10T03:45:35.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:45:35.143Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "site.js",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\js\\site.js",
@@ -1276,12 +1224,11 @@
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-11-10T03:45:35.146Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:45:35.146Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "styleindex.css",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\css\\styleindex.css",
@@ -1289,12 +1236,11 @@
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\css\\styleindex.css",
               "ViewState": "AgIAAFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-11-10T03:45:35.149Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T03:45:35.149Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
@@ -1305,7 +1251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
               "DocumentMoniker": "C:\\Users\\AD\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
@@ -1316,7 +1262,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 66,
               "Title": "PaymentHistory.cs",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\PaymentHistory.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\PaymentHistory.cs",
@@ -1324,6 +1270,14 @@
               "RelativeToolTip": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\PaymentHistory.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-10T03:45:35.162Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             }
           ]
         },
