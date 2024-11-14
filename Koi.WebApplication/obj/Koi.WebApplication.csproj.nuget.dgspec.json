@@ -165,9 +165,15 @@
       "restore": {
         "projectUniqueName": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
         "projectName": "Koi.WebApplication",
+<<<<<<< HEAD
         "projectPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
         "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.WebApplication\\obj\\",
+=======
+        "projectPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
+        "packagesPath": "C:\\Users\\VHL-L\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\VHL-L\\Source\\Repos\\nhomdom\\Koi.WebApplication\\obj\\",
+>>>>>>> f7c9513f130ecc59286dff9038b800abab03fefb
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

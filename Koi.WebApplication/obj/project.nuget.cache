@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "TD/7leAWpxw=",
+=======
+  "dgSpecHash": "nU9qBcWWFsQ=",
+>>>>>>> f7c9513f130ecc59286dff9038b800abab03fefb
   "success": true,
   "projectFilePath": "C:\\Users\\hoang\\Source\\Repos\\nhomdom\\Koi.WebApplication\\Koi.WebApplication.csproj",
   "expectedPackageFiles": [
