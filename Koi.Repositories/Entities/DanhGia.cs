@@ -13,7 +13,7 @@ public partial class DanhGia
 
     public string? NoiDung { get; set; }
 
-    public DateOnly? NgayDanhGia { get; set; }
-
     public virtual CaKoi? CaKoi { get; set; }
+
 }
+

@@ -3,23 +3,28 @@ using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-builder.Services.AddControllersWithViews();
+// Đọc chuỗi kết nối từ appsettings.json
+var connectionString = builder.Configuration.GetConnectionString("KoifarmDatabase");
 
-// Register the DbContext with the DI container
+// Đăng ký DbContext với chuỗi kết nối
 builder.Services.AddDbContext<KoifarmContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))); // Replace with your actual connection string
+    options.UseSqlServer(connectionString));
 
+// Thêm các dịch vụ khác vào container
+builder.Services.AddControllersWithViews();
 builder.Services.AddSession();
 
 var app = builder.Build();
-app.UseSession();
 
-// Configure the HTTP request pipeline.
+// Cấu hình middleware
+app.UseSession();
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
+    app.UseHsts();
 }
+
+app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
