@@ -21,7 +21,7 @@ public partial class CaKoi
 
     public byte[]? Anh { get; set; }
 
-    public virtual ICollection<DanhGium> DanhGia { get; set; } = new List<DanhGium>();
+    public virtual ICollection<DanhGia> DanhGia { get; set; } = new List<DanhGia>();
 
     public virtual ICollection<GioHangCuaToi> GioHangCuaTois { get; set; } = new List<GioHangCuaToi>();
 }
