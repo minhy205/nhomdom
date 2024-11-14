@@ -16,7 +16,7 @@ namespace Koi.Repositories.Interfaces
     {
         Task<DanhGia> GetByIdAsync(int danhGiaID);  // Lấy DanhGia theo ID
         Task<IEnumerable<DanhGia>> GetByCaKoiIdAsync(int caKoiID);  // Lấy danh sách đánh giá cho một CaKoi
-        Task<DanhGia> AddAsync(DanhGia danhGia, DanhGium danhgia);  // Thêm một DanhGia mới
+        Task<DanhGia> AddAsync(DanhGia danhGia, DanhGia danhgia);  // Thêm một DanhGia mới
         Task<DanhGia> UpdateAsync(DanhGia danhGia);  // Cập nhật một DanhGia
         Task<bool> DeleteAsync(int danhGiaID);  // Xóa DanhGia theo ID
         Task<DanhGia> AddAsync(DanhGia danhGia);

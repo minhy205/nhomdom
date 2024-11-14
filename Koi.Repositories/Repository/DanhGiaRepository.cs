@@ -23,9 +23,9 @@ namespace Koi.Repositories
             return (IEnumerable<DanhGia>)await _context.DanhGia.Where(d => d.CaKoiId == caKoiID).ToListAsync();
         }
 
-        public async Task<DanhGia> AddAsync(DanhGia danhGia, DanhGium danhgia)
+        public async Task<DanhGia> AddAsync(DanhGia danhGia, DanhGia danhgia)
         {
-            Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry<DanhGium> entityEntry = _context.DanhGia.Add(danhgia);
+            Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry<DanhGia> entityEntry = _context.DanhGia.Add(danhgia);
             await _context.SaveChangesAsync();
             return danhGia;
         }
