@@ -17,7 +17,7 @@ public partial class KoifarmContext : DbContext
 
     public virtual DbSet<CaKoi> CaKois { get; set; }
 
-    public virtual DbSet<DanhGium> DanhGia { get; set; }
+    public virtual DbSet<DanhGia> DanhGia { get; set; }
 
     public virtual DbSet<GioHangCuaToi> GioHangCuaTois { get; set; }
 
@@ -53,7 +53,7 @@ public partial class KoifarmContext : DbContext
             entity.Property(e => e.Ten).HasMaxLength(50);
         });
 
-        modelBuilder.Entity<DanhGium>(entity =>
+        modelBuilder.Entity<DanhGia>(entity =>
         {
             entity.HasKey(e => e.DanhGiaId).HasName("PK__DanhGia__52C0CA25EED770E8");
 
