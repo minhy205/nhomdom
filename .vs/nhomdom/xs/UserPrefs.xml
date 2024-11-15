@@ -1,37 +1,38 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Views/Shared/_Layout.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.Repositories/Entities/KoifarmContext.cs">
     <Files>
-      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="368" Column="40" />
-      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
-      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="411" Column="52" />
+      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" Line="63" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" Line="31" Column="9" />
       <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" />
       <File FileName="Koi.WebApplication/Models/licsumuahang.cs" />
       <File FileName="Koi.Repositories/Entities/User.cs" />
       <File FileName="Koi.Services/AccountServices.cs" />
       <File FileName="Koi.WebApplication/Program.cs" />
-      <File FileName="Koi.WebApplication/appsettings.json" Line="10" Column="72" />
-      <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/appsettings.json" />
+      <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" Line="48" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Home/khuyenmai.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/gioithieusankigui.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/gioithieutrang.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/huongdandangkidangnhap.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/thongtinkygui.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/tintuctrang.cshtml" />
+      <File FileName="Koi.WebApplication/wwwroot/css/Stylelayout.css" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="nhomdom" expanded="True">
+          <Node name="nhomdom">
             <Node name="Koi.Repositories">
-              <Node name="Entities" expanded="True" />
+              <Node name="Entities">
+                <Node name="KoifarmContext.cs" selected="True" />
+              </Node>
             </Node>
             <Node name="Koi.WebApplication">
-              <Node name="Views">
-                <Node name="Home" expanded="True" />
-                <Node name="Shared">
-                  <Node name="_Layout.cshtml" selected="True" />
-                </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="images" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -39,4 +40,10 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
 </Properties>

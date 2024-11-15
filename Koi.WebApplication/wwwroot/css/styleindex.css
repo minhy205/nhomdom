@@ -1,17 +1,23 @@
 ﻿
 body {
+    /*margin: 0;
+    font-family: Inter, sans-serif;*/
+    /*    background: white;*/
     margin: 0;
     font-family: Inter, sans-serif;
-    background: white;
+    background-color: rgb(231, 219, 219);
+    background-image: url('https://anhdephd.vn/wp-content/uploads/2022/03/hinh-nen-mau-hong-pastel-tron-loang-lo-mang-trang.jpg'); /* Add your background image URL here */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
-.TrangCh {
+/*.TrangCh {
     width: 100%;
     height: 100%;
     padding-top: 150px;
-    position: relative;
-    background: white;
-}
+    position: relative;*/
+/*    background: white;*/
+/*}*/
 
  .header {
           width: 100%;
