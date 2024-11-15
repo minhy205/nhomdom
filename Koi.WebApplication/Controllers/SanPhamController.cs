@@ -52,5 +52,13 @@ namespace Koi.Controllers
             await _sanPhamRepository.DeleteAsync(id); // Xóa sản phẩm qua repository
             return RedirectToAction(nameof(Index)); // Sau khi xóa, chuyển hướng về danh sách sản phẩm
         }
+        // GET: SanPham/KoiDangBan
+        [HttpGet("SanPham/KoiDangBan")]
+        public async Task<IActionResult> KoiDangBan()
+        {
+            // Logic to retrieve Koi fish that are currently for sale
+            var koiDangBan = await _sanPhamRepository.GetAllAsync(); // Adjust this query to filter only koi for sale if needed
+            return View(koiDangBan); // Trả về view cho sản phẩm đang bán
+        }
     }
 }
