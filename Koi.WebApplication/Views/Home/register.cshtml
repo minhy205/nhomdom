@@ -1,0 +1,73 @@
+﻿@{
+    ViewBag.Title = "register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" href="~/css/Stylelayout.css" />
+}
+
+<link rel="stylesheet" href="~/css/Stylelayout.css" />
+<body>
+    <div class="breadcrumb">
+        <a href="/"> Trang chủ </a>> Đăng ký
+        <a href="/"> Trang chủ </a> &gt; Đăng ký
+    </div>
+    <div class="TrangChu">
+        <div class="login-container">
+            <div class="login-box">
+                <div class="login-title">ĐĂNG KÝ</div>
+                @if (TempData["Message"] != null)
+                {
+                    <div class="alert alert-success">
+                        @TempData["Message"]
+                    </div>
+                }
+                @if (!ViewData.ModelState.IsValid)
+                {
+                    <div class="alert alert-danger">
+                        @ViewData.ModelState[""].Errors.FirstOrDefault()?.ErrorMessage
+                    </div>
+                }
+                <form asp-action="Register" method="post">
+                    <div class="user-role">
+                        <label>
+                            <input type="radio" name="Role" value="customer" disabled />
+                            I am Customer
+                        </label>
+                        <label>
+                            <input type="radio" name="Role" value="staff" disabled />
+                            I am Staff
+                        </label>
+                        <label>
+                            <input type="radio" name="Role" value="guest" required checked />
+                            I am Guest
+                        </label>
+                        <label>
+                            <input type="radio" name="Role" value="manager" disabled />
+                            I am Manager
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Tên đăng nhập</label>
+                        <input type="text" class="form-control" id="username" name="Username" placeholder="Nhập tên đăng nhập" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneNumber">Số điện thoại</label>
+                        <input type="text" class="form-control" id="phoneNumber" name="PhoneNumber" placeholder="Nhập số điện thoại" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="Email" placeholder="Nhập email của bạn" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Mật khẩu</label>
+                        <input type="password" class="form-control" id="password" name="Password" placeholder="Nhập mật khẩu" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="confirmPassword">Nhập lại mật khẩu</label>
+                        <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" placeholder="Nhập lại mật khẩu" required />
+                    </div>
+                    <button type="submit" class="btn-login">Đăng Ký</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
