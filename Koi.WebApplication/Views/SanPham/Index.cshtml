@@ -1,6 +1,41 @@
-﻿@{
+﻿@*@model IEnumerable < Koi.WebApplication.Models.>*@
+
+
+@{
     ViewBag.Title = "Trang chủ";
     <link rel="stylesheet" href="~/css/styleindex.css" />
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
- <h1>huyyyyyy</h1>
+
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Sản Phẩm</th>
+            <th>Kích Thước</th>
+            <th>Giá</th>
+            <th>Giới Tính</th>
+            <th>Chi Tiết</th>
+            <th>Xóa</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenSanPham</td>
+                <td>@item.KichThuoc</td>
+                <td>@item.Gia</td>
+                <td>@item.GioiTinh</td>
+                <td>
+                    <a href="@Url.Action("Details", "SanPham", new { id = item.SanPhamID })" class="btn btn-info">Chi Tiết</a>
+                </td>
+                <td>
+                    <a href="@Url.Action("Delete", "SanPham", new { id = item.SanPhamID })" class="btn btn-danger">Xóa</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

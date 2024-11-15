@@ -1,5 +1,32 @@
-﻿@{
+﻿@*@model IEnumerable<Koi.WebApplication.Models.SanPhamModel>*@
+
+@{
     ViewBag.Title = "Trang chủ";
     <link rel="stylesheet" href="~/css/styleindex.css" />
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Tên Sản Phẩm</th>
+            <th>Kích Thước</th>
+            <th>Giá</th>
+            <th>Giới Tính</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.TenSanPham</td>
+                <td>@item.KichThuoc</td>
+                <td>@item.Gia</td>
+                <td>@item.GioiTinh</td>
+            </tr>
+        }
+    </tbody>
+</table>

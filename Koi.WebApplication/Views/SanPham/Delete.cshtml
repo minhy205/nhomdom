@@ -1,1 +1,19 @@
-﻿
+﻿@*@model Koi.WebApplication.Models.SanPhamModel*@
+
+@{
+    ViewBag.Title = "Trang chủ";
+    <link rel="stylesheet" href="~/css/styleindex.css" />
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <h3>Bạn có chắc chắn muốn xóa sản phẩm @Model.TenSanPham?</h3>
+
+    <form method="post" asp-action="DeleteConfirmed" asp-route-id="@Model.SanPhamID">
+        <button type="submit" class="btn btn-danger">Xóa</button>
+        <a href="@Url.Action("Index", "SanPham")" class="btn btn-secondary">Hủy</a>
+    </form>
+</div>
