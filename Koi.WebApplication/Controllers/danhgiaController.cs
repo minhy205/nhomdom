@@ -1,14 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Koi.Repositories.Entities;
 using Koi.Services.Interfaces;
+using Microsoft.AspNetCore.Mvc;
 
 namespace Koi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class DanhGiaController : ControllerBase
+    public class DanhGiaController : Controller
     {
         private readonly IDanhGiaService _danhGiaService;
 
@@ -17,39 +15,98 @@ namespace Koi.Controllers
             _danhGiaService = danhGiaService;
         }
 
-        [HttpGet("{id}")]
-        public async Task<ActionResult<DanhGia>> GetById(int id)
+        // GET: DanhGia
+        public async Task<IActionResult> Index()
+        {
+            var danhGias = await _danhGiaService.GetAllAsync();
+            return View(danhGias); // Trả về view với danh sách tất cả các đánh giá
+        }
+
+        // GET: DanhGia/Details/5
+        public async Task<IActionResult> Details(int id)
         {
             var danhGia = await _danhGiaService.GetByIdAsync(id);
             if (danhGia == null)
             {
                 return NotFound();
             }
-            return Ok(danhGia);
+            return View(danhGia); // Trả về view chi tiết của đánh giá
         }
 
-        [HttpGet("caKoi/{caKoiId}")]
-        public async Task<ActionResult<IEnumerable<DanhGia>>> GetByCaKoiId(int caKoiId)
+        // GET: DanhGia/Create
+        public IActionResult Create()
         {
-            var danhGias = await _danhGiaService.GetByCaKoiIdAsync(caKoiId);
-            return Ok(danhGias);
+            return View(); // Trả về view để tạo mới đánh giá
         }
 
+        // POST: DanhGia/Create
         [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(DanhGia danhGia)
+        {
+            if (ModelState.IsValid)
+            {
+                var newDanhGia = await _danhGiaService.AddAsync(danhGia);
+                return RedirectToAction(nameof(Index)); // Chuyển hướng về danh sách sau khi thêm mới
+            }
+            return View(danhGia); // Nếu dữ liệu không hợp lệ, trả về view hiện tại
+        }
 
+        // GET: DanhGia/Edit/5
+        public async Task<IActionResult> Edit(int id)
+        {
+            var danhGia = await _danhGiaService.GetByIdAsync(id);
+            if (danhGia == null)
+            {
+                return NotFound();
+            }
+            return View(danhGia); // Trả về view chỉnh sửa
+        }
 
-        [HttpPut("{id}")]
-       
+        // POST: DanhGia/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, DanhGia danhGia)
+        {
+            if (id != danhGia.DanhGiaId)
+            {
+                return BadRequest();
+            }
 
-        [HttpDelete("{id}")]
+            if (ModelState.IsValid)
+            {
+                var updatedDanhGia = await _danhGiaService.UpdateAsync(danhGia);
+                if (updatedDanhGia == null)
+                {
+                    return NotFound();
+                }
+                return RedirectToAction(nameof(Index)); // Sau khi chỉnh sửa thành công, chuyển hướng về danh sách
+            }
+            return View(danhGia);
+        }
+
+        // GET: DanhGia/Delete/5
         public async Task<IActionResult> Delete(int id)
+        {
+            var danhGia = await _danhGiaService.GetByIdAsync(id);
+            if (danhGia == null)
+            {
+                return NotFound();
+            }
+            return View(danhGia); // Trả về view xóa
+        }
+
+        // POST: DanhGia/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var result = await _danhGiaService.DeleteAsync(id);
             if (!result)
             {
                 return NotFound();
             }
-            return NoContent();
+            return RedirectToAction(nameof(Index)); // Sau khi xóa thành công, chuyển hướng về danh sách
         }
     }
 }

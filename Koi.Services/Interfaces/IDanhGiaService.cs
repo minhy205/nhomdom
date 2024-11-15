@@ -6,10 +6,12 @@ namespace Koi.Services.Interfaces
 {
     public interface IDanhGiaService
     {
-        Task<DanhGia> GetByIdAsync(int danhGiaID);  // Get DanhGia by ID
-        Task<IEnumerable<DanhGia>> GetByCaKoiIdAsync(int caKoiID);  // Get all DanhGias for a CaKoi
-        Task<DanhGia> AddAsync(DanhGia danhGia);  // Add a new DanhGia
-        Task<DanhGia> UpdateAsync(DanhGia danhGia);  // Update an existing DanhGia
-        Task<bool> DeleteAsync(int danhGiaID);  // Delete DanhGia by ID
+        Task<DanhGia> GetByIdAsync(int danhGiaID);
+        Task<IEnumerable<DanhGia>> GetByCaKoiIdAsync(int caKoiID);
+        Task<IEnumerable<DanhGia>> GetAllAsync();  // Phương thức này cần có trong giao diện
+        Task<DanhGia> AddAsync(DanhGia danhGia);
+        Task<DanhGia> UpdateAsync(DanhGia danhGia);
+        Task<bool> DeleteAsync(int danhGiaID);
     }
+
 }

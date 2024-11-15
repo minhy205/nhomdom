@@ -1,4 +1,7 @@
-﻿using Koi.Repositories.Entities;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Koi.Repositories.Entities;
 using Koi.Repositories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
@@ -13,48 +16,51 @@ namespace Koi.Repositories
             _context = context;
         }
 
-        //public async Task<DanhGia> GetByIdAsync(int danhGiaID)
-        //{
-        //    return await _context.DanhGias.FindAsync(danhGiaID);
-        //}
-
-        public async Task<IEnumerable<DanhGia>> GetByCaKoiIdAsync(int caKoiID)
+        // Lấy tất cả các bản ghi trong bảng DanhGia
+        public async Task<IEnumerable<DanhGia>> GetAllAsync()
         {
-            return (IEnumerable<DanhGia>)await _context.DanhGia.Where(d => d.CaKoiId == caKoiID).ToListAsync();
+            return await _context.DanhGia.ToListAsync();
         }
 
-        public async Task<DanhGia> AddAsync(DanhGia danhGia, DanhGia danhgia)
+        // Lấy đánh giá theo ID
+        public async Task<DanhGia> GetByIdAsync(int danhGiaId)
         {
-            Microsoft.EntityFrameworkCore.ChangeTracking.EntityEntry<DanhGia> entityEntry = _context.DanhGia.Add(danhgia);
+            return await _context.DanhGia.FindAsync(danhGiaId);
+        }
+
+        // Lấy đánh giá theo ID của CaKoi
+        public async Task<IEnumerable<DanhGia>> GetByCaKoiIdAsync(int caKoiId)
+        {
+            return await _context.DanhGia
+                                 .Where(d => d.CaKoiId == caKoiId)
+                                 .ToListAsync();
+        }
+
+        // Thêm mới một đánh giá
+        public async Task<DanhGia> AddAsync(DanhGia danhGia)
+        {
+            _context.DanhGia.Add(danhGia);
             await _context.SaveChangesAsync();
             return danhGia;
         }
 
+        // Cập nhật một đánh giá
         public async Task<DanhGia> UpdateAsync(DanhGia danhGia)
         {
-            _context.Entry(danhGia).State = EntityState.Modified;
+            _context.DanhGia.Update(danhGia);
             await _context.SaveChangesAsync();
             return danhGia;
         }
 
-        public async Task<bool> DeleteAsync(int danhGiaID)
+        // Xóa một đánh giá
+        public async Task<bool> DeleteAsync(int danhGiaId)
         {
-            var danhGia = await _context.DanhGia.FindAsync(danhGiaID);
+            var danhGia = await _context.DanhGia.FindAsync(danhGiaId);
             if (danhGia == null) return false;
 
             _context.DanhGia.Remove(danhGia);
             await _context.SaveChangesAsync();
             return true;
-        }
-
-        public Task<DanhGia> GetByIdAsync(int danhGiaID)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Task<DanhGia> AddAsync(DanhGia danhGia)
-        {
-            throw new NotImplementedException();
         }
     }
 }

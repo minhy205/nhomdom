@@ -6,9 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Koi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class GioHangCuaToiController : ControllerBase
+    public class GioHangCuaToiController : Controller
     {
         private readonly IGioHangCuaToiService _gioHangCuaToiService;
 
@@ -17,46 +15,98 @@ namespace Koi.Controllers
             _gioHangCuaToiService = gioHangCuaToiService;
         }
 
-        // GET: api/GioHangCuaToi/{gioHangID}
-        [HttpGet("{gioHangID}")]
-        public async Task<ActionResult<GioHangCuaToi>> GetByIdAsync(int gioHangID)
+        // GET: GioHangCuaToi
+        public async Task<IActionResult> Index()
         {
-            var gioHang = await _gioHangCuaToiService.GetByIdAsync(gioHangID);
+            var gioHangs = await _gioHangCuaToiService.GetAllAsync();
+            return View(gioHangs); // Trả về view với danh sách giỏ hàng
+        }
+
+        // GET: GioHangCuaToi/Details/5
+        public async Task<IActionResult> Details(int id)
+        {
+            var gioHang = await _gioHangCuaToiService.GetByIdAsync(id);
             if (gioHang == null)
             {
                 return NotFound();
             }
-            return Ok(gioHang);
+            return View(gioHang); // Trả về view chi tiết giỏ hàng
         }
 
-        // GET: api/GioHangCuaToi/ByCaKoi/{caKoiID}
-        [HttpGet("ByCaKoi/{caKoiID}")]
-        public async Task<ActionResult<IEnumerable<GioHangCuaToi>>> GetByCaKoiIdAsync(int caKoiID)
+        // GET: GioHangCuaToi/Create
+        public IActionResult Create()
         {
-            var gioHangList = await _gioHangCuaToiService.GetByCaKoiIdAsync(caKoiID);
-            return Ok(gioHangList);
+            return View(); // Trả về view để tạo mới giỏ hàng
         }
 
-        // POST: api/GioHangCuaToi
+        // POST: GioHangCuaToi/Create
         [HttpPost]
-        
-
-
-        // PUT: api/GioHangCuaToi/{gioHangID}
-        [HttpPut("{gioHangID}")]
-    
-        
-
-        // DELETE: api/GioHangCuaToi/{gioHangID}
-        [HttpDelete("{gioHangID}")]
-        public async Task<IActionResult> DeleteAsync(int gioHangID)
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(GioHangCuaToi gioHangCuaToi)
         {
-            var result = await _gioHangCuaToiService.DeleteAsync(gioHangID);
+            if (ModelState.IsValid)
+            {
+                var newGioHang = await _gioHangCuaToiService.AddAsync(gioHangCuaToi);
+                return RedirectToAction(nameof(Index)); // Sau khi tạo mới, chuyển hướng về danh sách giỏ hàng
+            }
+            return View(gioHangCuaToi); // Nếu dữ liệu không hợp lệ, trả về view hiện tại
+        }
+
+        // GET: GioHangCuaToi/Edit/5
+        public async Task<IActionResult> Edit(int id)
+        {
+            var gioHang = await _gioHangCuaToiService.GetByIdAsync(id);
+            if (gioHang == null)
+            {
+                return NotFound();
+            }
+            return View(gioHang); // Trả về view chỉnh sửa giỏ hàng
+        }
+
+        // POST: GioHangCuaToi/Edit/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(int id, GioHangCuaToi gioHangCuaToi)
+        {
+            if (id != gioHangCuaToi.GioHangId)
+            {
+                return BadRequest();
+            }
+
+            if (ModelState.IsValid)
+            {
+                var updatedGioHang = await _gioHangCuaToiService.UpdateAsync(gioHangCuaToi);
+                if (updatedGioHang == null)
+                {
+                    return NotFound();
+                }
+                return RedirectToAction(nameof(Index)); // Sau khi chỉnh sửa thành công, chuyển hướng về danh sách
+            }
+            return View(gioHangCuaToi);
+        }
+
+        // GET: GioHangCuaToi/Delete/5
+        public async Task<IActionResult> Delete(int id)
+        {
+            var gioHang = await _gioHangCuaToiService.GetByIdAsync(id);
+            if (gioHang == null)
+            {
+                return NotFound();
+            }
+            return View(gioHang); // Trả về view xóa giỏ hàng
+        }
+
+        // POST: GioHangCuaToi/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var result = await _gioHangCuaToiService.DeleteAsync(id);
             if (!result)
             {
                 return NotFound();
             }
-            return NoContent();
+            return RedirectToAction(nameof(Index)); // Sau khi xóa thành công, chuyển hướng về danh sách
         }
     }
 }

@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Koi.Repositories.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
 using Koi.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+using Koi.Repositories.Entities;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Koi.Controllers
 {
@@ -17,43 +17,30 @@ namespace Koi.Controllers
             _nguoiDungService = nguoiDungService;
         }
 
-        // GET: api/NguoiDung/{khachHangID}
-        [HttpGet("{khachHangID}")]
-        public async Task<ActionResult<NguoiDung>> GetByIdAsync(int khachHangID)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<NguoiDung>> GetByIdAsync(int id)
         {
-            var nguoiDung = await _nguoiDungService.GetByIdAsync(khachHangID);
-            if (nguoiDung == null)
-            {
-                return NotFound();
-            }
-            return Ok(nguoiDung);
+            var result = await _nguoiDungService.GetByIdAsync(id);
+            if (result == null) return NotFound();
+            return Ok(result);
         }
 
-        // GET: api/NguoiDung/ByUser/{userID}
-        [HttpGet("ByUser/{userID}")]
-        public async Task<ActionResult<IEnumerable<NguoiDung>>> GetByUserIdAsync(int userID)
+        [HttpGet("by-user/{userId}")]
+        public async Task<ActionResult<IEnumerable<NguoiDung>>> GetByUserIdAsync(int userId)
         {
-            var nguoiDungs = await _nguoiDungService.GetByUserIdAsync(userID);
-            return Ok(nguoiDungs);
+            var result = await _nguoiDungService.GetByUserIdAsync(userId);
+            return Ok(result);
         }
 
-        // POST: api/NguoiDung
-        [HttpPost]
        
 
-        // PUT: api/NguoiDung/{khachHangID}
-        [HttpPut("{khachHangID}")]
-       
+        
 
-        // DELETE: api/NguoiDung/{khachHangID}
-        [HttpDelete("{khachHangID}")]
-        public async Task<IActionResult> DeleteAsync(int khachHangID)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
         {
-            var result = await _nguoiDungService.DeleteAsync(khachHangID);
-            if (!result)
-            {
-                return NotFound();
-            }
+            var success = await _nguoiDungService.DeleteAsync(id);
+            if (!success) return NotFound();
             return NoContent();
         }
     }

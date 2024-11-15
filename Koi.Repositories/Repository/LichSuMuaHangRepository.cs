@@ -26,6 +26,12 @@ namespace Koi.Repositories
             return await _context.LichSuMuaHangs.Where(l => l.MaKhachHang == maKhachHang).ToListAsync();
         }
 
+        // Thêm phương thức GetAllAsync để lấy tất cả các bản ghi LichSuMuaHang
+        public async Task<IEnumerable<LichSuMuaHang>> GetAllAsync()
+        {
+            return await _context.LichSuMuaHangs.ToListAsync();  // Trả về tất cả bản ghi từ bảng LichSuMuaHang
+        }
+
         public async Task<LichSuMuaHang> AddAsync(LichSuMuaHang lichSuMuaHang)
         {
             _context.LichSuMuaHangs.Add(lichSuMuaHang);

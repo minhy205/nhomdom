@@ -8,6 +8,7 @@ namespace Koi.Services.Interfaces
     {
         Task<LichSuMuaHang> GetByIdAsync(int muaHangID);  // Get LichSuMuaHang by ID
         Task<IEnumerable<LichSuMuaHang>> GetByKhachHangIdAsync(int maKhachHang);  // Get purchase history by customer ID
+        Task<IEnumerable<LichSuMuaHang>> GetAllAsync();  // Get all purchase history
         Task<LichSuMuaHang> AddAsync(LichSuMuaHang lichSuMuaHang);  // Add a new LichSuMuaHang
         Task<LichSuMuaHang> UpdateAsync(LichSuMuaHang lichSuMuaHang);  // Update an existing LichSuMuaHang
         Task<bool> DeleteAsync(int muaHangID);  // Delete LichSuMuaHang by ID

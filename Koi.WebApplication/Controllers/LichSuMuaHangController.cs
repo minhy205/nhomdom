@@ -1,14 +1,12 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Koi.Repositories.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
 using Koi.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+using Koi.Repositories.Entities;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Koi.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class LichSuMuaHangController : ControllerBase
+    public class LichSuMuaHangController : Controller
     {
         private readonly ILichSuMuaHangService _lichSuMuaHangService;
 
@@ -17,44 +15,46 @@ namespace Koi.Controllers
             _lichSuMuaHangService = lichSuMuaHangService;
         }
 
-        // GET: api/LichSuMuaHang/{muaHangID}
-        [HttpGet("{muaHangID}")]
-        public async Task<ActionResult<LichSuMuaHang>> GetByIdAsync(int muaHangID)
+        // GET: LichSuMuaHang
+        public async Task<IActionResult> Index()
         {
-            var lichSuMuaHang = await _lichSuMuaHangService.GetByIdAsync(muaHangID);
+            var lichSuMuaHangs = await _lichSuMuaHangService.GetAllAsync(); // Lấy tất cả lịch sử mua hàng
+            return View(lichSuMuaHangs); // Trả về view với danh sách lịch sử
+        }
+
+        // GET: LichSuMuaHang/Details/5
+        public async Task<IActionResult> Details(int id)
+        {
+            var lichSuMuaHang = await _lichSuMuaHangService.GetByIdAsync(id);
             if (lichSuMuaHang == null)
             {
                 return NotFound();
             }
-            return Ok(lichSuMuaHang);
+            return View(lichSuMuaHang); // Trả về view chi tiết lịch sử mua hàng
         }
 
-        // GET: api/LichSuMuaHang/ByKhachHang/{maKhachHang}
-        [HttpGet("ByKhachHang/{maKhachHang}")]
-        public async Task<ActionResult<IEnumerable<LichSuMuaHang>>> GetByKhachHangIdAsync(int maKhachHang)
+        // GET: LichSuMuaHang/Delete/5
+        public async Task<IActionResult> Delete(int id)
         {
-            var lichSuMuaHangList = await _lichSuMuaHangService.GetByKhachHangIdAsync(maKhachHang);
-            return Ok(lichSuMuaHangList);
-        }
-
-        // POST: api/LichSuMuaHang
-        [HttpPost]
-        
-
-        // PUT: api/LichSuMuaHang/{muaHangID}
-        [HttpPut("{muaHangID}")]
-        
-
-        // DELETE: api/LichSuMuaHang/{muaHangID}
-        [HttpDelete("{muaHangID}")]
-        public async Task<IActionResult> DeleteAsync(int muaHangID)
-        {
-            var result = await _lichSuMuaHangService.DeleteAsync(muaHangID);
-            if (!result)
+            var lichSuMuaHang = await _lichSuMuaHangService.GetByIdAsync(id);
+            if (lichSuMuaHang == null)
             {
                 return NotFound();
             }
-            return NoContent();
+            return View(lichSuMuaHang); // Trả về view xóa lịch sử mua hàng
+        }
+
+        // POST: LichSuMuaHang/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var success = await _lichSuMuaHangService.DeleteAsync(id);
+            if (!success)
+            {
+                return NotFound();
+            }
+            return RedirectToAction(nameof(Index)); // Sau khi xóa, chuyển hướng về danh sách lịch sử
         }
     }
 }

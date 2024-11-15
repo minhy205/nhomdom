@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Koi.Repositories.Entities;
+﻿using Microsoft.AspNetCore.Mvc;
 using Koi.Services.Interfaces;
-using Microsoft.AspNetCore.Mvc;
+using Koi.Repositories.Entities;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Koi.Controllers
 {
@@ -17,43 +17,26 @@ namespace Koi.Controllers
             _lichSuKyGuiService = lichSuKyGuiService;
         }
 
-        // GET: api/LichSuKyGui/{lichSuKyGuiID}
-        [HttpGet("{lichSuKyGuiID}")]
-        public async Task<ActionResult<LichSuKyGui>> GetByIdAsync(int lichSuKyGuiID)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<LichSuKyGui>> GetByIdAsync(int id)
         {
-            var lichSuKyGui = await _lichSuKyGuiService.GetByIdAsync(lichSuKyGuiID);
-            if (lichSuKyGui == null)
-            {
-                return NotFound();
-            }
-            return Ok(lichSuKyGui);
+            var result = await _lichSuKyGuiService.GetByIdAsync(id);
+            if (result == null) return NotFound();
+            return Ok(result);
         }
 
-        // GET: api/LichSuKyGui
         [HttpGet]
         public async Task<ActionResult<IEnumerable<LichSuKyGui>>> GetAllAsync()
         {
-            var lichSuKyGuis = await _lichSuKyGuiService.GetAllAsync();
-            return Ok(lichSuKyGuis);
+            var result = await _lichSuKyGuiService.GetAllAsync();
+            return Ok(result);
         }
 
-        // POST: api/LichSuKyGui
-        [HttpPost]
-        
-
-        // PUT: api/LichSuKyGui/{lichSuKyGuiID}
-        [HttpPut("{lichSuKyGuiID}")]
-        
-
-        // DELETE: api/LichSuKyGui/{lichSuKyGuiID}
-        [HttpDelete("{lichSuKyGuiID}")]
-        public async Task<IActionResult> DeleteAsync(int lichSuKyGuiID)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync(int id)
         {
-            var result = await _lichSuKyGuiService.DeleteAsync(lichSuKyGuiID);
-            if (!result)
-            {
-                return NotFound();
-            }
+            var success = await _lichSuKyGuiService.DeleteAsync(id);
+            if (!success) return NotFound();
             return NoContent();
         }
     }

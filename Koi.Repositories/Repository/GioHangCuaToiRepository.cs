@@ -26,6 +26,12 @@ namespace Koi.Repositories
             return await _context.GioHangCuaTois.Where(g => g.CaKoiId == caKoiID).ToListAsync();
         }
 
+        // Thêm GetAllAsync để lấy tất cả các bản ghi
+        public async Task<IEnumerable<GioHangCuaToi>> GetAllAsync()
+        {
+            return await _context.GioHangCuaTois.ToListAsync(); // Trả về tất cả các bản ghi từ GioHangCuaTois
+        }
+
         public async Task<GioHangCuaToi> AddAsync(GioHangCuaToi gioHangCuaToi)
         {
             _context.GioHangCuaTois.Add(gioHangCuaToi);

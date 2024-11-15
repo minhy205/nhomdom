@@ -15,10 +15,34 @@ namespace Koi.Services
             _lichSuMuaHangRepository = lichSuMuaHangRepository;
         }
 
-        public Task<LichSuMuaHang> GetByIdAsync(int muaHangID) => _lichSuMuaHangRepository.GetByIdAsync(muaHangID);
-        public Task<IEnumerable<LichSuMuaHang>> GetByKhachHangIdAsync(int maKhachHang) => _lichSuMuaHangRepository.GetByKhachHangIdAsync(maKhachHang);
-        public Task<LichSuMuaHang> AddAsync(LichSuMuaHang lichSuMuaHang) => _lichSuMuaHangRepository.AddAsync(lichSuMuaHang);
-        public Task<LichSuMuaHang> UpdateAsync(LichSuMuaHang lichSuMuaHang) => _lichSuMuaHangRepository.UpdateAsync(lichSuMuaHang);
-        public Task<bool> DeleteAsync(int muaHangID) => _lichSuMuaHangRepository.DeleteAsync(muaHangID);
+        public async Task<LichSuMuaHang> GetByIdAsync(int muaHangID)
+        {
+            return await _lichSuMuaHangRepository.GetByIdAsync(muaHangID);
+        }
+
+        public async Task<IEnumerable<LichSuMuaHang>> GetByKhachHangIdAsync(int maKhachHang)
+        {
+            return await _lichSuMuaHangRepository.GetByKhachHangIdAsync(maKhachHang);
+        }
+
+        public async Task<IEnumerable<LichSuMuaHang>> GetAllAsync()
+        {
+            return await _lichSuMuaHangRepository.GetAllAsync();  // Sử dụng phương thức từ repository
+        }
+
+        public async Task<LichSuMuaHang> AddAsync(LichSuMuaHang lichSuMuaHang)
+        {
+            return await _lichSuMuaHangRepository.AddAsync(lichSuMuaHang);
+        }
+
+        public async Task<LichSuMuaHang> UpdateAsync(LichSuMuaHang lichSuMuaHang)
+        {
+            return await _lichSuMuaHangRepository.UpdateAsync(lichSuMuaHang);
+        }
+
+        public async Task<bool> DeleteAsync(int muaHangID)
+        {
+            return await _lichSuMuaHangRepository.DeleteAsync(muaHangID);
+        }
     }
 }
