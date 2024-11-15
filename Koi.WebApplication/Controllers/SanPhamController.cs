@@ -1,32 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Koi.Services.Interfaces;
 using Koi.Repositories.Entities;
 using System.Threading.Tasks;
-using System.Collections.Generic;
 using Koi.Repositories.Interfaces;
 
 namespace Koi.Controllers
 {
     public class SanPhamController : Controller
     {
-        private readonly ISanPhamServices _sanPhamServices;
+        private readonly IRepository<SanPham> _sanPhamRepository;
 
-        public SanPhamController(ISanPhamServices sanPhamServices)
+        // Constructor injection for repository
+        public SanPhamController(IRepository<SanPham> sanPhamRepository)
         {
-            _sanPhamServices = sanPhamServices;
+            _sanPhamRepository = sanPhamRepository;
         }
 
         // GET: SanPham
         public async Task<IActionResult> Index()
         {
-            var sanPhams = await _sanPhamServices.GetAllAsync(); // Lấy tất cả sản phẩm
-            return View(sanPhams); // Trả về view với danh sách sản phẩm
+            var sanPhams = await _sanPhamRepository.GetAllAsync(); // Lấy tất cả sản phẩm từ repository
+            return View(sanPhams); // Trả về danh sách sản phẩm trực tiếp
         }
 
         // GET: SanPham/Details/5
         public async Task<IActionResult> Details(int id)
         {
-            var sanPham = await _sanPhamServices.GetByIdAsync(id);
+            var sanPham = await _sanPhamRepository.GetByIdAsync(id);
             if (sanPham == null)
             {
                 return NotFound();
@@ -37,7 +36,7 @@ namespace Koi.Controllers
         // GET: SanPham/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            var sanPham = await _sanPhamServices.GetByIdAsync(id);
+            var sanPham = await _sanPhamRepository.GetByIdAsync(id);
             if (sanPham == null)
             {
                 return NotFound();
@@ -50,11 +49,7 @@ namespace Koi.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var success = await _sanPhamServices.DeleteAsync(id);
-            if (!success)
-            {
-                return NotFound();
-            }
+            await _sanPhamRepository.DeleteAsync(id); // Xóa sản phẩm qua repository
             return RedirectToAction(nameof(Index)); // Sau khi xóa, chuyển hướng về danh sách sản phẩm
         }
     }

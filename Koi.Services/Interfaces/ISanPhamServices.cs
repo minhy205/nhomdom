@@ -1,15 +1,13 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using Koi.Repositories.Entities;
+﻿using Koi.Repositories.Entities;
 
-namespace Koi.Repositories.Interfaces
+namespace Koi.Services.Interfaces
 {
     public interface ISanPhamServices
     {
-        Task<SanPham> GetByIdAsync(int sanPhamID);  // Lấy SanPham theo ID
-        Task<IEnumerable<SanPham>> GetAllAsync();  // Lấy tất cả các SanPham
-        Task<SanPham> AddAsync(SanPham sanPham);  // Thêm một SanPham mới
-        Task<SanPham> UpdateAsync(SanPham sanPham);  // Cập nhật một SanPham
-        Task<bool> DeleteAsync(int sanPhamID);  // Xóa SanPham theo ID
+        Task<IEnumerable<SanPham>> GetAllAsync();
+        Task<SanPham> GetByIdAsync(int sanPhamId);
+        Task<SanPham> AddSanPhamAsync(SanPham sanPham);
+        Task<SanPham> UpdateSanPhamAsync(SanPham sanPham);
+        Task<bool> DeleteAsync(int sanPhamId);
     }
 }

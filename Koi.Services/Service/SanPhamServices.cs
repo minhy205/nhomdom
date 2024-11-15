@@ -1,8 +1,8 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using Koi.Repositories.Interfaces;
 using Koi.Repositories.Entities;
-using Koi.Repositories.Interfaces;
 using Koi.Services.Interfaces;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Koi.Services
 {
@@ -15,9 +15,9 @@ namespace Koi.Services
             _sanPhamRepository = sanPhamRepository;
         }
 
-        public async Task<SanPham> GetByIdAsync(int sanPhamID)
+        public async Task<SanPham> GetByIdAsync(int sanPhamId)
         {
-            return await _sanPhamRepository.GetByIdAsync(sanPhamID);
+            return await _sanPhamRepository.GetByIdAsync(sanPhamId);
         }
 
         public async Task<IEnumerable<SanPham>> GetAllAsync()
@@ -25,22 +25,19 @@ namespace Koi.Services
             return await _sanPhamRepository.GetAllAsync();
         }
 
-        public async Task<SanPham> AddAsync(SanPham sanPham)
+        public async Task<SanPham> AddSanPhamAsync(SanPham sanPham)
         {
-            await _sanPhamRepository.AddAsync(sanPham);
-            return sanPham;
+            return await _sanPhamRepository.AddAsync(sanPham);
         }
 
-        public async Task<SanPham> UpdateAsync(SanPham sanPham)
+        public async Task<SanPham> UpdateSanPhamAsync(SanPham sanPham)
         {
-            await _sanPhamRepository.UpdateAsync(sanPham);
-            return sanPham;
+            return await _sanPhamRepository.UpdateAsync(sanPham);
         }
 
-        public async Task<bool> DeleteAsync(int sanPhamID)
+        public async Task<bool> DeleteAsync(int sanPhamId)
         {
-            await _sanPhamRepository.DeleteAsync(sanPhamID);
-            return true;
+            return await _sanPhamRepository.DeleteAsync(sanPhamId);
         }
     }
 }
