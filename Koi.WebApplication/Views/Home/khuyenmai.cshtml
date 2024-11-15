@@ -1,0 +1,154 @@
+﻿@{
+    ViewBag.Title = "Khuyến Mãi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .breadcrumb a {
+        text-decoration: none;
+    }
+</style>
+<div class="breadcrumb">
+    <a href="/Home/Index"> Trang chủ </a>><a href="/tintuc/tintuctrang"> Tin tức  </a>> Khuyến mại
+</div>
+<!-- Main Content Section -->
+@*<div class="content">
+        <h1>Khuyến mại</h1>
+        <p>
+            sale 80% cho các bạn FA
+        </p>
+    </div>*@
+<body>
+    <div class="promotion-container">
+        <h1 class="promotion-title">Ưu Đãi Đặc Biệt Cá Koi</h1>
+
+        <div class="promotion-banner">
+            <img src="~/images/pngtree-original-c4d2020-lucky-koi-poster-image_774260.jpg" alt="Khuyến mãi Cá Koi" class="promotion-image">
+            <p class="promotion-description">Nhận ngay ưu đãi giảm giá 20% cho tất cả các dòng cá !!</p>
+        </div>
+
+        <section class="promotion-details">
+            <h2>Chi Tiết Khuyến Mãi</h2>
+            <ul>
+                <li><strong>Giảm 20%:</strong> Áp dụng cho tất cả cá Koi kích thước từ 15cm trở lên.</li>
+                <li><strong>Mua 3 tặng 1:</strong> Tặng thêm một chú cá Koi nhỏ khi mua từ 3 chú cá trở lên.</li>
+                <li><strong>Tặng kèm phụ kiện:</strong> Mỗi đơn hàng từ 5 triệu trở lên sẽ nhận ngay một bộ lọc nước chất lượng cao.</li>
+                <li><strong>Miễn phí vận chuyển:</strong> Áp dụng cho các đơn hàng trên 3 triệu đồng trong khu vực TP.HCM.</li>
+            </ul>
+        </section>
+
+        @*<section class="promotion-gallery">
+                <h2>Các Dòng Cá Koi Nổi Bật</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="koi-1.jpg" alt="Cá Koi Nhật" class="gallery-image">
+                        <p class="gallery-caption">Cá Koi Nhật Bản - Size 15cm</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="koi-2.jpg" alt="Cá Koi Thái" class="gallery-image">
+                        <p class="gallery-caption">Cá Koi Thái Lan - Size 20cm</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="koi-3.jpg" alt="Cá Koi Vip" class="gallery-image">
+                        <p class="gallery-caption">Cá Koi Vip - Size 25cm</p>
+                    </div>
+                </div>
+            </section>*@
+
+        <section class="contact-info">
+            <h2>Liên Hệ Ngay Để Nhận Ưu Đãi!</h2>
+            <p>Để biết thêm chi tiết hoặc đặt hàng, vui lòng liên hệ với chúng tôi qua:</p>
+            <ul>
+                <li>📞 Hotline: 0935 080 444</li>
+                <li>📧 Email: support@cakoi.vn</li>
+                <li>🏢 Địa chỉ: 123 Đường Cá Koi, Quận Bình Thạnh, TP.HCM</li>
+            </ul>
+            <button class="contact-button">Liên hệ ngay</button>
+        </section>
+    </div>
+</body>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        color: #333;
+        line-height: 1.6;
+    }
+
+    .promotion-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .promotion-title {
+        text-align: center;
+        color: #e67e22;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+
+    .promotion-banner {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .promotion-image {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .promotion-description {
+        font-size: 1.2em;
+        color: #555;
+        margin-top: 10px;
+    }
+
+    .promotion-details ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+        .promotion-details ul li {
+            margin-bottom: 10px;
+        }
+
+    .promotion-gallery {
+        margin-top: 20px;
+    }
+
+    .gallery-grid {
+        display: flex;
+        gap: 15px;
+    }
+
+    .gallery-item {
+        flex: 1;
+        text-align: center;
+    }
+
+    .gallery-image {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    .contact-info {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .contact-button {
+        background-color: #e67e22;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        .contact-button:hover {
+            background-color: #d35400;
+        }
+</style>

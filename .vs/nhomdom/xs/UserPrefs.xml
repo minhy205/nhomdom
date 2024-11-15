@@ -1,50 +1,37 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Views/Shared/_Layout.cshtml">
     <Files>
-      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="28" Column="15" />
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="368" Column="40" />
       <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
       <File FileName="Koi.WebApplication/Views/Home/index.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/login.cshtml" />
       <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" />
-      <File FileName="Koi.WebApplication/Views/Home/gioithieu.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/sanpham.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/cakoi.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/giohang.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/tintuc.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/lichsumuahang.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/register.cshtml" />
       <File FileName="Koi.WebApplication/Models/licsumuahang.cs" />
       <File FileName="Koi.Repositories/Entities/User.cs" />
       <File FileName="Koi.Services/AccountServices.cs" />
       <File FileName="Koi.WebApplication/Program.cs" />
-      <File FileName="Koi.Repositories/Entities/CaKoiStoreContext.cs" />
-      <File FileName="Koi.Repositories/Entities/Consignment.cs" />
-      <File FileName="Koi.Repositories/Entities/Customer.cs" />
-      <File FileName="Koi.Repositories/Entities/DashboardReport.cs" />
-      <File FileName="Koi.Repositories/Entities/Faq.cs" />
-      <File FileName="Koi.Repositories/Entities/Feedback.cs" />
-      <File FileName="Koi.WebApplication/Views/Home/danhgia.cshtml" />
-      <File FileName="Koi.Repositories/Entities/Staff.cs" />
-      <File FileName="Koi.Repositories/Entities/Promotion.cs" />
-      <File FileName="Koi.Repositories/Entities/Order.cs" />
-      <File FileName="Koi.WebApplication/Views/Home/lichsukygui.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/kyguicuatoi.cshtml" />
+      <File FileName="Koi.WebApplication/appsettings.json" Line="10" Column="72" />
+      <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="nhomdom" expanded="True">
-            <Node name="Koi.Repositories" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="Customer.cs" selected="True" />
-              </Node>
+            <Node name="Koi.Repositories">
+              <Node name="Entities" expanded="True" />
             </Node>
-            <Node name="Koi.WebApplication" expanded="True">
-              <Node name="Views" expanded="True">
+            <Node name="Koi.WebApplication">
+              <Node name="Views">
                 <Node name="Home" expanded="True" />
-                <Node name="Shared" expanded="True" />
+                <Node name="Shared">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
               </Node>
             </Node>
           </Node>
@@ -52,7 +39,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -31,6 +31,36 @@ namespace Koi.WebApplication.Controllers
             return View();
         }
 
+        public IActionResult khuyenmai()
+        {
+            return View();
+        }
+
+        public IActionResult gioithieusankigui()
+        {
+            return View();
+        }
+
+        public IActionResult gioithieutrang()
+        {
+            return View();
+        }
+
+        public IActionResult huongdandangkidangnhap()
+        {
+            return View();
+        }
+
+        public IActionResult thongtinkygui()
+        {
+            return View();
+        }
+
+        public IActionResult tintuctrang()
+        {
+            return View();
+        }
+
         [HttpPost]
         public async Task<IActionResult> Register(User user, string confirmPassword)
         {

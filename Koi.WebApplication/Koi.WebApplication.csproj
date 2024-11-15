@@ -18,9 +18,7 @@
     <None Remove="Controllers\" />
     <None Remove="Views\cakoi\" />
     <None Remove="Views\giohang\" />
-    <None Remove="Views\gioithieu\" />
     <None Remove="Views\sanpham\" />
-    <None Remove="Views\tintuc\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\" />
