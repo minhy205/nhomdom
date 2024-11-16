@@ -19,10 +19,14 @@
     <None Remove="Views\cakoi\" />
     <None Remove="Views\giohang\" />
     <None Remove="Views\sanpham\" />
+    <None Remove="Views\KyGui\" />
+    <None Remove="Views\LichSuKyGui\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\KyGui\" />
+    <Folder Include="Views\LichSuKyGui\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.6" />

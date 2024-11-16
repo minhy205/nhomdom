@@ -1,0 +1,83 @@
+﻿@{
+    ViewBag.Title = "Lịch sử ký gửi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .breadcrumb a {
+        text-decoration: none;
+    }
+</style>
+<div class="breadcrumb">
+    <a href="/Home/Index"> Trang chủ </a>><a href="/giohang/giohangcuatoi"> Giỏ hàng </a>> Lịch sử ký gửi
+</div>
+<h3>Lịch sử Ký gửi</h3>
+<table class="cart-table">
+    <thead>
+        <tr>
+            <th>Xoá</th>
+            <th>Sản phẩm</th>
+            <th>Tuổi</th>
+            <th>Giới tính</th>
+            <th>Nguồn gốc</th>
+            <th>Chuẩn loại</th>
+            <th>Tính cách</th>
+            <th>Lượng thức ăn/ngày</th>
+            <th>Số lượng</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody id="historyTableBody">
+        <!-- Sản phẩm từ lịch sử ký gửi sẽ được hiển thị ở đây -->
+    </tbody>
+</table>
+
+<div class="cart-summary">
+    <div class="summary-title">Tóm tắt giỏ hàng</div>
+    <div class="summary-item">
+        <span>Tạm tính:</span>
+        <span id="totalPrice">0 đ</span>
+    </div>
+    <div class="summary-item">
+        <span>Tổng:</span>
+        <span id="finalTotal">0 đ</span>
+    </div>
+</div>
+
+<script>function getHistory() {
+        const history = localStorage.getItem('history');
+        return history ? JSON.parse(history) : [];
+    }
+
+    function updateHistoryTable() {
+        const history = getHistory();
+        const historyTableBody = document.getElementById('historyTableBody');
+
+        historyTableBody.innerHTML = '';
+
+        history.forEach(item => {
+            const row = historyTableBody.insertRow();
+            row.innerHTML = `
+                <td><button class="remove-button" onclick="removeFromHistory('${item.productName}')">Xoá</button></td>
+                <td><img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;"><div>${item.productName}</div></td>
+                <td>${item.age}</td>
+                <td>${item.gender}</td>
+                <td>${item.origin}</td>
+                <td>${item.type}</td>
+                <td>${item.personality}</td>
+                <td>${item.foodAmount}</td>
+                <td>${item.quantity}</td>
+                <td>${item.status}</td>
+            `;
+        });
+    }
+
+    function removeFromHistory(productName) {
+        const history = getHistory();
+        const updatedHistory = history.filter(item => item.productName !== productName);
+        localStorage.setItem('history', JSON.stringify(updatedHistory));
+        updateHistoryTable();
+    }
+
+    window.onload = function () {
+        updateHistoryTable();
+    };</script>

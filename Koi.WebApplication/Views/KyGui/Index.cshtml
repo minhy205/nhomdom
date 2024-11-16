@@ -1,0 +1,139 @@
+﻿@{
+    ViewBag.Title = "Ký gửi của tôi ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<style>
+    .breadcrumb a {
+        text-decoration: none;
+    }
+</style>
+<div class="breadcrumb">
+    <a href="/Home/Index"> Trang chủ </a>><a href="/giohang/giohangcuatoi"> Giỏ hàng </a>> Ký gửi của tôi
+</div>
+<!-- Form để thêm sản phẩm vào lịch sử ký gửi -->
+<h3>Thêm sản phẩm Ký gửi</h3>
+<form id="addProductForm">
+    <label for="productName">Tên sản phẩm:</label>
+    <input type="text" id="productName" name="productName" required /><br />
+
+    <label for="age">Tuổi:</label>
+    <input type="text" id="age" name="age" required /><br />
+
+    <label for="gender">Giới tính:</label>
+    <input type="text" id="gender" name="gender" required /><br />
+
+    <label for="origin">Nguồn gốc:</label>
+    <input type="text" id="origin" name="origin" required /><br />
+
+    <label for="type">Chuẩn loại:</label>
+    <input type="text" id="type" name="type" required /><br />
+
+    <label for="characteristics">Tính cách:</label>
+    <input type="text" id="characteristics" name="characteristics" required /><br />
+
+    <label for="feeding">Lượng thức ăn/ngày:</label>
+    <input type="text" id="feeding" name="feeding" required /><br />
+
+    <label for="quantity">Số lượng:</label>
+    <input type="number" id="quantity" name="quantity" required /><br />
+
+    <label for="imageUrl">URL hình ảnh:</label>
+    <input type="text" id="imageUrl" name="imageUrl" required /><br />
+
+    <button type="submit">Thêm sản phẩm</button>
+</form>
+
+<!-- Lịch sử Ký gửi -->
+<h3>Lịch sử Ký gửi</h3>
+<table id="historyTable">
+    <thead>
+        <tr>
+            <th>Sản phẩm</th>
+            <th>Tuổi</th>
+            <th>Giới tính</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Trạng thái</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Sản phẩm sẽ được hiển thị ở đây -->
+    </tbody>
+</table>
+
+<script>// Lấy dữ liệu từ localStorage
+    function getData(key) {
+        const data = localStorage.getItem(key);
+        return data ? JSON.parse(data) : [];
+    }
+
+    // Lưu dữ liệu vào localStorage
+    function saveData(key, data) {
+        localStorage.setItem(key, JSON.stringify(data));
+    }
+
+    // Cập nhật bảng hiển thị sản phẩm
+    function updateTable(data, tableId) {
+        const tableBody = document.getElementById(tableId).getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = '';
+
+        data.forEach(item => {
+            const row = tableBody.insertRow();
+            row.innerHTML = `
+                <td>
+                    <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
+                    <div>${item.productName}</div>
+                </td>
+                <td>${item.age}</td>
+                <td>${item.gender}</td>
+                <td>${item.price ? item.price.toLocaleString() + ' đ' : 'N/A'}</td>
+                <td>${item.quantity}</td>
+                <td>${item.status}</td>
+            `;
+        });
+    }
+
+    // Xử lý khi thêm sản phẩm
+    document.getElementById('addProductForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const productName = document.getElementById('productName').value;
+        const age = document.getElementById('age').value;
+        const gender = document.getElementById('gender').value;
+        const origin = document.getElementById('origin').value;
+        const type = document.getElementById('type').value;
+        const characteristics = document.getElementById('characteristics').value;
+        const feeding = document.getElementById('feeding').value;
+        const quantity = parseInt(document.getElementById('quantity').value);
+        const imageUrl = document.getElementById('imageUrl').value;
+
+        const newProduct = {
+            productName,
+            age,
+            gender,
+            origin,
+            type,
+            characteristics,
+            feeding,
+            quantity,
+            imageUrl,
+            price: 0, // Có thể thêm giá trị giá ở đây nếu có
+            status: "Chờ xác nhận"
+        };
+
+        // Chỉ thêm sản phẩm vào lịch sử ký gửi
+        const history = getData('history');
+        history.push(newProduct);
+        saveData('history', history);
+
+        // Cập nhật hiển thị lịch sử ký gửi trên trang
+        updateTable(history, 'historyTable');
+
+        // Reset form
+        document.getElementById('addProductForm').reset();
+    });
+
+    // Cập nhật lịch sử ký gửi khi tải trang
+    window.onload = function () {
+        updateTable(getData('history'), 'historyTable');
+    };</script>
