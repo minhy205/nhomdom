@@ -1,6 +1,5 @@
-﻿using Koi.Models;  // Add this namespace at the top of your controller
-// File: Koi/Models/SanPhamModel.cs
-namespace Koi.Models
+﻿namespace Koi.WebApplication.Models
+
 {
     public class SanPhamModel
     {
@@ -11,6 +10,6 @@ namespace Koi.Models
         public string NguonGoc { get; set; }
         public string Giong { get; set; }
         public string GioiTinh { get; set; }
-        public byte[] Anh { get; set; }
+        public byte Anh { get; set; }
     }
 }

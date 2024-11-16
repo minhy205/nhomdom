@@ -1,20 +1,19 @@
-﻿@*@model Koi.WebApplication.Models.SanPhamModel*@
-
-@{
+﻿@{
     ViewBag.Title = "Trang chủ";
     <link rel="stylesheet" href="~/css/styleindex.css" />
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<<h1>@ViewData["Title"]</h1>
+<h1>Chi tiết sản phẩm</h1>
 
 <div>
     <h3>@Model.TenSanPham</h3>
-    <p><strong>Kích Thước:</strong> @Model.KichThuoc</p>
-    <p><strong>Giá:</strong> @Model.Gia</p>
+    <p><strong>Kích Thước:</strong> @Model.KichThuoc cm</p>
+    <p><strong>Giá:</strong> @Model.Gia VND</p>
+    <p><strong>Giống:</strong> @Model.Giong</p>
     <p><strong>Giới Tính:</strong> @Model.GioiTinh</p>
     <p><strong>Nguồn Gốc:</strong> @Model.NguonGoc</p>
-    <p><strong>Giống:</strong> @Model.Giong</p>
-
-    <a href="@Url.Action("Index", "SanPham")" class="btn btn-primary">Trở lại danh sách</a>
+    <img src="data:image/png;base64,@(Model.Anh != null ? Convert.ToBase64String(Model.Anh) : "")" alt="Ảnh sản phẩm" style="max-width: 400px;" />
 </div>
+
+<a asp-action="Index" class="btn btn-secondary">Quay lại</a>

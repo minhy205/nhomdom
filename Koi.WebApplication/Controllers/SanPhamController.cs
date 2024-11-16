@@ -2,11 +2,13 @@
 using Koi.Repositories.Entities;
 using System.Threading.Tasks;
 using Koi.Repositories.Interfaces;
+using Koi.WebApplication.Models;
 
 namespace Koi.Controllers
 {
     public class SanPhamController : Controller
     {
+
         private readonly IRepository<SanPham> _sanPhamRepository;
 
         // Constructor injection for repository
@@ -18,8 +20,8 @@ namespace Koi.Controllers
         // GET: SanPham
         public async Task<IActionResult> Index()
         {
-            var sanPhams = await _sanPhamRepository.GetAllAsync(); // Lấy tất cả sản phẩm từ repository
-            return View(sanPhams); // Trả về danh sách sản phẩm trực tiếp
+            var sanPhams = await _sanPhamRepository.GetAllAsync();
+            return View(sanPhams);
         }
 
         // GET: SanPham/Details/5
@@ -60,5 +62,28 @@ namespace Koi.Controllers
             var koiDangBan = await _sanPhamRepository.GetAllAsync(); // Adjust this query to filter only koi for sale if needed
             return View(koiDangBan); // Trả về view cho sản phẩm đang bán
         }
+        // GET: SanPham/Create
+        public ActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: SanPham/Create
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public ActionResult Create(SanPhamModel sanPham)
+        {
+            if (ModelState.IsValid)
+            {
+                // Lưu sản phẩm vào cơ sở dữ liệu
+                // VD: _context.SanPhams.Add(sanPham);
+                // _context.SaveChanges();
+
+                return RedirectToAction("Index"); // Chuyển hướng về danh sách sản phẩm
+            }
+
+            return View(sanPham);
+        }
+
     }
 }

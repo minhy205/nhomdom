@@ -1,41 +1,43 @@
-﻿@*@model IEnumerable < Koi.WebApplication.Models.>*@
-
-
-@{
-    ViewBag.Title = "Trang chủ";
-    <link rel="stylesheet" href="~/css/styleindex.css" />
+﻿@{
+    ViewBag.Title = "Danh sách sản phẩm";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" href="~/css/Stylelayout.css" />
 }
 
+<body>
+    <div class="breadcrumb">
+        <a href="/">Trang chủ</a> &gt; <a href="/SanPham">Sản phẩm</a>
+    </div>
 
-<h1>@ViewData["Title"]</h1>
-
-<table class="table">
-    <thead>
-        <tr>
-            <th>Tên Sản Phẩm</th>
-            <th>Kích Thước</th>
-            <th>Giá</th>
-            <th>Giới Tính</th>
-            <th>Chi Tiết</th>
-            <th>Xóa</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>@item.TenSanPham</td>
-                <td>@item.KichThuoc</td>
-                <td>@item.Gia</td>
-                <td>@item.GioiTinh</td>
-                <td>
-                    <a href="@Url.Action("Details", "SanPham", new { id = item.SanPhamID })" class="btn btn-info">Chi Tiết</a>
-                </td>
-                <td>
-                    <a href="@Url.Action("Delete", "SanPham", new { id = item.SanPhamID })" class="btn btn-danger">Xóa</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
+    <div class="TrangChu">
+        <div class="product-container">
+            <div class="product-title">
+                <h2>Danh Sách Sản Phẩm</h2>
+            </div>
+            @if (Model != null && Model.Any())
+            {
+                <div class="product-list">
+                    @foreach (var item in Model)
+                    {
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="~/images/@item.Image" alt="@item.TenSanPham" />
+                            </div>
+                            <div class="product-details">
+                                <h3 class="product-name">@item.TenSanPham</h3>
+                                <p class="product-price">@item.Gia.ToString("C0")</p>
+                                <a href="/SanPham/Details/@item.Id" class="btn-details">Xem Chi Tiết</a>
+                            </div>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="no-product">
+                    <p>Không có sản phẩm nào để hiển thị.</p>
+                </div>
+            }
+        </div>
+    </div>
+</body>

@@ -1,0 +1,93 @@
+﻿@model Koi.WebApplication.Models.SanPhamModel
+
+﻿@{
+    ViewBag.Title = "Cá Koi";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    <link rel="stylesheet" href="~/css/styleindex.css" />
+}
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/css/Stylelayout.css" />
+    <link rel="stylesheet" href="~/css/styleindex.css" />
+</head>
+
+@* PHẦN THÊM CÁ MỚI *@
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-center mb-4">Thêm Cá Mới</h2>
+            <div class="card shadow-sm">
+                <div class="card-body">
+                    @using (Html.BeginForm("Create", "SanPham", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.TenSanPham, "Tên Cá", new { @class = "form-label" })
+                            @Html.TextBoxFor(model => model.TenSanPham, new { @class = "form-control", placeholder = "Nhập tên cá" })
+                            @Html.ValidationMessageFor(model => model.TenSanPham, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.KichThuoc, "Kích Thước (cm)", new { @class = "form-label" })
+                            @Html.EditorFor(model => model.KichThuoc, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập kích thước" } })
+                            @Html.ValidationMessageFor(model => model.KichThuoc, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.Gia, "Giá (VNĐ)", new { @class = "form-label" })
+                            @Html.EditorFor(model => model.Gia, new { htmlAttributes = new { @class = "form-control", placeholder = "Nhập giá" } })
+                            @Html.ValidationMessageFor(model => model.Gia, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.NguonGoc, "Nguồn Gốc", new { @class = "form-label" })
+                            @Html.TextBoxFor(model => model.NguonGoc, new { @class = "form-control", placeholder = "Nhập nguồn gốc" })
+                            @Html.ValidationMessageFor(model => model.NguonGoc, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.Giong, "Giống", new { @class = "form-label" })
+                            @Html.TextBoxFor(model => model.Giong, new { @class = "form-control", placeholder = "Nhập giống cá" })
+                            @Html.ValidationMessageFor(model => model.Giong, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.GioiTinh, "Giới Tính", new { @class = "form-label" })
+                            @Html.DropDownListFor(model => model.GioiTinh, new SelectList(new[] { "Đực", "Cái" }, "Chọn Giới Tính"), new { @class = "form-select" })
+                            @Html.ValidationMessageFor(model => model.GioiTinh, "", new { @class = "text-danger" })
+                        </div>
+
+                        <div class="mb-4">
+                            @Html.LabelFor(model => model.Anh, "Ảnh Cá", new { @class = "form-label" })
+                            <input type="file" name="Anh" class="form-control" />
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Thêm Cá Mới</button>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@* PHẦN XÓA CÁ *@
+
+@foreach (var item in Model)
+{
+<tr>
+    <td>@item.TenSanPham</td>
+    <td>@item.Gia</td>
+    <td>@item.NguonGoc</td>
+    <td>
+        @Html.ActionLink("Sửa", "Edit", new { id = item.SanPhamID }, new { @class = "btn btn-warning" })
+        @Html.ActionLink("Xóa", "Delete", new { id = item.SanPhamID }, new { @class = "btn btn-danger" })
+    </td>
+</tr>
+}
