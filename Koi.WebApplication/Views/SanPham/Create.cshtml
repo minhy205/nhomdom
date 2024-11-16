@@ -1,5 +1,4 @@
 ﻿@model Koi.WebApplication.Models.SanPhamModel
-
 ﻿@{
     ViewBag.Title = "Cá Koi";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -76,18 +75,3 @@
         </div>
     </div>
 </div>
-
-@* PHẦN XÓA CÁ *@
-
-@foreach (var item in Model)
-{
-<tr>
-    <td>@item.TenSanPham</td>
-    <td>@item.Gia</td>
-    <td>@item.NguonGoc</td>
-    <td>
-        @Html.ActionLink("Sửa", "Edit", new { id = item.SanPhamID }, new { @class = "btn btn-warning" })
-        @Html.ActionLink("Xóa", "Delete", new { id = item.SanPhamID }, new { @class = "btn btn-danger" })
-    </td>
-</tr>
-}

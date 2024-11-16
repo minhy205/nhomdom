@@ -1,5 +1,90 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewBag.Title = "Giỏ hàng";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+@*bài cũ*@
+<style>
+    .breadcrumb a {
+        text-decoration: none;
+    }
+</style>
+<div class="breadcrumb">
+    <a href="/Home/Index"> Trang chủ </a>><a href="/"> Giỏ hàng </a>> Giỏ hàng của tôi
+</div>
+
+<table class="cart-table">
+    <thead>
+        <tr>
+            <th>Xoá</th>
+            <th>Sản phẩm</th>
+            <th>Giá</th>
+            <th>Số lượng</th>
+            <th>Tạm tính</th>
+        </tr>
+    </thead>
+    <tbody id="cartTableBody">
+        <!-- Các sản phẩm trong giỏ hàng sẽ được hiển thị ở đây -->
+    </tbody>
+</table>
+
+<div class="cart-summary">
+    <div class="summary-title">Tóm tắt giỏ hàng</div>
+    <div class="summary-item">
+        <span>Tạm tính:</span>
+        <span id="totalPrice">0 đ</span>
+    </div>
+    <div class="summary-item">
+        <span>Tổng:</span>
+        <span id="finalTotal">0 đ</span>
+    </div>
+</div>
+
+<script>// Lấy giỏ hàng từ localStorage
+    function getCart() {
+        const cart = localStorage.getItem('cart');
+        return cart ? JSON.parse(cart) : [];
+    }
+
+    // Hiển thị giỏ hàng lên trang
+    function updateCartTable() {
+        const cart = getCart();
+        const cartTableBody = document.getElementById('cartTableBody');
+        const totalPriceElement = document.getElementById('totalPrice');
+        const finalTotalElement = document.getElementById('finalTotal');
+
+        cartTableBody.innerHTML = '';
+
+        let totalPrice = 0;
+
+        cart.forEach(item => {
+            const row = cartTableBody.insertRow();
+            row.innerHTML = `
+                <td><button class="remove-button" onclick="removeItem('${item.productName}')">Xoá</button></td>
+                <td>
+                    <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
+                    <div>${item.productName}</div>
+                </td>
+                <td>${item.price.toLocaleString()} đ</td>
+                <td><input type="number" value="${item.quantity}" min="1" style="width: 40px;"></td>
+                <td>${(item.price * item.quantity).toLocaleString()} đ</td>
+            `;
+            totalPrice += item.price * item.quantity;
+        });
+
+        totalPriceElement.textContent = totalPrice.toLocaleString() + ' đ';
+        finalTotalElement.textContent = totalPrice.toLocaleString() + ' đ';
+    }
+
+    // Hàm xóa sản phẩm khỏi giỏ hàng
+    function removeItem(productName) {
+        const cart = getCart();
+        const updatedCart = cart.filter(item => item.productName !== productName);
+        localStorage.setItem('cart', JSON.stringify(updatedCart));
+        updateCartTable();
+    }
+
+    // Cập nhật giỏ hàng khi tải trang
+    window.onload = function() {
+        updateCartTable();
+    };</script>

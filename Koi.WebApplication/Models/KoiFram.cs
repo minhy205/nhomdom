@@ -1,7 +1,7 @@
 ﻿
 namespace Koi.WebApplication.Models
 {
-    public class KoifarmModel
+    public class Koifarm
     {
         public int CaKoiId { get; set; } // Id ca Koi
         public string Breed { get; set; }  // Giống cá

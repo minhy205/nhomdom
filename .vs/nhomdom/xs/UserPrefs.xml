@@ -1,56 +1,60 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/wwwroot/css/Stylelayout.css">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Views/Home/login.cshtml">
     <Files>
-      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="375" Column="29" />
-      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" Line="112" Column="2" />
-      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" Line="14" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" />
+      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
+      <File FileName="Koi.WebApplication/Views/Home/index.cshtml" />
       <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" />
       <File FileName="Koi.WebApplication/Models/licsumuahang.cs" />
       <File FileName="Koi.Repositories/Entities/User.cs" />
       <File FileName="Koi.Services/AccountServices.cs" />
       <File FileName="Koi.WebApplication/Program.cs" />
-      <File FileName="Koi.WebApplication/appsettings.json" Line="14" Column="1" />
+      <File FileName="Koi.WebApplication/appsettings.json" />
       <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" />
-      <File FileName="Koi.WebApplication/Views/Home/khuyenmai.cshtml" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Home/khuyenmai.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/gioithieusankigui.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/gioithieutrang.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/huongdandangkidangnhap.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/thongtinkygui.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/tintuctrang.cshtml" />
-      <File FileName="Koi.WebApplication/wwwroot/css/Stylelayout.css" Line="100" Column="25" />
-      <File FileName="Koi.WebApplication/wwwroot/css/styleindex.css" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/wwwroot/css/Stylelayout.css" />
+      <File FileName="Koi.WebApplication/wwwroot/css/styleindex.css" />
       <File FileName="Koi.WebApplication/Models/CaKoi.cs" />
       <File FileName="Koi.WebApplication/Models/SanPhamModel.cs" />
       <File FileName="Koi.WebApplication/Views/SanPham/Koidangban.cshtml" />
-      <File FileName="Koi.WebApplication/Views/SanPham/Index.cshtml" Line="41" Column="9" />
+      <File FileName="Koi.WebApplication/Views/SanPham/Index.cshtml" />
       <File FileName="Koi.WebApplication/Controllers/cakoiController.cs" />
-      <File FileName="Koi.WebApplication/Controllers/SanPhamController.cs" Line="19" Column="45" />
+      <File FileName="Koi.WebApplication/Controllers/SanPhamController.cs" />
       <File FileName="Koi.WebApplication/Views/SanPham/Details.cshtml" />
       <File FileName="Koi.WebApplication/Views/SanPham/Delete.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/login.cshtml" Line="50" Column="8" />
-      <File FileName="Koi.WebApplication/Views/Home/register.cshtml" Line="33" Column="42" />
-      <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Home/login.cshtml" Line="8" Column="7" />
+      <File FileName="Koi.WebApplication/Views/Home/register.cshtml" Line="14" Column="36" />
+      <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Index.cshtml" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="nhomdom" expanded="True">
+          <Node name="nhomdom">
+            <Node name="Koi.Repositories" expanded="True">
+              <Node name="Entities" expanded="True" />
+            </Node>
             <Node name="Koi.WebApplication">
-              <Node name="Views" expanded="True">
-                <Node name="GioHangCuaToi" expanded="True" />
-                <Node name="SanPham" expanded="True" />
+              <Node name="Views">
+                <Node name="Home">
+                  <Node name="login.cshtml" selected="True" />
+                </Node>
                 <Node name="Shared" expanded="True" />
               </Node>
               <Node name="wwwroot" expanded="True">
-                <Node name="css" expanded="True">
-                  <Node name="Stylelayout.css" selected="True" />
-                </Node>
+                <Node name="css" expanded="True" />
+                <Node name="images" expanded="True" />
               </Node>
             </Node>
           </Node>
@@ -58,5 +62,4 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
