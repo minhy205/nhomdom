@@ -41,15 +41,16 @@ namespace Koi.Controllers
 
         // POST: DanhGia/Create
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(DanhGia danhGia)
+        public async Task<IActionResult> Create([FromBody] DanhGia danhGia)
         {
             if (ModelState.IsValid)
             {
-                var newDanhGia = await _danhGiaService.AddAsync(danhGia);
-                return RedirectToAction(nameof(Index)); // Chuyển hướng về danh sách sau khi thêm mới
+                // Lưu đánh giá vào cơ sở dữ liệu
+                await _danhGiaService.AddAsync(danhGia);
+                return Json(new { success = true, message = "Đánh giá đã được lưu thành công!" });
             }
-            return View(danhGia); // Nếu dữ liệu không hợp lệ, trả về view hiện tại
+
+            return Json(new { success = false, message = "Dữ liệu không hợp lệ!" });
         }
 
         // GET: DanhGia/Edit/5

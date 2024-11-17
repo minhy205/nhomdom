@@ -1,5 +1,161 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
+﻿@{
+    ViewData["Title"] = "Đánh Giá";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"]</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="~/css/Stylelayout.css" />
+    <link rel="stylesheet" href="~/css/styledanhgia.css" />
+
+    <style>
+        .container {
+            margin-top: 20px;
+        }
+
+        .input-field {
+            width: 100%;
+            margin-top: 10px;
+            padding: 8px;
+        }
+
+        .submit-button {
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+            .submit-button:hover {
+                background-color: #45a049;
+            }
+
+        .thank-you-section {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+            display: none; /* Ẩn mặc định */
+        }
+
+        .reviews-section {
+            margin-top: 20px;
+        }
+
+        .review-item {
+            margin-bottom: 10px;
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Đánh Giá Sản Phẩm</h1>
+    </div>
+
+    <div class="container">
+        <!-- Nhập thông tin đánh giá -->
+        <form method="post" id="reviewForm" asp-action="Create">
+            <div class="mb-3">
+                <label for="Diem" class="form-label">Số Sao</label>
+                <input type="number" id="Diem" name="Diem" class="input-field" placeholder="Nhập số sao (1-5)" min="1" max="5" required />
+            </div>
+
+            <div class="mb-3">
+                <label for="NoiDung" class="form-label">Bình Luận</label>
+                <textarea id="NoiDung" name="NoiDung" class="input-field" rows="4" placeholder="Nhập bình luận của bạn" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-button">Gửi Đánh Giá</button>
+        </form>
+    </div>
+
+    <!-- Phần thông báo cảm ơn -->
+    <div id="thankYouSection" class="thank-you-section">
+        <h2>Cảm ơn bạn đã đánh giá!</h2>
+        <p><strong>Số sao:</strong> <span id="thankDiem"></span></p>
+        <p><strong>Bình luận:</strong> <span id="thankNoiDung"></span></p>
+    </div>
+
+    <!-- Phần hiển thị danh sách đánh giá -->
+    <div id="reviewsContainer" class="reviews-section">
+        <h2>Danh Sách Đánh Giá</h2>
+        @foreach (var item in Model)
+        {
+            <div class="review-item">
+                <p><strong>Số sao:</strong> @item.Diem</p>
+                <p><strong>Bình luận:</strong> @item.NoiDung</p>
+            </div>
+        }
+    </div>
+
+    <script>
+        // Hàm hiển thị thông báo cảm ơn và thêm đánh giá vào danh sách
+        function showThankYouAndAddReview(review) {
+            // Hiển thị thông báo cảm ơn
+            document.getElementById("thankDiem").textContent = review.Diem;
+            document.getElementById("thankNoiDung").textContent = review.NoiDung;
+            document.getElementById("thankYouSection").style.display = "block";
+
+            // Tạo phần tử hiển thị đánh giá mới
+            const reviewElement = document.createElement("div");
+            reviewElement.className = "review-item";
+            reviewElement.innerHTML = `
+                        <p><strong>Số sao:</strong> ${review.Diem}</p>
+                        <p><strong>Bình luận:</strong> ${review.NoiDung}</p>
+                    `;
+
+            // Thêm vào danh sách đánh giá
+            document.getElementById("reviewsContainer").appendChild(reviewElement);
+        }
+
+        // Xử lý gửi form đánh giá
+        document.getElementById("reviewForm").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            // Lấy thông tin từ form
+            const Diem = document.getElementById("Diem").value;
+            const NoiDung = document.getElementById("NoiDung").value;
+
+            // Tạo đánh giá mới
+            const review = {
+                Diem: Diem,
+                NoiDung: NoiDung
+            };
+
+            // Gửi đánh giá qua API
+            fetch('/DanhGia/Create', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(review)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        // Hiển thị đánh giá và cảm ơn
+                        showThankYouAndAddReview(review);
+
+                        // Xóa nội dung form
+                        document.getElementById("Diem").value = "";
+                        document.getElementById("NoiDung").value = "";
+                    } else {
+                        alert("Đã xảy ra lỗi: " + data.message);
+                    }
+                })
+                .catch(error => {
+                    console.error("Có lỗi xảy ra:", error);
+                    alert("Đã xảy ra lỗi khi gửi đánh giá!");
+                });
+        });
+    </script>
+</body>

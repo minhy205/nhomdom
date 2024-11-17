@@ -1,25 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {}
+    "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {}
   },
   "projects": {
-    "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj": {
+    "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
         "projectName": "Koi.Repositories",
-        "projectPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/Koi.Repositories.csproj",
-        "packagesPath": "/Users/leminhhuy/.nuget/packages/",
-        "outputPath": "/Users/leminhhuy/Documents/GitHub/nhomdom/Koi.Repositories/obj/",
+        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/leminhhuy/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -32,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -75,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

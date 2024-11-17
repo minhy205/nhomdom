@@ -1,14 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\nhomdom\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\nhomdom\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\koifarmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\koifarmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\koifarmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\koifarmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\danhgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\lichsukygui.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
@@ -38,359 +66,335 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\PaymentHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\sanpham\\koidangban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\sanpham\\koidangban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\sanpham\\koidangban.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\sanpham\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\sanphamcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\sanphammodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\register.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\home\\register.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\home\\register.cshtml||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\interfaces\\isanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\interfaces\\isanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\interfaces\\isanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\sanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\isanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\isanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\isanphamrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\sanpham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\sanpham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\sanpham\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\sanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\koi.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\koi.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\koi.repositories.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\nguoidungcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\sanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\sanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\sanphamservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\kygui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\kygui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\kygui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\irepositor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\lichsumuahangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\lichsumuahangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\lichsumuahangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\idanhgiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\idanhgiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\idanhgiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\iusersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\igiohangcuatoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\igiohangcuatoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\igiohangcuatoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\interfaces\\igiohangcuatoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\interfaces\\igiohangcuatoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\interfaces\\igiohangcuatoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\giohangcuatoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\giohangcuatoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\giohangcuatoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ilichsumuahangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ilichsumuahangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\ilichsumuahangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\interfaces\\ilichsumuahangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\interfaces\\ilichsumuahangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\interfaces\\ilichsumuahangservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\lichsumuahangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\lichsumuahangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\lichsumuahangrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\danhgiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\danhgiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\danhgiarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\cakoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\cakoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\cakoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\interfaces\\idanhgiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\interfaces\\idanhgiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\interfaces\\idanhgiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\danhgiacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\giohangcuatoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\giohangcuatoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\giohangcuatoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\danhgiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\danhgiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\danhgiaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\lichsukyguiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\lichsukyguiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\lichsukyguiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\danhgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\cakoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\cakoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\cakoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\lichsumuahangcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\giohangcuatoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\giohangcuatoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\giohangcuatoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\lichsumuahang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\lichsumuahang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\lichsumuahang\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\lichsumuahang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\lichsumuahang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\lichsumuahang\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\lichsumuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\lichsumuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\lichsumuahang\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\giohangcuatoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\giohangcuatoi\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\giohangcuatoi\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\giohangcuatoi\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\giohangcuatoi\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\giohangcuatoi\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\danhgia\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\danhgia\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\danhgia\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\danhgia\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\views\\danhgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\views\\danhgia\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\kyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\lichsukyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\lichsukyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\lichsukyguicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\nguoidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\nguoidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\nguoidungservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\kyguiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\kyguiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\kyguiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\controllers\\cakoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\service\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\service\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\service\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\icakoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\icakoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\icakoirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\giohangcuatoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\giohangcuatoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\giohangcuatoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\cakoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\cakoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\cakoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\interfaces\\icakoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\interfaces\\icakoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\interfaces\\icakoiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\nguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\nguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\nguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{12A14390-999B-4B6A-BA14-B695B24E1E85}|Koi.Services\\Koi.Services.csproj|solutionrelative:koi.services\\koi.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\lichsukygui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\lichsukygui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\lichsukygui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\kyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\kyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\kyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\repository\\lichsukyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\repository\\lichsukyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\repository\\lichsukyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\koiaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\koiaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\koiaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\entities\\lichsumuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\entities\\lichsumuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\entities\\lichsumuahang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\inguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\inguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\inguoidungrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ikyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ikyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\ikyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ilichsukyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ilichsukyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\ilichsukyguirepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ikoiaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.repositories\\interfaces\\ikoiaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444DBDAE-A150-4BAE-9C11-22F02E95FD4C}|Koi.Repositories\\Koi.Repositories.csproj|solutionrelative:koi.repositories\\interfaces\\ikoiaccountrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\models\\cakoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\models\\cakoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\models\\cakoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\css\\stylelayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\css\\stylelayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\css\\stylelayout.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\css\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\css\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\css\\styleindex.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\pc\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|c:\\users\\admin\\source\\repos\\nhomdom\\koi.webapplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{0B9A2F5D-F383-4D76-96A0-69A71562D531}|Koi.WebApplication\\Koi.WebApplication.csproj|solutionrelative:koi.webapplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     }
   ],
@@ -401,7 +405,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -417,59 +421,115 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "KoifarmContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KoifarmContext.cs",
+              "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\KoifarmContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KoifarmContext.cs*",
+              "RelativeToolTip": "Koi.Repositories\\Entities\\KoifarmContext.cs*",
+              "ViewState": "AQIAABYAAAAAAAAAAAA0wC4AAABRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T04:10:44.671Z"
+              "WhenOpened": "2024-11-14T08:47:17.372Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Program.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Program.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T03:46:06.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T17:33:19.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAUwKEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T03:28:17.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "danhgiaController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAqwHEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T09:04:16.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAABADAAAAAAAAAAAUwEsDAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-10T03:45:34.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\appsettings.json",
               "RelativeDocumentMoniker": "Koi.WebApplication\\appsettings.json",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\appsettings.json",
               "RelativeToolTip": "Koi.WebApplication\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAACRAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T03:46:05.516Z"
+              "WhenOpened": "2024-11-10T03:46:05.516Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Koidangban.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T03:35:38.147Z"
+              "DocumentIndex": 1,
+              "Title": "LichSuMuaHangController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T10:04:28.237Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T03:35:31.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -477,49 +537,60 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "KoifarmContext.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KoifarmContext.cs",
-              "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\KoifarmContext.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KoifarmContext.cs",
-              "RelativeToolTip": "Koi.Repositories\\Entities\\KoifarmContext.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAADwvyUAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T08:47:17.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Program.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Program.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T03:46:06.926Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "register.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\register.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\register.cshtml",
-              "ViewState": "AgIAAC0AAAAAAAAAAADwv0UAAAASAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\SanPham\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T17:33:19.967Z",
+              "WhenOpened": "2024-11-15T03:35:31.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Koidangban.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
+              "RelativeToolTip": "Koi.WebApplication\\Views\\SanPham\\Koidangban.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T03:35:38.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "danhgia.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\danhgia.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\danhgia.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\danhgia.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Models\\danhgia.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-17T06:22:22.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Koi.WebApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T04:10:44.671Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "SanPhamController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\SanPhamController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\SanPhamController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\SanPhamController.cs",
               "ViewState": "AgIAACkAAAAAAAAAAAAuwD0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -527,11 +598,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "SanPhamModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\SanPhamModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\SanPhamModel.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\SanPhamModel.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\SanPhamModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\SanPhamModel.cs",
               "RelativeToolTip": "Koi.WebApplication\\Models\\SanPhamModel.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAA5wBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -539,11 +610,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "login.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\login.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\login.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\login.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\login.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\login.cshtml",
               "ViewState": "AgIAABYAAAAAAAAAAADwvzEAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -551,24 +622,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 25,
               "Title": "register.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Home\\register.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\register.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\Home\\register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T17:32:52.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T17:32:52.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 26,
               "Title": "ISanPhamServices.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ISanPhamServices.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ISanPhamServices.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Interfaces\\ISanPhamServices.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ISanPhamServices.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ISanPhamServices.cs",
               "RelativeToolTip": "Koi.Services\\Interfaces\\ISanPhamServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -576,23 +646,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAGkBAAAAAAAAAAAAAIEBAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-10T03:45:34.994Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 27,
               "Title": "SanPhamRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\SanPhamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\SanPhamRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\SanPhamRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\SanPhamRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\SanPhamRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\SanPhamRepository.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAAAD8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -600,11 +658,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 28,
               "Title": "ISanPhamRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ISanPhamRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -612,11 +670,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 29,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Delete.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\SanPham\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\SanPham\\Delete.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\SanPham\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -624,11 +682,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 30,
               "Title": "SanPham.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\SanPham.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\SanPham.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\SanPham.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\SanPham.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\SanPham.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\SanPham.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAuwAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -636,11 +694,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 31,
               "Title": "Koi.Repositories.csproj",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
               "RelativeDocumentMoniker": "Koi.Repositories\\Koi.Repositories.csproj",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Repositories\\Koi.Repositories.csproj",
               "RelativeToolTip": "Koi.Repositories\\Koi.Repositories.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -648,11 +706,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "NguoiDungController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\NguoiDungController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\NguoiDungController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\NguoiDungController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwCIAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -660,11 +718,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Koi.WebApplication\\Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -672,11 +730,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "SanPhamServices.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\SanPhamServices.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\SanPhamServices.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\SanPhamServices.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\SanPhamServices.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\SanPhamServices.cs",
               "RelativeToolTip": "Koi.Services\\Service\\SanPhamServices.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -684,11 +742,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 35,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\Repository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\Repository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\Repository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\Repository.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAQwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -696,11 +754,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 36,
               "Title": "KyGui.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KyGui.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KyGui.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\KyGui.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KyGui.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\KyGui.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\KyGui.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAQwBwAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -708,11 +766,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 37,
               "Title": "IRepositor.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IRepositor.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IRepositor.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IRepositor.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IRepositor.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IRepositor.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IRepositor.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -720,11 +778,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 38,
               "Title": "LichSuMuaHangService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuMuaHangService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuMuaHangService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\LichSuMuaHangService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuMuaHangService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuMuaHangService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\LichSuMuaHangService.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAQwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -732,11 +790,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 39,
               "Title": "IDanhGiaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IDanhGiaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -744,11 +802,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 40,
               "Title": "IUsersRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IUsersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IUsersRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IUsersRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IUsersRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IUsersRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IUsersRepository.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAkwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -756,11 +814,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 41,
               "Title": "IGioHangCuaToiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IGioHangCuaToiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -768,11 +826,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 42,
               "Title": "IGioHangCuaToiService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IGioHangCuaToiService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IGioHangCuaToiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Interfaces\\IGioHangCuaToiService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IGioHangCuaToiService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IGioHangCuaToiService.cs",
               "RelativeToolTip": "Koi.Services\\Interfaces\\IGioHangCuaToiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -780,11 +838,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 43,
               "Title": "GioHangCuaToiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\GioHangCuaToiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\GioHangCuaToiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\GioHangCuaToiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\GioHangCuaToiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\GioHangCuaToiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\GioHangCuaToiRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAswCsAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -792,11 +850,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 44,
               "Title": "ILichSuMuaHangRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuMuaHangRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuMuaHangRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ILichSuMuaHangRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuMuaHangRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuMuaHangRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ILichSuMuaHangRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -804,11 +862,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 45,
               "Title": "ILichSuMuaHangService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ILichSuMuaHangService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ILichSuMuaHangService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Interfaces\\ILichSuMuaHangService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ILichSuMuaHangService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ILichSuMuaHangService.cs",
               "RelativeToolTip": "Koi.Services\\Interfaces\\ILichSuMuaHangService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -816,11 +874,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 46,
               "Title": "LichSuMuaHangRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\LichSuMuaHangRepository.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAswDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -828,11 +886,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 47,
               "Title": "DanhGiaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\DanhGiaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\DanhGiaRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\DanhGiaRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\DanhGiaRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\DanhGiaRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\DanhGiaRepository.cs",
               "ViewState": "AgIAAAoAAAAAAAAAAAAqwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -840,11 +898,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 48,
               "Title": "CaKoiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\CaKoiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\CaKoiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\CaKoiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\CaKoiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\CaKoiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\CaKoiRepository.cs",
               "ViewState": "AgIAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -852,11 +910,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 49,
               "Title": "IDanhGiaService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IDanhGiaService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IDanhGiaService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Interfaces\\IDanhGiaService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IDanhGiaService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\IDanhGiaService.cs",
               "RelativeToolTip": "Koi.Services\\Interfaces\\IDanhGiaService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -864,23 +922,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "danhgiaController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\danhgiaController.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAwwHAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T09:04:16.073Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 50,
               "Title": "GioHangCuaToiService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\GioHangCuaToiService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\GioHangCuaToiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\GioHangCuaToiService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\GioHangCuaToiService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\GioHangCuaToiService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\GioHangCuaToiService.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAAowBUAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -888,11 +934,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 51,
               "Title": "DanhGiaService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\DanhGiaService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\DanhGiaService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\DanhGiaService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\DanhGiaService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\DanhGiaService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\DanhGiaService.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -900,11 +946,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 52,
               "Title": "LichSuKyGuiService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuKyGuiService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuKyGuiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\LichSuKyGuiService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuKyGuiService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\LichSuKyGuiService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\LichSuKyGuiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -912,11 +958,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 53,
               "Title": "DanhGia.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\DanhGia.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\DanhGia.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\DanhGia.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\DanhGia.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\DanhGia.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\DanhGia.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -924,11 +970,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 54,
               "Title": "CaKoiService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\CaKoiService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\CaKoiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\CaKoiService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\CaKoiService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\CaKoiService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\CaKoiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -936,23 +982,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "LichSuMuaHangController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuMuaHangController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAowBQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T10:04:28.237Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 55,
               "Title": "giohangcuatoiController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\giohangcuatoiController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowBQAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -960,11 +994,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 56,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Delete.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\LichSuMuaHang\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Delete.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\LichSuMuaHang\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -972,11 +1006,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 57,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Details.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\LichSuMuaHang\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Details.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\LichSuMuaHang\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -984,11 +1018,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 58,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Index.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\LichSuMuaHang\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\LichSuMuaHang\\Index.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\LichSuMuaHang\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -996,11 +1030,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 59,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Index.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\GioHangCuaToi\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Index.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\GioHangCuaToi\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1008,11 +1042,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 60,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Delete.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\GioHangCuaToi\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Delete.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\GioHangCuaToi\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1020,11 +1054,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 61,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Edit.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\GioHangCuaToi\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Edit.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\GioHangCuaToi\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1032,11 +1066,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 62,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Create.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\GioHangCuaToi\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Create.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\GioHangCuaToi\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1044,11 +1078,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 61,
+              "DocumentIndex": 63,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Details.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\GioHangCuaToi\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\GioHangCuaToi\\Details.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\GioHangCuaToi\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1056,11 +1090,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 62,
+              "DocumentIndex": 64,
               "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Delete.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\DanhGia\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Delete.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\DanhGia\\Delete.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1068,11 +1102,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 63,
+              "DocumentIndex": 65,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Edit.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\DanhGia\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Edit.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\DanhGia\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1080,11 +1114,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 64,
+              "DocumentIndex": 66,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Create.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\DanhGia\\Create.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Create.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\DanhGia\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1092,11 +1126,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 65,
+              "DocumentIndex": 67,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Details.cshtml",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\DanhGia\\Details.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Details.cshtml",
               "RelativeToolTip": "Koi.WebApplication\\Views\\DanhGia\\Details.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -1104,23 +1138,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 66,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
-              "RelativeDocumentMoniker": "Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
-              "RelativeToolTip": "Koi.WebApplication\\Views\\DanhGia\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T03:28:17.378Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 67,
+              "DocumentIndex": 68,
               "Title": "KyGuiController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\KyGuiController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\KyGuiController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\KyGuiController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\KyGuiController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\KyGuiController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\KyGuiController.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAqwB0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1128,11 +1150,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 68,
+              "DocumentIndex": 69,
               "Title": "LichSuKyGuiController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\LichSuKyGuiController.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAqwCAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1140,11 +1162,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 69,
+              "DocumentIndex": 70,
               "Title": "UserServices.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\UserServices.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\UserServices.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\UserServices.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\UserServices.cs",
               "RelativeToolTip": "Koi.Services\\Service\\UserServices.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1152,11 +1174,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 70,
+              "DocumentIndex": 71,
               "Title": "NguoiDungService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\NguoiDungService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\NguoiDungService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\NguoiDungService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\NguoiDungService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\NguoiDungService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\NguoiDungService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1164,11 +1186,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 71,
+              "DocumentIndex": 72,
               "Title": "KyGuiService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\KyGuiService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\KyGuiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\KyGuiService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\KyGuiService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\KyGuiService.cs",
               "RelativeToolTip": "Koi.Services\\Service\\KyGuiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1176,11 +1198,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 72,
+              "DocumentIndex": 73,
               "Title": "cakoiController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Controllers\\cakoiController.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Controllers\\cakoiController.cs",
               "RelativeToolTip": "Koi.WebApplication\\Controllers\\cakoiController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAAAD4AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1188,11 +1210,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 73,
+              "DocumentIndex": 74,
               "Title": "Services.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\Services.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\Services.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Service\\Services.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Service\\Services.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Service\\Services.cs",
               "RelativeToolTip": "Koi.Services\\Service\\Services.cs",
               "ViewState": "AgIAABoAAAAAAAAAAAAmwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1200,11 +1222,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 74,
+              "DocumentIndex": 75,
               "Title": "ICaKoiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ICaKoiRepository.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswBMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1212,11 +1234,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 75,
+              "DocumentIndex": 76,
               "Title": "GioHangCuaToi.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\GioHangCuaToi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\GioHangCuaToi.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\GioHangCuaToi.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\GioHangCuaToi.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\GioHangCuaToi.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\GioHangCuaToi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1224,11 +1246,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 76,
+              "DocumentIndex": 77,
               "Title": "CaKoi.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoi.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\CaKoi.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoi.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoi.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\CaKoi.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAkwBUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1236,11 +1258,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 77,
+              "DocumentIndex": 78,
               "Title": "ICaKoiService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ICaKoiService.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ICaKoiService.cs",
               "RelativeDocumentMoniker": "Koi.Services\\Interfaces\\ICaKoiService.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ICaKoiService.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Services\\Interfaces\\ICaKoiService.cs",
               "RelativeToolTip": "Koi.Services\\Interfaces\\ICaKoiService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1248,11 +1270,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 78,
+              "DocumentIndex": 79,
               "Title": "NguoiDung.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\NguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\NguoiDung.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\NguoiDung.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\NguoiDung.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\NguoiDung.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\NguoiDung.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1260,11 +1282,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 79,
+              "DocumentIndex": 80,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\Repository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\Repository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\Repository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\Repository.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\Repository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1272,11 +1294,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 80,
+              "DocumentIndex": 81,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\UserRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\UserRepository.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1284,11 +1306,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 81,
+              "DocumentIndex": 82,
               "Title": "NguoiDungRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\NguoiDungRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\NguoiDungRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\NguoiDungRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\NguoiDungRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\NguoiDungRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\NguoiDungRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1296,11 +1318,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 82,
+              "DocumentIndex": 83,
               "Title": "Koi.Services.csproj",
-              "DocumentMoniker": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
               "RelativeDocumentMoniker": "Koi.Services\\Koi.Services.csproj",
-              "ToolTip": "C:\\Users\\PC\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
+              "ToolTip": "C:\\Users\\Admin\\Source\\Repos\\nhomdom\\Koi.Services\\Koi.Services.csproj",
               "RelativeToolTip": "Koi.Services\\Koi.Services.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -1308,11 +1330,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 83,
+              "DocumentIndex": 84,
               "Title": "LichSuKyGui.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuKyGui.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuKyGui.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\LichSuKyGui.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuKyGui.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuKyGui.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\LichSuKyGui.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1320,11 +1342,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 84,
+              "DocumentIndex": 85,
               "Title": "KyGuiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\KyGuiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\KyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\KyGuiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\KyGuiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\KyGuiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\KyGuiRepository.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAWwBoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1332,11 +1354,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 85,
+              "DocumentIndex": 86,
               "Title": "LichSuKyGuiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Repository\\LichSuKyGuiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1344,11 +1366,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 86,
+              "DocumentIndex": 87,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\User.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1356,11 +1378,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 87,
+              "DocumentIndex": 88,
               "Title": "KoiAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\KoiAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\KoiAccountRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\KoiAccountRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\KoiAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\KoiAccountRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\KoiAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1368,11 +1390,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 88,
+              "DocumentIndex": 89,
               "Title": "LichSuMuaHang.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuMuaHang.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuMuaHang.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Entities\\LichSuMuaHang.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuMuaHang.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\LichSuMuaHang.cs",
               "RelativeToolTip": "Koi.Repositories\\Entities\\LichSuMuaHang.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1380,11 +1402,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 89,
+              "DocumentIndex": 90,
               "Title": "INguoiDungRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\INguoiDungRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1392,11 +1414,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 90,
+              "DocumentIndex": 91,
               "Title": "IKyGuiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IKyGuiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1404,11 +1426,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 91,
+              "DocumentIndex": 92,
               "Title": "ILichSuKyGuiRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\ILichSuKyGuiRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1416,11 +1438,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 92,
+              "DocumentIndex": 93,
               "Title": "IKoiAccountRepository.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
               "RelativeDocumentMoniker": "Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
               "RelativeToolTip": "Koi.Repositories\\Interfaces\\IKoiAccountRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1428,11 +1450,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 93,
+              "DocumentIndex": 94,
               "Title": "CaKoi.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\CaKoi.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\CaKoi.cs",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Models\\CaKoi.cs",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\CaKoi.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Models\\CaKoi.cs",
               "RelativeToolTip": "Koi.WebApplication\\Models\\CaKoi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -1440,7 +1462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "lichsukygui.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\lichsukygui.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\lichsukygui.cshtml",
@@ -1451,7 +1473,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "CaKoiStoreContext.cs",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoiStoreContext.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\CaKoiStoreContext.cs",
@@ -1462,7 +1484,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "kyguicuatoi.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\kyguicuatoi.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\kyguicuatoi.cshtml",
@@ -1473,11 +1495,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 94,
+              "DocumentIndex": 95,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Koi.WebApplication\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\Properties\\launchSettings.json",
               "RelativeToolTip": "Koi.WebApplication\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -1485,7 +1507,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "giohang.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\giohang.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\giohang.cshtml",
@@ -1496,7 +1518,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "sanpham.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\sanpham.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\sanpham.cshtml",
@@ -1507,7 +1529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "gioithieu.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\gioithieu.cshtml",
@@ -1518,7 +1540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "cakoi.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\cakoi.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\cakoi.cshtml",
@@ -1529,7 +1551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "tintuc.cshtml",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.WebApplication\\Views\\Home\\tintuc.cshtml",
@@ -1540,11 +1562,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 95,
+              "DocumentIndex": 96,
               "Title": "Stylelayout.css",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\css\\Stylelayout.css",
               "ViewState": "AgIAAEUAAAAAAAAAAAAkwFMAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -1552,11 +1574,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 96,
+              "DocumentIndex": 97,
               "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\js\\site.js",
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -1564,11 +1586,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 97,
+              "DocumentIndex": 98,
               "Title": "styleindex.css",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\css\\styleindex.css",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\css\\styleindex.css",
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\css\\styleindex.css",
               "ViewState": "AgIAAFUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -1576,29 +1598,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 98,
+              "DocumentIndex": 99,
               "Title": "onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\images\\onkoi-karashi-101-cm-5-tuoi-600x600.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2024-11-10T03:45:35.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 99,
+              "DocumentIndex": 100,
               "Title": "onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
-              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
               "RelativeDocumentMoniker": "Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
-              "ToolTip": "C:\\Users\\PC\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\nhomdom\\Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
               "RelativeToolTip": "Koi.WebApplication\\wwwroot\\images\\onkoi-gosshiki-75-cm-3-tuoi-014-600x600.jpg",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
               "WhenOpened": "2024-11-10T03:45:35.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "PaymentHistory.cs",
               "DocumentMoniker": "C:\\Users\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\PaymentHistory.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\myrah\\source\\repos\\nhomdom\\Koi.Repositories\\Entities\\PaymentHistory.cs",
