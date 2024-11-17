@@ -3,7 +3,139 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@*bài cũ*@
+<style>
+    /* Bố cục chung */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        font-size: 16px;
+        text-align: left;
+        border: 2px solid black; /* Khung bảng màu đen */
+    }
+
+    th, td {
+        border: 1px solid black; /* Khung của các ô trong bảng */
+        padding: 8px;
+    }
+
+    th {
+        background-color: #f4f4f4;
+        font-weight: bold;
+        text-align: center;
+    }
+    /* Tóm tắt giỏ hàng */
+    .cart-summary {
+        margin-top: 20px;
+        padding: 15px;
+        border: 2px solid black; /* Khung của tóm tắt giỏ hàng màu đen */
+        border-radius: 5px;
+        background-color: #f9f9f9;
+    }
+
+    /* Căn chỉnh cột */
+    td:first-child {
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    td:nth-child(2), td:nth-child(3) {
+        text-align: center;
+    }
+
+    td:nth-child(4) {
+        text-align: right;
+    }
+
+    .cart-table td img {
+        max-width: 100px; /* Giới hạn kích thước ảnh */
+        height: auto;
+        object-fit: cover; /* Đảm bảo ảnh không bị biến dạng */
+    }
+
+    h3 {
+        text-align: center; /* Căn giữa tiêu đề */
+        color: #333;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+    }
+
+    form {
+        background-color: #ffffff;
+        border-radius: 8px;
+        padding: 30px;
+        max-width: 600px;
+        margin: 20px auto;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-title {
+        text-align: center;
+        font-size: 28px;
+        color: #fff;
+        background-color: #ff6f61;
+        padding: 15px 0;
+        margin-bottom: 30px;
+        border-radius: 5px;
+        width: 100%;
+    }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+            font-size: 16px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+            background-color: #f9f9f9;
+            transition: border-color 0.3s ease;
+        }
+
+            .form-group input:focus {
+                border-color: #ff6f61;
+                outline: none;
+            }
+
+    .submit-btn {
+        width: 100%;
+        padding: 15px;
+        background-color: #ff6f61;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+        .submit-btn:hover {
+            background-color: #e65c52;
+        }
+
+        .submit-btn:active {
+            background-color: #d14c3a;
+        }
+</style>
+
 <style>
     .breadcrumb a {
         text-decoration: none;
@@ -13,30 +145,64 @@
     <a href="/Home/Index"> Trang chủ </a>><a href="/"> Giỏ hàng </a>> Giỏ hàng của tôi
 </div>
 
-<table class="cart-table">
-    <thead>
-        <tr>
-            <th>Xoá</th>
-            <th>Sản phẩm</th>
-            <th>Giá</th>
-            <th>Số lượng</th>
-            <th>Tạm tính</th>
-        </tr>
-    </thead>
-    <tbody id="cartTableBody">
-        <!-- Các sản phẩm trong giỏ hàng sẽ được hiển thị ở đây -->
-    </tbody>
-</table>
+<!-- Form để thêm sản phẩm vào giỏ hàng -->
+<h3>Thêm sản phẩm mới vào giỏ</h3>
+<form id="addProductForm">
+    <div class="form-group">
+        <label for="productName">Tên sản phẩm:</label>
+        <input type="text" id="productName" name="productName" required />
+    </div>
 
-<div class="cart-summary">
+    <div class="form-group">
+        <label for="price">Giá:</label>
+        <input type="number" id="price" name="price" required />
+    </div>
+
+    <div class="form-group">
+        <label for="quantity">Số lượng:</label>
+        <input type="number" id="quantity" name="quantity" required />
+    </div>
+
+    <div class="form-group">
+        <label for="imageUrl">URL hình ảnh:</label>
+        <input type="text" id="imageUrl" name="imageUrl" required />
+    </div>
+
+    <button type="submit">Thêm sản phẩm</button>
+</form>
+
+<!-- Bảng hiển thị giỏ hàng -->
+<div class="cart-table-container">
+    <table class="cart-table">
+        <thead>
+            <tr>
+                <th>Xoá</th>
+                <th>Sản phẩm</th>
+                <th>Giá</th>
+                <th>Số lượng</th>
+                <th>Tạm tính</th>
+            </tr>
+        </thead>
+        <tbody id="cartTableBody">
+            <!-- Các sản phẩm trong giỏ hàng sẽ được hiển thị ở đây -->
+        </tbody>
+    </table>
+</div>
+
+<!-- Tóm tắt giỏ hàng -->
+<div class="cart-summary cart-summary-wide">
     <div class="summary-title">Tóm tắt giỏ hàng</div>
     <div class="summary-item">
-        <span>Tạm tính:</span>
-        <span id="totalPrice">0 đ</span>
+        <span>Số lượng cá offline: </span>
+        <span>0</span>
     </div>
     <div class="summary-item">
-        <span>Tổng:</span>
-        <span id="finalTotal">0 đ</span>
+        <span>Số lượng cá online:</span>
+        <span id="onlineQuantity">0</span>
+    </div>
+    <div class="summary-item">
+        <span>Tổng tiền:</span>
+        <span id="totalPrice">0 đ</span>
     </div>
 </div>
 
@@ -46,45 +212,76 @@
         return cart ? JSON.parse(cart) : [];
     }
 
+    // Lưu giỏ hàng vào localStorage
+    function saveCart(cart) {
+        localStorage.setItem('cart', JSON.stringify(cart));
+    }
+
     // Hiển thị giỏ hàng lên trang
     function updateCartTable() {
         const cart = getCart();
         const cartTableBody = document.getElementById('cartTableBody');
         const totalPriceElement = document.getElementById('totalPrice');
-        const finalTotalElement = document.getElementById('finalTotal');
+        const onlineQuantityElement = document.getElementById('onlineQuantity');
 
         cartTableBody.innerHTML = '';
 
         let totalPrice = 0;
+        let onlineQuantity = 0;
 
         cart.forEach(item => {
             const row = cartTableBody.insertRow();
             row.innerHTML = `
-                <td><button class="remove-button" onclick="removeItem('${item.productName}')">Xoá</button></td>
-                <td>
-                    <img src="${item.imageUrl}" alt="${item.productName}" style="width: 50px; height: 50px;">
-                    <div>${item.productName}</div>
-                </td>
-                <td>${item.price.toLocaleString()} đ</td>
-                <td><input type="number" value="${item.quantity}" min="1" style="width: 40px;"></td>
-                <td>${(item.price * item.quantity).toLocaleString()} đ</td>
-            `;
+                    <td><button class="remove-button" onclick="removeItem('${item.productName}')">Xoá</button></td>
+                    <td>
+                        <img src="${item.imageUrl}" alt="${item.productName}" />
+                        <div>${item.productName}</div>
+                    </td>
+                    <td>${item.price.toLocaleString()} đ</td>
+                    <td><input type="number" value="${item.quantity}" min="1" style="width: 40px;"></td>
+                    <td>${(item.price * item.quantity).toLocaleString()} đ</td>
+                `;
             totalPrice += item.price * item.quantity;
+            onlineQuantity += item.quantity;
         });
 
+        // Cập nhật phần tóm tắt giỏ hàng
         totalPriceElement.textContent = totalPrice.toLocaleString() + ' đ';
-        finalTotalElement.textContent = totalPrice.toLocaleString() + ' đ';
+        onlineQuantityElement.textContent = onlineQuantity;
     }
 
     // Hàm xóa sản phẩm khỏi giỏ hàng
     function removeItem(productName) {
         const cart = getCart();
         const updatedCart = cart.filter(item => item.productName !== productName);
-        localStorage.setItem('cart', JSON.stringify(updatedCart));
+        saveCart(updatedCart);
         updateCartTable();
     }
 
-    // Cập nhật giỏ hàng khi tải trang
-    window.onload = function() {
+    // Xử lý khi thêm sản phẩm
+    document.getElementById('addProductForm').addEventListener('submit', function (e) {
+        e.preventDefault();
+
+        const productName = document.getElementById('productName').value;
+        const price = parseFloat(document.getElementById('price').value);
+        const quantity = parseInt(document.getElementById('quantity').value);
+        const imageUrl = document.getElementById('imageUrl').value;
+
+        const newItem = {
+            productName,
+            price,
+            quantity,
+            imageUrl
+        };
+
+        const cart = getCart();
+        cart.push(newItem);
+        saveCart(cart);
         updateCartTable();
-    };</script>
+
+        // Reset form inputs
+        document.getElementById('addProductForm').reset();
+    });
+
+    // Cập nhật giỏ hàng khi trang được tải
+    document.addEventListener('DOMContentLoaded', updateCartTable);</script>

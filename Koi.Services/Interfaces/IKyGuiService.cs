@@ -6,10 +6,11 @@ namespace Koi.Services.Interfaces
 {
     public interface IKyGuiService
     {
-        Task<KyGui> GetByIdAsync(int kyGuiID);  // Get KyGui by ID
-        Task<IEnumerable<KyGui>> GetByLichSuKyGuiIdAsync(int lichSuKyGuiID);  // Get KyGui by LichSuKyGui ID
-        Task<KyGui> AddAsync(KyGui kyGui);  // Add a new KyGui
-        Task<KyGui> UpdateAsync(KyGui kyGui);  // Update an existing KyGui
-        Task<bool> DeleteAsync(int kyGuiID);  // Delete KyGui by ID
+        Task<KyGui> GetByIdAsync(int kyGuiID);
+        Task<IEnumerable<KyGui>> GetAllAsync();
+        Task<IEnumerable<KyGui>> GetByLichSuKyGuiIdAsync(int lichSuKyGuiID);
+        Task<KyGui> AddAsync(KyGui kyGui);
+        Task<KyGui> UpdateAsync(KyGui kyGui);
+        Task<bool> DeleteAsync(int kyGuiID);
     }
 }

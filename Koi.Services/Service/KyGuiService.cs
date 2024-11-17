@@ -20,6 +20,10 @@ namespace Koi.Services
         public Task<KyGui> AddAsync(KyGui kyGui) => _kyGuiRepository.AddAsync(kyGui);
         public Task<KyGui> UpdateAsync(KyGui kyGui) => _kyGuiRepository.UpdateAsync(kyGui);
         public Task<bool> DeleteAsync(int kyGuiID) => _kyGuiRepository.DeleteAsync(kyGuiID);
+
+        public Task<IEnumerable<KyGui>> GetAllAsync()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
-
