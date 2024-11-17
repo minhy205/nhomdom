@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Controllers/KyGuiController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Program.cs">
     <Files>
       <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" />
       <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
@@ -13,8 +15,8 @@
       <File FileName="Koi.WebApplication/Models/licsumuahang.cs" />
       <File FileName="Koi.Repositories/Entities/User.cs" />
       <File FileName="Koi.Services/AccountServices.cs" />
-      <File FileName="Koi.WebApplication/Program.cs" />
-      <File FileName="Koi.WebApplication/appsettings.json" />
+      <File FileName="Koi.WebApplication/Program.cs" Line="28" Column="1" />
+      <File FileName="Koi.WebApplication/appsettings.json" Line="1" Column="1" />
       <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" />
       <File FileName="Koi.WebApplication/Views/Home/khuyenmai.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/gioithieusankigui.cshtml" />
@@ -53,32 +55,35 @@
       <File FileName="Koi.WebApplication/Views/LichSuKyGui/Edit.cshtml" />
       <File FileName="Koi.WebApplication/Views/LichSuKyGui/Details.cshtml" />
       <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Details.cshtml" />
-      <File FileName="Koi.WebApplication/Controllers/KyGuiController.cs" Line="16" Column="10" />
+      <File FileName="Koi.WebApplication/Controllers/KyGuiController.cs" />
       <File FileName="Koi.WebApplication/Controllers/NguoiDungController.cs" />
-      <File FileName="Koi.WebApplication/Controllers/LichSuKyGuiController.cs" Line="21" Column="10" />
+      <File FileName="Koi.WebApplication/Controllers/LichSuKyGuiController.cs" />
       <File FileName="Koi.WebApplication/Controllers/KoiFram.cs" />
-      <File FileName="Koi.WebApplication/Controllers/giohangcuatoiController.cs" />
+      <File FileName="Koi.WebApplication/Controllers/giohangcuatoiController.cs" Line="25" Column="13" />
       <File FileName="Koi.WebApplication/Controllers/danhgiaController.cs" />
+      <File FileName="Koi.Services/Service/GioHangCuaToiService.cs" />
+      <File FileName="Koi.Services/Service/KyGuiService.cs" />
+      <File FileName="Koi.Services/Service/LichSuMuaHangService.cs" />
+      <File FileName="Koi.Services/Service/NguoiDungService.cs" />
+      <File FileName="Koi.Services/Service/LichSuKyGuiService.cs" />
+      <File FileName="Koi.Repositories/Entities/KyGui.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="nhomdom" expanded="True">
-            <Node name="Koi.WebApplication">
-              <Node name="Controllers" expanded="True">
-                <Node name="KyGuiController.cs" selected="True" />
-              </Node>
-              <Node name="Models" expanded="True" />
+            <Node name="Koi.WebApplication" expanded="True">
+              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="DanhGia" expanded="True" />
+                <Node name="KyGui" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

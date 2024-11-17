@@ -22,3 +22,4 @@ namespace Koi.Services
         public Task<bool> DeleteAsync(int kyGuiID) => _kyGuiRepository.DeleteAsync(kyGuiID);
     }
 }
+

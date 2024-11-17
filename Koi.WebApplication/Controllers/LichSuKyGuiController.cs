@@ -1,48 +1,60 @@
-﻿//using Microsoft.AspNetCore.Mvc;
-//using Koi.Services.Interfaces;
-//using Koi.Repositories.Entities;
-//using System.Threading.Tasks;
-//using System.Collections.Generic;
+﻿using Microsoft.AspNetCore.Mvc;
+using Koi.Services.Interfaces;
+using Koi.Repositories.Entities;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
-//namespace Koi.Controllers
-//{
-//    [Route("api/[controller]")]
-//    [ApiController]
-//    public class LichSuKyGuiController : ControllerBase
-//    {
-//        private readonly ILichSuKyGuiService _lichSuKyGuiService;
+namespace Koi.Controllers
+{
+    public class LichSuKyGuiController : Controller
+    {
+        private readonly ILichSuKyGuiService _lichSuKyGuiService;
 
-//        public LichSuKyGuiController(ILichSuKyGuiService lichSuKyGuiService)
-//        {
-//            _lichSuKyGuiService = lichSuKyGuiService;
-//        }
+        public LichSuKyGuiController(ILichSuKyGuiService lichSuKyGuiService)
+        {
+            _lichSuKyGuiService = lichSuKyGuiService;
+        }
 
-//        public IActionResult Index()
-//        {
-//            return View();
-//        }
+        // GET: LichSuKyGui
+        public async Task<IActionResult> Index()
+        {
+            var lichSuKyGuis = await _lichSuKyGuiService.GetAllAsync(); // Lấy tất cả lịch sử ký gửi
+            return View(lichSuKyGuis); // Trả về view với danh sách lịch sử
+        }
 
-//        [HttpGet("{id}")]
-//        public async Task<ActionResult<LichSuKyGui>> GetByIdAsync(int id)
-//        {
-//            var result = await _lichSuKyGuiService.GetByIdAsync(id);
-//            if (result == null) return NotFound();
-//            return Ok(result);
-//        }
+        // GET: LichSuKyGui/Details/5
+        public async Task<IActionResult> Details(int id)
+        {
+            var lichSuKyGui = await _lichSuKyGuiService.GetByIdAsync(id);
+            if (lichSuKyGui == null)
+            {
+                return NotFound();
+            }
+            return View(lichSuKyGui); // Trả về view chi tiết lịch sử ký gửi
+        }
 
-//        [HttpGet]
-//        public async Task<ActionResult<IEnumerable<LichSuKyGui>>> GetAllAsync()
-//        {
-//            var result = await _lichSuKyGuiService.GetAllAsync();
-//            return Ok(result);
-//        }
+        // GET: LichSuKyGui/Delete/5
+        public async Task<IActionResult> Delete(int id)
+        {
+            var lichSuKyGui = await _lichSuKyGuiService.GetByIdAsync(id);
+            if (lichSuKyGui == null)
+            {
+                return NotFound();
+            }
+            return View(lichSuKyGui); // Trả về view xóa lịch sử ký gửi
+        }
 
-//        [HttpDelete("{id}")]
-//        public async Task<IActionResult> DeleteAsync(int id)
-//        {
-//            var success = await _lichSuKyGuiService.DeleteAsync(id);
-//            if (!success) return NotFound();
-//            return NoContent();
-//        }
-//    }
-//}
+        // POST: LichSuKyGui/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var success = await _lichSuKyGuiService.DeleteAsync(id);
+            if (!success)
+            {
+                return NotFound();
+            }
+            return RedirectToAction(nameof(Index)); // Sau khi xóa, chuyển hướng về danh sách lịch sử
+        }
+    }
+}

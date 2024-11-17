@@ -25,6 +25,8 @@ builder.Services.AddScoped<ILichSuMuaHangRepository, LichSuMuaHangRepository>();
 builder.Services.AddScoped<INguoiDungRepository, NguoiDungRepository>();
 builder.Services.AddScoped<IRepository<SanPham>, Repository<SanPham>>(); // Đăng ký repository cho SanPham
 builder.Services.AddScoped<IUsersRepository, UserRepository>();
+builder.Services.AddScoped<ILichSuKyGuiRepository, LichSuKyGuiRepository>();
+
 
 // Đăng ký các service
 builder.Services.AddScoped<ICaKoiService, CaKoiService>();
@@ -35,6 +37,7 @@ builder.Services.AddScoped<ILichSuMuaHangService, LichSuMuaHangService>();
 builder.Services.AddScoped<INguoiDungService, NguoiDungService>();
 builder.Services.AddScoped<ISanPhamServices, SanPhamServices>();
 builder.Services.AddScoped<IUserServices, UserServices>();
+builder.Services.AddScoped<ILichSuKyGuiService, LichSuKyGuiService>();
 
 var app = builder.Build();
 

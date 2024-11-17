@@ -32,7 +32,7 @@
 //                return NotFound();
 //            }
 //            return Ok(result);
-//        }       
+//        }
 
 //        // DELETE: api/KyGui/{kyGuiID}
 //        [HttpDelete("{kyGuiID}")]

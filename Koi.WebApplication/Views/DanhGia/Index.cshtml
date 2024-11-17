@@ -13,48 +13,57 @@
     <link rel="stylesheet" href="~/css/styledanhgia.css" />
 
     @* <style>
-        .container {
-            margin-top: 20px;
-        }
-
-        .input-field {
-            width: 100%;
-            margin-top: 10px;
-            padding: 8px;
-        }
-
-        .submit-button {
-            margin-top: 15px;
-            padding: 10px 20px;
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
-
-            .submit-button:hover {
-                background-color: #45a049;
+            .container {
+                margin-top: 20px;
             }
 
-        .thank-you-section {
-            margin-top: 20px;
-            padding: 10px;
-            border: 1px solid #ddd;
-            background-color: #f9f9f9;
-            display: none; /* Ẩn mặc định */
-        }
+            .input-field {
+                width: 100%;
+                margin-top: 10px;
+                padding: 8px;
+            }
 
-        .reviews-section {
-            margin-top: 20px;
-        }
+            .submit-button {
+                margin-top: 15px;
+                padding: 10px 20px;
+                background-color: #4CAF50;
+                color: white;
+                border: none;
+                cursor: pointer;
+            }
 
-        .review-item {
-            margin-bottom: 10px;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-    </style> *@
+                .submit-button:hover {
+                    background-color: #45a049;
+                }
+
+            .thank-you-section {
+                margin-top: 20px;
+                padding: 10px;
+                border: 1px solid #ddd;
+                background-color: #f9f9f9;
+                display: none; /* Ẩn mặc định */
+            }
+
+            .reviews-section {
+                margin-top: 20px;
+            }
+
+            .review-item {
+                margin-bottom: 10px;
+                padding: 10px;
+                border-bottom: 1px solid #ddd;
+            }
+        </style> *@
 </head>
+
+<style>
+    .breadcrumb a {
+        text-decoration: none;
+    }
+</style>
+<div class="breadcrumb">
+    <a href="/Home/Index"> Trang chủ </a>><a href="/Home/tintuctrang"> Tin tức </a>> Đánh giá
+</div>
 
 <body>
     <div>
@@ -97,8 +106,7 @@
         }
     </div>
 
-    <script>
-        // Hàm hiển thị thông báo cảm ơn và thêm đánh giá vào danh sách
+    <script>// Hàm hiển thị thông báo cảm ơn và thêm đánh giá vào danh sách
         function showThankYouAndAddReview(review) {
             // Hiển thị thông báo cảm ơn
             document.getElementById("thankDiem").textContent = review.Diem;
@@ -109,9 +117,9 @@
             const reviewElement = document.createElement("div");
             reviewElement.className = "review-item";
             reviewElement.innerHTML = `
-                        <p><strong>Số sao:</strong> ${review.Diem}</p>
-                        <p><strong>Bình luận:</strong> ${review.NoiDung}</p>
-                    `;
+                            <p><strong>Số sao:</strong> ${review.Diem}</p>
+                            <p><strong>Bình luận:</strong> ${review.NoiDung}</p>
+                        `;
 
             // Thêm vào danh sách đánh giá
             document.getElementById("reviewsContainer").appendChild(reviewElement);
@@ -156,6 +164,5 @@
                     console.error("Có lỗi xảy ra:", error);
                     alert("Đã xảy ra lỗi khi gửi đánh giá!");
                 });
-        });
-    </script>
+        });</script>
 </body>

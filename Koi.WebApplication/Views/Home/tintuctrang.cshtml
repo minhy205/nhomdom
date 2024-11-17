@@ -9,54 +9,84 @@
     }
 </style>
 <div class="breadcrumb">
-    <a href="/Home/Index"> Trang chủ </a>><a href="/tintuc/tintuctrang"> Tin tức  </a>> Tin tức công ty
+    <a href="/Home/Index"> Trang chủ </a>> Tin tức
 </div>
+<style>
+    .container {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+    }
+
+        .container a {
+            text-decoration: none;
+        }
+</style>
 <!-- Main Content Section -->
-@*<div class="content">
-    <h1>Khuyến mại</h1>
+<div class="container">
+    <h1>Giới thiệu</h1>
     <p>
-        sale 80% cho các bạn FA
-    </p>*@
-
-<body>
-    <div class="container">
-        <h1>Tin Tức Mới Nhất Về Cá Koi</h1>
-
-        <div class="news-item">
-            <h2>Triển Lãm Cá Koi Quốc Tế 2023 Sẽ Diễn Ra Tại TP.HCM</h2>
-            <p><strong>Ngày đăng:</strong> 15/10/2023</p>
-            <p>Triển lãm Cá Koi Quốc Tế 2023 sẽ diễn ra từ ngày 20 đến 22 tháng 11 tại Trung tâm Hội nghị và Triển lãm Sài Gòn (SECC), TP.HCM. Sự kiện này hứa hẹn sẽ thu hút hàng ngàn người yêu thích cá Koi từ khắp nơi trên thế giới.</p>
-            <p>Triển lãm sẽ có sự tham gia của nhiều nhà sản xuất, nhà cung cấp và các chuyên gia hàng đầu trong ngành cá Koi. Bên cạnh việc trưng bày các giống cá Koi đẹp nhất, sự kiện còn tổ chức các buổi hội thảo, chia sẻ kinh nghiệm chăm sóc và nuôi dưỡng cá Koi, cũng như các hoạt động giao lưu giữa những người đam mê cá Koi.</p>
-            <p>Đặc biệt, trong khuôn khổ triển lãm, sẽ có cuộc thi "Cá Koi Đẹp Nhất" với sự tham gia của nhiều cá nhân và tổ chức. Giải thưởng sẽ được trao cho những chú cá Koi xuất sắc nhất, được đánh giá dựa trên tiêu chí về màu sắc, hình dáng và sức khỏe.</p>
-            <p>Hãy đến tham gia sự kiện này để khám phá thế giới cá Koi đầy màu sắc và tìm hiểu thêm về cách chăm sóc cá Koi hiệu quả!</p>
-        </div>
-
-        <div class="news-item">
-            <h2>Mẹo Chăm Sóc Cá Koi Trong Mùa Đông</h2>
-            <p><strong>Ngày đăng:</strong> 10/10/2023</p>
-            <p>Mùa đông đang đến gần, và việc chăm sóc cá Koi trong thời tiết lạnh giá là rất quan trọng để đảm bảo sức khỏe và sự phát triển của chúng. Dưới đây là một số mẹo chăm sóc cá Koi trong mùa đông mà bạn nên biết:</p>
-            <ol>
-                <li><strong>Giữ Nhiệt Độ Nước Ổn Định:</strong> Cá Koi cần nước ở nhiệt độ từ 10 đến 25 độ C. Nếu nhiệt độ xuống dưới 10 độ C, bạn nên sử dụng máy sưởi để giữ ấm cho nước.</li>
-                <li><strong>Thay Nước Định Kỳ:</strong> Mặc dù cá Koi hoạt động ít hơn trong mùa đông, nhưng việc thay nước định kỳ vẫn rất quan trọng để duy trì chất lượng nước.</li>
-                <li><strong>Cho Ăn Đúng Cách:</strong> Trong mùa đông, cá Koi sẽ ăn ít hơn. Bạn nên cho chúng ăn thức ăn dễ tiêu hóa và giảm lượng thức ăn xuống một nửa so với mùa hè.</li>
-                <li><strong>Kiểm Tra Sức Khỏe:</strong> Thường xuyên kiểm tra sức khỏe của cá Koi. Nếu phát hiện bất kỳ dấu hiệu bất thường nào, hãy tham khảo ý kiến của chuyên gia.</li>
-                <li><strong>Bảo Vệ Ao Cá:</strong> Đảm bảo rằng ao cá không bị đóng băng hoàn toàn. Bạn có thể sử dụng thiết bị giữ nước không bị đóng băng để đảm bảo cá có không gian để thở.</li>
-            </ol>
-            <p>Chăm sóc cá Koi trong mùa đông không chỉ giúp chúng khỏe mạnh mà còn giúp bạn tận hưởng vẻ đẹp của chúng trong suốt cả năm.</p>
-        </div>
-
-        <div class="news-item">
-            <h2>Giới Thiệu Các Giống Cá Koi Đặc Biệt</h2>
-            <p><strong>Ngày đăng:</strong> 05/10/2023</p>
-            <p>Cá Koi là một trong những loài cá cảnh được yêu thích nhất trên thế giới, với nhiều giống khác nhau, mỗi giống đều có những đặc điểm riêng biệt. Dưới đây là một số giống cá Koi đặc biệt mà bạn nên biết:</p>
-            <ol>
-                <li><strong>Kohaku:</strong> Là giống cá Koi nổi tiếng với màu trắng và đỏ. Kohaku được yêu thích vì vẻ đẹp thanh lịch và dễ chăm sóc.</li>
-                <li><strong>Sanke:</strong> Giống cá này có màu trắng, đỏ và đen, tạo nên sự kết hợp màu sắc rất bắt mắt. Sanke thường được chọn để tham gia các cuộc thi cá Koi.</li>
-                <li><strong>Showa:</strong> Showa có màu sắc đa dạng với sự kết hợp của ba màu: đỏ, trắng và đen. Chúng thường có các hoa văn độc đáo và rất thu hút.</li>
-                <li><strong>Asagi:</strong> Giống cá này có màu xanh lam và trắng, với các vảy nổi bật. Asagi thường được yêu thích vì vẻ đẹp tự nhiên và dễ chăm sóc.</li>
-                <li><strong>Tancho:</strong> Tancho là giống cá Koi có một đốm đỏ trên đầu, thường được coi là biểu tượng của sự may mắn và thịnh vượng.</li>
-            </ol>
-            <p>Mỗi giống cá Koi đều mang đến vẻ đẹp và sự độc đáo riêng. Nếu bạn đang có ý định nuôi cá Koi, hãy tìm hiểu kỹ về các giống cá để chọn lựa cho mình những chú cá phù hợp nhất với sở thích và điều kiện nuôi dưỡng của bạn.</p>
-        </div>
-    </div>
-</body>
+        Công ty OnKoi – Quang Minh được thành lập vào năm 2007, là một công ty
+        lâu đời trong lĩnh vực cung cấp cá Koi Nhật Bản và tư vấn thiết kế, thi
+        công hồ cá Koi. Với tên gọi mang ý nghĩa “đoàn kết giữa Nhật Bản và Việt
+        Nam”, Onkoi Quang Minh mong muốn sẽ lan tỏa tình yêu đối với cá Koi đến
+        tất cả những người đã, đang và chuẩn bị chơi cá Koi. Sau hơn 10 năm xây
+        dựng và phát triển, Onkoi Quang Minh đã định hình các lĩnh vực kinh
+        doanh chính để hiện thực hóa sứ mệnh của mình đó là: cung cấp cá Koi
+        Nhật Bản, thiết kế-thi công hồ nuôi cá Koi, phân phối thức ăn cho cá
+        Koi, kinh doanh vật tư thiết bị cho hồ cá Koi.
+    </p>
+    <h2>Lịch sử phát triển</h2>
+    <p>
+        Công ty Onkoi Quang Minh được thành lập bắt đầu từ năm 2007, khi thị
+        trường chơi Koi Nhật tại Việt Nam vẫn trong giai đoạn sơ khai, phần lớn
+        là chơi theo sở thích và vẫn chưa nở rộ bởi cá Koi Nhật khá đắt đỏ và
+        kén người chơi nên có thể nói, với hơn 10 năm kinh doanh uy tín và phát
+        triển, Onkoi Quang Minh là một trong số ít đơn vị, cá nhân đi đầu trong
+        lĩnh vực phân phối Koi Nhật Bản chính hiệu. . Ở thời điểm này, đội ngũ
+        nhân viên của đơn vị chỉ đạt một con số khiêm tốn khoảng 10 người. Sau
+        một thời gian phát triển mạnh mẽ, số lượng nhân viên hoạt động tại đơn
+        vị đã lên đến con số trên 50 người.
+    </p>
+    <p>
+        Khởi đầu công ty là một hồ Koi nhỏ do cá nhân anh Đào Văn Quang- Giám
+        đốc Công ty Onkoi Quang Minh chính tay chăm sóc, tự chính anh học hỏi và
+        thiết kế hồ Koi theo hướng dẫn từ bạn bè anh tại Nhật Bản. Sau đó, anh
+        cũng trực tiếp sang Nhật Bản để tham gia học hỏi cách chọn Koi đẹp và
+        chuẩn về nuôi.Những chú cá Koi này vẫn đang sinh sống trong hồ của gia
+        đình anh Quang tại Hà Nội.
+    </p>
+    <p>
+        Ban đầu, mục đích chính của anh Đào Văn Quang chỉ chơi Koi giống như thú
+        vui để giúp anh giảm stress, thư giãn và suy nghĩ về công việc kinh
+        doanh. Nhưng hiện nay, nhận thấy sức hút của dân chơi đông, nhu cầu lớn
+        nên anh đã nhập trực tiếp cá từ Nhật về mở trại nuôi kinh doanh. Giá cả
+        từ bình dân đến cao cấp, đáp ứng nhu cầu cả số đông lẫn dân chơi cá Koi
+        quý tộc. Trang trại Koi có diện tích rộng lớn với cách thiết kế theo
+        tiêu chuẩn để đảm bảo Koi luôn phát triển trong điều kiện tốt nhất, được
+        Koi là “Showroom Koi” của khu vực phía Bắc
+    </p>
+    <p>
+        Định hướng trong tương lai, Onkoi Quang Minh sẽ đưa đơn vị trở thành
+        doanh nghiệp số 1 trên thị trường phân phối Koi Nhật Bản và thi công hồ
+        cá Koi. Song song đó, đơn vị còn hướng đến việc phát triển nhiều loại
+        hình dịch vụ hơn nữa để phục vụ người dùng. Tuy nhiên, giá thành sẽ được
+        công ty cắt giảm xuống mức thấp nhất nhằm bảo vệ túi tiền khách hàng.
+    </p>
+    <h3>Cơ cấu tổ chức của Công ty Onkoi Quang Minh</h3>
+    <dl>
+        <dt>- Điều hành công ty</dt>
+        <p>Giám đốc Đào Văn Quang: Đây là công ty được hoạt động theo mô hình Công ty Trách nhiệm hữu hạn, do chủ sở hữu nắm quyền là ông Đào Văn Quang- là người điều hành và giám sát tất cả mọi hoạt động kinh doanh hàng ngày của công ty.</p>
+        <dt>
+            - Đội ngũ nhân viên:
+        <dt>
+        <dd>+ Nhân viên Marketing</dd>
+        <dd>+ Nhân viên Thiết kế đồ họa</dd>
+        <dd>+ Nhân viên Content</dd>
+        <dd>+ Nhân viên Sale</dd>
+        <dd>+ Nhân viên xuất nhập hàng</dd>
+        </dt>
+        </dt>
+    </dl>
+    <p></p>
+</div>
