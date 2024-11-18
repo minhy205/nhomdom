@@ -1,29 +1,28 @@
 ﻿<Properties StartupConfiguration="{0B9A2F5D-F383-4D76-96A0-69A71562D531}|http">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Koi.WebApplication PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.WebApplication/Program.cs">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Koi.Repositories/Entities/KoifarmContext.cs">
     <Files>
-      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" />
-      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" />
+      <File FileName="Koi.WebApplication/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Controllers/HomeController.cs" Line="1" Column="1" />
       <File FileName="Koi.WebApplication/Views/Home/index.cshtml" />
       <File FileName="Koi.WebApplication/Models/ErrorViewModel.cs" />
       <File FileName="Koi.WebApplication/Models/licsumuahang.cs" />
       <File FileName="Koi.Repositories/Entities/User.cs" />
       <File FileName="Koi.Services/AccountServices.cs" />
-      <File FileName="Koi.WebApplication/Program.cs" Line="28" Column="1" />
+      <File FileName="Koi.WebApplication/Program.cs" Line="39" Column="59" />
       <File FileName="Koi.WebApplication/appsettings.json" Line="1" Column="1" />
-      <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" />
+      <File FileName="Koi.Repositories/Entities/KoifarmContext.cs" Line="38" Column="1" />
       <File FileName="Koi.WebApplication/Views/Home/khuyenmai.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/gioithieusankigui.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/gioithieutrang.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/gioithieutrang.cshtml" Line="30" Column="9" />
       <File FileName="Koi.WebApplication/Views/Home/huongdandangkidangnhap.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/thongtinkygui.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Home/tintuctrang.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Home/tintuctrang.cshtml" Line="24" Column="9" />
       <File FileName="Koi.WebApplication/wwwroot/css/Stylelayout.css" />
       <File FileName="Koi.WebApplication/wwwroot/css/styleindex.css" />
       <File FileName="Koi.WebApplication/Models/CaKoi.cs" />
@@ -36,18 +35,18 @@
       <File FileName="Koi.WebApplication/Views/SanPham/Delete.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/login.cshtml" />
       <File FileName="Koi.WebApplication/Views/Home/register.cshtml" />
-      <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Index.cshtml" />
+      <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Index.cshtml" Line="201" Column="43" />
       <File FileName="Koi.WebApplication/Models/KoiFram.cs" />
       <File FileName="Koi.WebApplication/Views/SanPham/Create.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Koifarm/CacLoaiCaKoi.cshtml" />
-      <File FileName="Koi.WebApplication/Views/Koifarm/Index.cshtml" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/CacLoaiCaKoi.cshtml" Line="21" Column="91" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/Index.cshtml" Line="50" Column="100" />
       <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Edit.cshtml" />
       <File FileName="Koi.WebApplication/Controllers/LichSuMuaHangController.cs" />
-      <File FileName="Koi.WebApplication/Views/LichSuMuaHang/Index.cshtml" />
+      <File FileName="Koi.WebApplication/Views/LichSuMuaHang/Index.cshtml" Line="79" Column="9" />
       <File FileName="Koi.WebApplication/Views/DanhGia/Create.cshtml" />
       <File FileName="Koi.WebApplication/Views/DanhGia/Delete.cshtml" />
-      <File FileName="Koi.WebApplication/Views/KyGui/Index.cshtml" />
-      <File FileName="Koi.WebApplication/Views/LichSuKyGui/Index.cshtml" />
+      <File FileName="Koi.WebApplication/Views/KyGui/Index.cshtml" Line="194" Column="1" />
+      <File FileName="Koi.WebApplication/Views/LichSuKyGui/Index.cshtml" Line="6" Column="20" />
       <File FileName="Koi.WebApplication/Views/KyGui/Edit.cshtml" />
       <File FileName="Koi.WebApplication/Views/KyGui/Details.cshtml" />
       <File FileName="Koi.WebApplication/Views/KyGui/Delete.cshtml" />
@@ -55,35 +54,50 @@
       <File FileName="Koi.WebApplication/Views/LichSuKyGui/Edit.cshtml" />
       <File FileName="Koi.WebApplication/Views/LichSuKyGui/Details.cshtml" />
       <File FileName="Koi.WebApplication/Views/GioHangCuaToi/Details.cshtml" />
-      <File FileName="Koi.WebApplication/Controllers/KyGuiController.cs" />
+      <File FileName="Koi.WebApplication/Controllers/KyGuiController.cs" Line="98" Column="1" />
       <File FileName="Koi.WebApplication/Controllers/NguoiDungController.cs" />
-      <File FileName="Koi.WebApplication/Controllers/LichSuKyGuiController.cs" />
-      <File FileName="Koi.WebApplication/Controllers/KoiFram.cs" />
-      <File FileName="Koi.WebApplication/Controllers/giohangcuatoiController.cs" Line="25" Column="13" />
+      <File FileName="Koi.WebApplication/Controllers/LichSuKyGuiController.cs" Line="60" Column="2" />
+      <File FileName="Koi.WebApplication/Controllers/KoiFram.cs" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Controllers/giohangcuatoiController.cs" />
       <File FileName="Koi.WebApplication/Controllers/danhgiaController.cs" />
-      <File FileName="Koi.Services/Service/GioHangCuaToiService.cs" />
-      <File FileName="Koi.Services/Service/KyGuiService.cs" />
+      <File FileName="Koi.Services/Service/GioHangCuaToiService.cs" Line="1" Column="1" />
+      <File FileName="Koi.Services/Service/KyGuiService.cs" Line="21" Column="55" />
       <File FileName="Koi.Services/Service/LichSuMuaHangService.cs" />
       <File FileName="Koi.Services/Service/NguoiDungService.cs" />
-      <File FileName="Koi.Services/Service/LichSuKyGuiService.cs" />
-      <File FileName="Koi.Repositories/Entities/KyGui.cs" />
+      <File FileName="Koi.Services/Service/LichSuKyGuiService.cs" Line="24" Column="2" />
+      <File FileName="Koi.Repositories/Entities/KyGui.cs" Line="1" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/KoiAsagi.cshtml" Line="15" Column="1" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/KoiOgon.cshtml" Line="21" Column="97" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/KoiKohaku.cshtml" Line="21" Column="99" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/KoiShowa.cshtml" Line="21" Column="98" />
+      <File FileName="Koi.WebApplication/Views/Koifarm/KoiTancho.cshtml" Line="21" Column="99" />
+      <File FileName="Koi.WebApplication/Views/DanhGia/Index.cshtml" Line="65" Column="94" />
+      <File FileName="Koi.Repositories/Entities/LichSuKyGui.cs" Line="1" Column="1" />
+      <File FileName="Koi.Services/Interfaces/ILichSuKyGuiService.cs" Line="1" Column="1" />
+      <File FileName="Koi.Repositories/Interfaces/IKyGuiRepository.cs" Line="9" Column="19" />
+      <File FileName="Koi.Services/Interfaces/IKyGuiService.cs" Line="16" Column="2" />
+      <File FileName="Koi.Services/Interfaces/ILichSuMuaHangService.cs" Line="1" Column="1" />
+      <File FileName="Koi.Services/Interfaces/IGioHangCuaToiService.cs" Line="1" Column="1" />
+      <File FileName="Koi.Services/Interfaces/INguoiDungService.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="nhomdom" expanded="True">
+            <Node name="Koi.Repositories">
+              <Node name="Entities" expanded="True" />
+            </Node>
             <Node name="Koi.WebApplication" expanded="True">
-              <Node name="Controllers" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="DanhGia" expanded="True" />
+                <Node name="GioHangCuaToi" expanded="True" />
                 <Node name="KyGui" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
